@@ -20,11 +20,8 @@ Many Git cheat sheets will also include shorthand commands, such as using `-m` w
 
 ### Installing Git
 Installing Git is the first step to using it in your software development workflow. The Git documentation provides detailed instructions on how to install Git on various platforms, including Windows, Mac, and Linux.
-
 The instructions typically involve downloading the Git installation package from the Git website and running the installer. The installer will guide you through the installation process, allowing you to customize the installation settings as needed.
-
 Once Git is installed, you can use the Git command line interface to manage your repositories and perform version control tasks. You can also use Git GUI clients or integrated development environments (IDEs) that provide Git integration to make working with Git easier and more efficient.
-
 By installing Git, you gain access to a powerful and flexible version control system that can help you track changes to your code and collaborate with others on development projects. The Git documentation provides comprehensive guidance on how to install and use Git effectively, making it easy for developers of all levels to get started with Git.
 
 - [Git download page](https://git-scm.com/downloads)
@@ -54,4 +51,14 @@ Some useful commands for getting started:
 | [git checkout -b <branch>](https://git-scm.com/docs/git-checkout#Documentation/git-checkout.txt--bltnewbranchgt) |Creates a new branch and switches to it. |
 | [git merge <branch>](https://git-scm.com/docs/git-merge) | Merge joins branches together. |
 | [git merge --abort](https://git-scm.com/docs/git-merge) | If there are merge conflicts (meaning files are incompatible), --abort can be used to abort the merge action. |
+
+### Some popular Git tutorials include:
+1. [**Git Tutorial by Atlassian**](https://www.atlassian.com/git/tutorials): This tutorial covers the basics of Git, including creating a repository, making changes, and collaborating with others. It also includes advanced topics such as branching and merging, resolving conflicts, and using Git hooks.
+2. [**Git Immersion**](https://gitimmersion.com/): This interactive tutorial provides a step-by-step guide to learning Git, including creating repositories, making changes, and working with remote repositories. It also includes exercises and quizzes to help you practice Git commands and concepts.
+3. [**GitLab Git Handbook**](https://about.gitlab.com/handbook/): This comprehensive guide provides an in-depth overview of Git, including best practices and tips for using Git effectively. It covers topics such as Git workflows, branching strategies, and using Git with CI/CD pipelines.
+4. [**Pro Git book**](https://git-scm.com/book/en/v2): This free online book covers Git in depth, including advanced topics such as rebasing, tagging, and using Git with submodules. It also includes examples and case studies that illustrate how Git can be used in real-world software development projects.
+5. [Git, GitHub, & GitHub Desktop for beginners](https://youtu.be/8Dd7KRpKeaE)
+6. [Git Explained in 100 Seconds](https://youtu.be/hwP7WQkmECE)
+7. [Git It? How to use Git and Github](https://youtu.be/HkdAHXoRtos)
+8. [13 Advanced (but useful) Git Techniques and Shortcuts](https://youtu.be/ecK3EnyGD8o)
 | [git log --graph --oneline](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) | This shows a summarized view of the commit history for a repo. |
