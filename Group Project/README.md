@@ -1,4 +1,4 @@
-# SECB3203 PROGRAMMING FOR BIOINFORMATICS – GROUP PROJECT (30%)
+# GROUP PROJECT (30%)
 
 ### Project Description
 This project provides you with hands-on experience in utilizing Python, Linux, or AWS cloud computing. The project is designed to align with current trends in bioinformatics and apply various bioinformatics analyses to the collected dataset.
