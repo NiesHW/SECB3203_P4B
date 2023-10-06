@@ -8,5 +8,5 @@ To accomplish this, you are going to form a two-person team for the project and 
 Throughout the project's timeline, you are required to update your project's progress and share your work on GitHub regularly. Also, we recommend looking for a mentor or client (who can be your academic advisor or any other related professional) to enhance the project's depth and guidance.
 
 **Note**: 
-- Create a folder named your project title at [Group Project](https://github.com/NiesHW/SECB3203_P4B/tree/68f21c925a9edf045e9e496f055bc546c95179d0/Group%20Project), then the README.md of the folder must include showing your name and your member's name.
+- Create a folder named your project title at [Group_Project](https://github.com/NiesHW/SECB3203_P4B/tree/0a63ff274bdb8a06712a6738cba90a57f83f3858/Group_Project), then the README.md of the folder must include showing your name and your member's name.
 - Don't rely on your member to finish everything alone.
