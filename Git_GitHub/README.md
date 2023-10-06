@@ -27,7 +27,7 @@ Git is a free and open-source version control system, originally created by Linu
 Git also has excellent support for branching, merging, and rewriting repository history, which has led to many innovative and powerful workflows and tools. Pull requests are one such popular tool that allows teams to collaborate on Git branches and efficiently review each other's code. Git is the most widely used version control system in the world today and is considered the modern standard for software development.
 
 
-### Git Cheat Sheet
+## Git Cheat Sheet
 A Git cheat sheet is a quick reference guide that summarises commonly used Git commands and their syntax. It is a useful tool for developers who are new to Git or want to quickly look up a command without searching through the Git documentation.
 A typical Git cheat sheet will include commands for creating and managing repositories, making and committing changes, branching and merging code, and collaborating with others. Some of the most commonly included commands are:
 - **git init**: Initializes a new Git repository in the current directory.
