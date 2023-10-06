@@ -1,4 +1,4 @@
-### GitHub
+# GitHub
 GitHub is a web-based platform that provides hosting for software development and version control using Git. It is a popular platform for collaboration and sharing of code among developers. GitHub was launched in 2008 and was later acquired by Microsoft in 2018.
 GitHub provides a range of features that make it easy for developers to collaborate on projects, manage version control, and streamline their software development workflows. Some of the key features of GitHub include:
 1. **Repositories**: GitHub provides a platform for developers to store and manage their code repositories. Each repository contains a collection of files that make up a project or a portion of a project.
@@ -22,7 +22,7 @@ A GitHub cheat sheet is a reference guide that provides a quick overview of the 
 4. [**Keyboard shortcuts**](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts): GitHub has a number of keyboard shortcuts that can help speed up your workflow. A cheat sheet might include a list of common shortcuts, such as how to navigate between tabs, search for code, and create new files.
 
 
-### Git
+# Git
 Git is a free and open-source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally. This makes the initial clone of the repository slower, but subsequent operations such as commit, blame, diff, merge, and log dramatically faster.
 Git also has excellent support for branching, merging, and rewriting repository history, which has led to many innovative and powerful workflows and tools. Pull requests are one such popular tool that allows teams to collaborate on Git branches and efficiently review each other's code. Git is the most widely used version control system in the world today and is considered the modern standard for software development.
 
