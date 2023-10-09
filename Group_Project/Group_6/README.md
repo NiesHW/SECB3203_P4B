@@ -1,3 +1,3 @@
-group members
-- aisyah nadzri
-- thuvaritha sivarajah
+MEMBERS
+- AISYAH BINTI MOHD NADZRI
+- THUVARITHA SIVARAJAH
