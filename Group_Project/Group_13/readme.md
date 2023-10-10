@@ -1,4 +1,4 @@
-#Member name :
+# Member name :
 
--Aina Najwa A21EC010
--Sofia Henry A21EC0133
+- Aina Najwa A21EC010
+- Sofia Henry A21EC0133
