@@ -2,4 +2,3 @@
 - SITI NURKAMILAH BINTI SAIFUL BAHARI
 - JELIZA JUSTINE A/P SEBASTIN
 
-Title : Skin cancer detection using CNN architeture
