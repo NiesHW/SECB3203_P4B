@@ -12,7 +12,7 @@ On 5 Oct
 we go to libary to find the topic by the thesis that related to bioinfomatics courses. Mostly that we found by the topic classification cancer using SVM.
 
 On 15 Oct 
-we has ask Dr Zuraini for discussing about the project. And approach her about our topic that related for Leukemia Cancer and disscuss the related topic. But Dr Zuraini say that we much approch also to Dr sharin first for our project.
+we has ask Dr Zuraini for discussing about the project. And approach her about our topic that related for Leukemia Cancer and disscuss the related topic. But Dr Zuraini say that we must approach first to Dr sharin first for our project.
 but after we disscuss we actually had a new idea to choose a new topic.
 we have made decison our project 
 
