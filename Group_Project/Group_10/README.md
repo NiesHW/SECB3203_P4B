@@ -1,8 +1,8 @@
-## Members
+# Members
 - NURATHIRAH BINTI MUHAMAD ZAKI
 - YUSRA NADATUL ALYEEA BINTI YUSRAMIZAL
 
-# Project Progress
+## Project Progress
 On 3rd October, 
 we has only ask Dr Sharin for discussing about the bioinformatics programming group project. 
 She ask us to approach her by bring the topic and the explaination of the project. 
