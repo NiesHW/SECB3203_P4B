@@ -5,8 +5,9 @@
 
 <p align="center">Our first group meeting with a client to discuss the focus of our project</p>
 
--- Client: Dr. Noor Hidayah binti Zakaria
+- Client: Dr. Noor Hidayah binti Zakaria
 - Trend: Detection of cancer prognosis: <i style="color:red;">Skin cancer</i>
+
 
 
 
