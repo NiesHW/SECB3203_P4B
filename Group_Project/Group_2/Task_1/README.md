@@ -8,6 +8,13 @@
 - Client: Dr. Noor Hidayah binti Zakaria
 - Trend: Detection of cancer prognosis: <i>Skin cancer</i>
 
+<p><b>1.0 Introduction</b></p>
+<p><b>1.1 Problem Background</b></p>
+<p><b>1.2 Problem Statement</b></p>
+<p><b>1.3 Objectives </b></p>
+<p><b>1.4 Scopes</b></p>
+<p><b>1.5 Conclusion</b></p>
+
 
 
 
