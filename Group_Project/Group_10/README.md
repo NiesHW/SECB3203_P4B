@@ -14,4 +14,4 @@ we go to libary to find the topic by the thesis that related to bioinfomatics co
 
 # On 15 Oct 
 we have made decison our project 
-### Topic: Performance Evaluation of ANOVA and RFE Algorithms for Classifying Cancer Microarray Dataset Using SVM
+#### Topic: Performance Evaluation of ANOVA and RFE Algorithms for Classifying Cancer Microarray Dataset Using SVM
