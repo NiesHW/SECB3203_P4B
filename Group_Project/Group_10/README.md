@@ -20,10 +20,11 @@ She suggested us related topics about cancer we can use as our project topic.
 Problem: Cancer diagnosis and classification are critical components of precision medicine, and leveraging advanced computational methods can significantly enhance the accuracy of these processes. 
 
 Objective:
-- Assess the effectiveness of ANOVA and RFE in selecting relevant features from cancer microarray datasets.
+- Assess the effectiveness of ANOVA and RFE in selecting relevant features from breast cancer microarray datasets.
 - Implement SVM classifiers using features selected by ANOVA and RFE.
 - Compare and evaluate the classification performance of these SVM.
 
 Dataset: [https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq](https://archive.ics.uci.edu/dataset/14/breast+cancer)
+https://www.kaggle.com/datasets/reihanenamdari/breast-cancer 
     It comprises the data of breast cancer.
   
