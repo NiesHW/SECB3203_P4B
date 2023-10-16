@@ -27,3 +27,13 @@
 
 
 The primary objective of this project is to utilize bioinformatics tools and techniques to design and optimize dentures with the goal of enhancing the comfort and functionality for individuals requiring denture prosthetics.
+
+
+# Data use 
+- Patient Health Records
+- Dental Impressions and Scans
+- 3D Imaging and Modeling
+- Functional Data
+- Patient Preferences and Feedback
+- Materials Data
+
