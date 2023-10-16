@@ -24,6 +24,6 @@ Objective:
 - Implement SVM classifiers using features selected by ANOVA and RFE.
 - Compare and evaluate the classification performance of these SVM.
 
-Dataset: https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq
-    It comprises the data of five different forms of cancer, including kidney, breast, lung, prostate and colon.
+Dataset: [https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq](https://archive.ics.uci.edu/dataset/14/breast+cancer)
+    It comprises the data of breast cancer.
   
