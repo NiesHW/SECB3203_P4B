@@ -14,10 +14,10 @@ Aim and Objectives :
 3. To evaluate the effectiveness of the proposed prediction model in terms of accuracy and reliability.
    
 Scopes : 
-Domain of the Data:
-Time frame of the data :
+Domain of the Data
+Time frame of the data : 5 years (ideally)
 Type of data considered : Multi-omic data (biological data)
-Attributes to be used : 
+Attributes to be used : Presence of specific immune cells , Previous medical conditions , Blood test to check for miRNAs, presence of exosomes in blood.
 Area of study : cancer prognosis
 
 Methodology 
