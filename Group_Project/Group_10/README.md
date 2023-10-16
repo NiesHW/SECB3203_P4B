@@ -16,7 +16,7 @@ Mostly, we found the theses about cancer classification using SVM topic.
 We told Dr Zuraini about our project topic related to Leukemia Cancer. Then, Dr Zuraini asked us to approach Dr Sharin first to reconfirmed our client.
 She suggested us related topics about cancer we can use as our project topic.
 
-#### Topic: Performance Evaluation of ANOVA and RFE Algorithms for Classifying Cancer Microarray Dataset Using SVM
+#### Topic: Performance Evaluation of ANOVA and RFE Algorithms for Classifying Breast Cancer Microarray Dataset Using SVM
 Problem: Cancer diagnosis and classification are critical components of precision medicine, and leveraging advanced computational methods can significantly enhance the accuracy of these processes. 
 
 Objective:
