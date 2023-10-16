@@ -27,6 +27,5 @@ The dataset used in this analysis is based on microarray analyses of laser-captu
 ## References
 
 - [Publication 1](https://www.sciencedirect.com/science/article/pii/S0888754321001555#ab0005)
-- [Publication 2](https://www.sciencedirect.com/science/article/pii/S0957417419305834#sec0002)
 
 
