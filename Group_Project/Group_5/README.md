@@ -1,4 +1,4 @@
-# Members name G_5 ( Project title = )
+# Members name G_5 
 
 - Lim Yong Wei (B22EC0025)
 - Chew Xin Shi (B22EC0017)
@@ -8,3 +8,22 @@
 
  
  16/10/2023 = request for online meetup 
+
+ # Project title 
+ 
+ 
+ Bioinformatic Design and Optimization of Dentures for Enhanced Comfort and Functionality
+
+ # Problem 
+
+
+ The current state of denture design and fabrication often falls short in providing denture wearers with the comfort and functionality they require. This problem encompasses several key challenges:
+ -  Comfort Issues: Many denture wearers experience discomfort, sore spots, and difficulty in chewing and speaking due to ill-fitting dentures. Traditional methods for denture design may not adequately address individual variations in oral anatomy, leading to discomfort and decreased quality of life.
+
+ -  Functionality Concerns: Existing dentures may not offer the same level of functionality as natural teeth. This includes limitations in chewing efficiency, speech articulation, and the inability to fully replicate the natural aesthetics of the dentition.
+
+
+# Objctive 
+
+
+The primary objective of this project is to utilize bioinformatics tools and techniques to design and optimize dentures with the goal of enhancing the comfort and functionality for individuals requiring denture prosthetics.
