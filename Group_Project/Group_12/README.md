@@ -2,7 +2,7 @@
 - Nur Syafika
 - Puteri Nur Eleeya Syafika
 
-- #Title
+# Title
 Alzheimer's Disease Detection through Deep Learning: A CNN-Based MRI Image Analysis
 
 # Problem Statement
