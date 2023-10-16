@@ -21,7 +21,7 @@ Attributes to be used : Presence of specific immune cells , Previous medical con
 Area of study : cancer prognosis
 
 Methodology 
-Approach : Random Forest(RF) or  Deep Neural Networks (DNN). Since we have not decided on our dataset, we are not able to compare these methods, but we have narrowed it down to these two.
+Approach : Random Forest (RF) or  Deep Neural Networks (DNN). Since we have not decided on our dataset, we are not able to compare these methods, but we have narrowed it down to these two.
 Data cleaning: Principal Component Analysis (PCA) for data preprocessing. PCA can be applied to multi-omic data to reduce the dimensionality of the data while retaining most of the relevant information. In the context of predicting ovarian cancer prognosis, PCA can be a valuable method for data preprocessing, especially when dealing with high-dimensional omics data.
-Test Data : Scikit-learn Python for testing predictive models in python.   
+Test Data : Scikit-learn Python for testing predictive models in python. Some of the processes involve data splitting, model training, model evaluation and tec.  
          
