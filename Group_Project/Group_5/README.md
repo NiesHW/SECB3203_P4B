@@ -4,3 +4,4 @@
 - Chew Xin Shi (B22EC0017)
 
 15/10/2023 = received an email about meet on this coming thursday (19/10/2023) from Dr Chan
+16/10/2023 = request for online meetup 
