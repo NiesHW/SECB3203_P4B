@@ -11,3 +11,7 @@ Make an appointment on 17/10 with Sir Hairudin to discuss and present our topics
 3. Cardiovascular disease classification (CHS)
 
 We will finalise based on the advise given by our client on tomorrow meeting.
+
+Done had a meeting with Sir Hairudin on 17/10 at N28A. We finalized our topic on Delay Time in Cardiovascular Condition.
+
+Method of the project: Machine Learning 
