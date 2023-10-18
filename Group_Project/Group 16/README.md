@@ -1,4 +1,4 @@
-# CLASSIFICATION of malaria disease
+# CLASSIFICATION of malaria disease (MalariaDetect)
 
 # Member Name:
 - Muhammad Saifuddin A21EC0093
