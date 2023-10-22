@@ -6,7 +6,8 @@
 <p align="center">Our first group meeting with a client to discuss the focus of our project</p>
 
 - Client: Dr. Noor Hidayah binti Zakaria
-- Trend: Detection of cancer prognosis: <i>Skin cancer</i>
+- Trend: ANALYZING HEART ATTACK DETECTION THROUGH VARIOUS CLASSIFICATION ALGORITHMS
+
 
 <p><b>1.0 Introduction</b></p>
 <p><b>1.1 Problem Background</b></p>
