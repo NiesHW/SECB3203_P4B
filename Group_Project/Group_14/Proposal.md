@@ -1,7 +1,9 @@
 1.0 Introduction
+
 Expert System To Detect And Classify Prostate Cancer is a system to identify the presence of prostate cancer in men  and classify the disease into various stages or types or risk groups. It is a specialised computer-based system that makes use of artificial intelligence techniques, including expert knowledge and machine learning. This technique boosts the precision and effectiveness of prostate cancer diagnosis and classification by fusing medical knowledge with data-driven algorithms. This system intended to help medical professionals diagnose and treat prostate cancer cases in a more consistent and developed manner. These systems attempt to increase early detection, decrease subjectivity, and ultimately improve patient outcomes by personalying treatment regimens to each patient's unique needs. They do this by fusing medical expertise with data-driven analysis.
 
   1.1 Problem Background
+  
 Prostate cancer is one of the most common cancers especially for men, with varying degrees of aggressiveness and potential for metastasis. In Malaysia, 1 in 117 men are diagnosed with prostate cancer which makes it the third most common cancer for a man in Malaysia after lung cancer and colorectal cancer. Before the invention of Artificial Intelligence,  doctors often combined clinical evaluations, biomarkers, and histological examination. These techniques, however, might be arbitrary, time-consuming, and not entirely accurate.
 
 Expert systems, a subset of artificial intelligence, offer the chance to combine current medical data and knowledge to build a computer-based system that can help with prostate cancer identification and categorization. Expert systems can examine a variety of patient data, including medical histories, imaging results, and biopsy results, using machine learning models  to provide a more consistent and impartial method of diagnosis and classification.
