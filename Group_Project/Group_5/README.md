@@ -12,8 +12,7 @@
  # Project title 
  
  
- Bioinformatic Design and Optimization of Dentures for Enhanced Comfort and Functionality by using biometric data
-
+ Biometric-Based Personalized Dental Prosthesis Design Using 3D Imaging and Machine Learning
  # Problem 
 
 
@@ -30,10 +29,12 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 
 
 # Data use 
-- Patient Health Records
-- Dental Impressions and Scans
-- 3D Imaging and Modeling
-- Functional Data
-- Patient Preferences and Feedback
-- Biometric data
+- Biometric Data
+- Genetic Data: 
+- Data Collection:
+- Data Integration:
+- Machine Learning Model:
+- Personalized Prosthesis Design:
+            
+
 
