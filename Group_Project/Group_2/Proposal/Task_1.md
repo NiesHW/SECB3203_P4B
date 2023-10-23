@@ -37,6 +37,7 @@ In addition to the core software, all necessary libraries and add-ons have been 
 3. Limitation:
 A notable limitation in this research is the potential for processing time delays due to the use of less powerful computers. These delays may have implications for the efficiency of data analysis and the overall research timeline.
 <p>
+  
 1.5 Conclusion
 
   In this project proposal, we have outlined a comprehensive plan for conducting research on heart attack detection through various classification algorithms. Recognizing the critical importance of early and accurate heart attack identification in healthcare, we aim to leverage the potential of machine learning to enhance diagnostic precision. By comparing the performance of Logistic Regression and Gaussian Naive Bayes, we intend to provide valuable insights into the strengths and weaknesses of these models for heart attack prediction.
