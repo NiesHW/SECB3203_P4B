@@ -10,10 +10,10 @@ Title : Comparison of Deep Learning Algorithms on Drug-drug Interaction Predicti
 
 
 
-## 1.0  INTRODUCTION 
+# 1.0  INTRODUCTION 
           In this research, we focus on our domain which is drug-drug interaction (DDIs) prediction.  Drug-drug interactions (DDIs) occur when two or more drugs are taken simultaneously or successively. Drug-drug interactions (DDIs) prediction is the process of assessing and predicting the potential interactions between two or more drugs when taken concurrently. Drug-Drug Interaction (DDI) prediction is one of the most critical issues in drug development and health (Rohani & Eslahchi, 2019). 
 
-## 1.1  PROBLEM BACKGROUND
+# 1.1  PROBLEM BACKGROUND
         When two or more medications interact in ways that can harm patients or limit the effectiveness of therapies, this is referred to as a drug-drug interaction (DDIs). These interactions endanger both patient safety and treatment outcomes (Zheng et al., 2018). The correct prediction of DDIs has become critical in healthcare due to the increasing complexity of modern treatment regimens (Palleria et al., 2013). The complexity of DDIs data, the requirement for advanced machine learning models, scalability in healthcare systems, data privacy concerns, and the heterogeneity of interactions are all major challenges. Addressing these issues through deep learning algorithm comparison is crucial for enhancing patient safety and healthcare decision-making (Aldoseri et al., 2023).
 
 ## 1.2 PROBLEM STATEMENT
