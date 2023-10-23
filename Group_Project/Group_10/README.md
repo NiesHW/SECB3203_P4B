@@ -16,15 +16,13 @@ Mostly, we found the theses about cancer classification using SVM topic.
 We told Dr Zuraini about our project topic related to Leukemia Cancer. Then, Dr Zuraini asked us to approach Dr Sharin first to reconfirmed our client.
 She suggested us related topics about cancer we can use as our project topic.
 
-#### Topic: Performance Evaluation of ANOVA and RFE Algorithms for Classifying Breast Cancer Microarray Dataset Using SVM
-Problem: Cancer diagnosis and classification are critical components of precision medicine, and leveraging advanced computational methods can significantly enhance the accuracy of these processes. 
+#### Topic: Recursive Feature Elimination Methods for Gene Selection On Ovarian Cancer Classification 
+#### Problem Statement
+The diagnosis of ovarian cancer tends to happen at a late stage, and there are few treatment options offered. Ovarian cancer presents a substantial burden to public health. Gene expression data, which offers helpful insights into the molecular pathways underlying cancer, shows potential for improving the classification of ovarian cancer and providing a more accurate diagnosis of the disease. However, there is a challenge that is caused by the huge amount of genes found in gene expression databases. The challenge is to identify a subset of genes that are most relevant for discriminating between samples of ovarian cancer and samples of non-cancerous tissue, to construct an appropriate classification model based on these selected genes, and to gain insights into the biological processes linked with ovarian cancer.
 
-Objective:
-- Assess the effectiveness of ANOVA and RFE in selecting relevant features from breast cancer microarray datasets.
-- Implement SVM classifiers using features selected by ANOVA and RFE.
-- Compare and evaluate the classification performance of these SVM.
+#### Objective
+1. **Identify Relevant Genes:** The primary objective is to identify and select a subset of genes from the gene expression dataset that are strongly associated with ovarian cancer. This entails the systematic use of Recursive Feature Elimination (RFE) methods to rank and select genes with high discriminatory power.
+2. **Build an SVM Classification Model:** Develop a robust Support Vector Machine (SVM) classification model using the selected genes as features. The model should be capable of accurately predicting whether a patient has ovarian cancer based on their gene expression data.
+3. **Model Evaluation:** Evaluate the performance of the SVM classification model through rigorous testing and validation. Use metrics such as accuracy, sensitivity, specificity, and the area under the ROC curve (AUC) to assess its predictive capability.
+4. **Gene Expression Pattern Analysis:** Analyze and interpret the gene expression patterns of the selected genes to gain insights into their potential roles in ovarian cancer. Explore gene-gene interactions and pathways that may be biologically significant.
 
-Dataset: [https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq](https://archive.ics.uci.edu/dataset/14/breast+cancer)
-https://www.kaggle.com/datasets/reihanenamdari/breast-cancer 
-    It comprises the data of breast cancer.
-  
