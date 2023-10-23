@@ -12,9 +12,63 @@
 - The major goal of this research is to improve the accuracy and dependability of DTI predictions by incorporating a two-stage dimensional reduction technique into current methodologies (Byeungchun Kwon, 2022). We will use Python code snippets to create the main logic of DTI prediction, which will make use of Non-negative Matrix Factorization (NMF) and Matrix Factorization, both of which are frequently used in recommendation systems. Non-Negative Matrix Factorization (NMF or NNMF) is also a linear dimensionality reduction technique that can be used to reduce the dimensionality of the feature matrix (Rukshan Pramoditha, May 6). We want to enhance the performance of drug-target interaction predictions by using NMF to minimize the complexity of the data. This research project intends to aid in the identification of new drug candidates and the advancement of drug development methods. These predictions will be evaluated using metrics such as ROC AUC, which will aid in the identification of novel drug candidates and the progress of drug discovery procedures.
 
 # 1.3 Objectives
+-  1. To increase the accuracy and reliability of Drug-Target Interaction predictions by
+extending existing approaches with a two-stage dimensional reduction strategy.
+
+- 2. To identify novel Drug-Target Interaction.
 
 
 # 1.4 Scopes
+-The scopes of the research are:
+(a) Using the dataset of the drug target interaction from DrugCentral database that is open
+publicly.
+
+(b) Using Non-negative Matrix Factorization to reduce similarity matrix dimensions.
+
+(c) Using VIrtual Studio Code platform to code our python project.
 
 
 # 1.5 Conclusion
+-To sum up everything, this proposal highlight the two-stage approach aimed at enhancing
+prediction on how drugs and proteins interact. Our primary goals are to increase the accurancy
+prediction and at the same time uncovering the new interactions between drugs and proteins. By
+changing third step of DTINet from using the Singular Value Decomposition(SVD) into
+Non-negative Matrix Factorization(NMF) to reduce similarity matrix dimensions, we hope that
+we can increase its accuracy to more than 0.5 using roc_auc_score function.
+
+-Simultaneously, our research aims to explore and identify potential novel interactions between
+drugs and proteins. In the context of drug discovery and development, it's crucial to understand
+how different drugs can interact with specific proteins in the human body. These interactions
+often determine a drug's effectiveness, potential side effects, and overall safety. These
+discoveries also could open the doors to new treatment possibilities for medical conditions that
+were previously uncharted.
+
+-Last but not least, our proposal presents a strategy to enhance predictive capabilities and discover
+new therapeutic prospects. It is important to note that further research and testing are required to
+determine the effectiveness and practical applications of this approach.
+
+
+# 1.6 References
+-Central, D. (2023). About. Drug Central. Retrieved October 19, 2023, from
+https://drugcentral.org/about
+
+-Kwon, B. (2021, June 23). Drug-Target interaction prediction through Python | by Byeungchun
+Kwon | Geek Culture. Medium. Retrieved October 15, 2023, from
+https://medium.com/geekculture/drug-target-interaction-prediction-through-python-4af9e
+76fc90
+
+-Luo, Y., Zhao, X., Zhou, J., Yang, J., Zhang, Y., & Kuang, W. (2017, September 18). A network
+integration approach for drug-target interaction prediction and computational drug
+repositioning from heterogeneous information.
+https://www.nature.com/articles/s41467-017-00680-8
+
+-Pramoditha, R. (2023, August 24). Non-Negative Matrix Factorization (NMF) for
+Dimensionality Reduction in Image Data. Towards Data Science. Retrieved October 21,
+2023, from
+https://towardsdatascience.com/non-negative-matrix-factorization-nmf-for-dimensionalit
+y-reduction-in-image-data-8450f4cae8fa7
+
+-sklearn.decomposition.NMF — scikit-learn 1.3.1 documentation. (n.d.). Scikit-learn. Retrieved
+October 16, 2023, from
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.htm
+
