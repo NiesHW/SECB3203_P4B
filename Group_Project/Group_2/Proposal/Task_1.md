@@ -16,6 +16,15 @@ According to the National Institutes of Health(2021), in 2019,  9.6 million men 
 The central concern lies in the provision of early and accurate heart attack identification, which is a critical matter with major implications for healthcare. The application of diverse machine learning approaches is expected to contribute to the enhancement of disease detection accuracy and timeliness, thus resulting in significant improvements in healthcare outcomes and the advancement of disease diagnosis and management.
 </p><p>
 1.3 Objectives
+
+1. To implement and train machine learning models, specifically Logistic Regression and Gaussian Naive Bayes, for heart attack detection using the collected dataset.
+
+2. To evaluate the performance of the machine learning models in terms of accuracy, precision, recall, F1-score, and ROC AUC, using appropriate metrics and techniques.
+
+3. To compare the performance between the Logistic Regression and Gaussian Naive Bayes models to determine which model exhibits superior predictive capabilities for heart attack detection.
+
+4. To provide a detailed analysis of the strengths and weaknesses of the Logistic Regression and Gaussian Naive Bayes models for heart attack detection, and their suitability for real-world clinical applications.
+
 </p>
 <p>1.4 Scopes</p>
 <p>The scope are :</p>
@@ -29,6 +38,15 @@ In addition to the core software, all necessary libraries and add-ons have been 
 A notable limitation in this research is the potential for processing time delays due to the use of less powerful computers. These delays may have implications for the efficiency of data analysis and the overall research timeline.
 <p>
 1.5 Conclusion
+
+  In this project proposal, we have outlined a comprehensive plan for conducting research on heart attack detection through various classification algorithms. Recognizing the critical importance of early and accurate heart attack identification in healthcare, we aim to leverage the potential of machine learning to enhance diagnostic precision. By comparing the performance of Logistic Regression and Gaussian Naive Bayes, we intend to provide valuable insights into the strengths and weaknesses of these models for heart attack prediction.
+
+The project's objectives focus on data collection, model implementation, performance evaluation, and a detailed analysis of the selected algorithms. As we embark on this research journey, we anticipate contributing to the growing body of knowledge in medical diagnosis and machine learning. Our findings are expected to inform healthcare professionals and institutions on the utility of these models, ultimately leading to improved patient outcomes and disease management.
+
+We recognize the ethical considerations surrounding the use of patient data and will prioritize data security and privacy throughout the research. Our project's scope, software tools, and limitations have been clearly defined to ensure the feasibility and transparency of our research endeavors.
+
+In summary, this project proposal lays the foundation for an in-depth investigation into heart attack detection, highlighting the potential of machine learning to revolutionize healthcare by providing timely and precise assessments of heart health. Through this research, we aspire to make a meaningful contribution to the field of medical diagnosis and support the ongoing quest for enhanced healthcare outcomes.
+
 </p>
 
 
