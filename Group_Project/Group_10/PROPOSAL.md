@@ -1,6 +1,6 @@
-## Recursive Feature Elimination Methods for Gene Selection on Ovarian Cancer Classification 
+# Recursive Feature Elimination Methods for Gene Selection on Ovarian Cancer Classification 
 
-# Introduction
+## Introduction
   Ovarian cancer, an effective conduct in the field of cancer, is getting attention due to the late stage at which it is typically diagnosed and the few treatment options that are available for it. This condition, which affects a significant number of people all over the world, caused efforts to improve the accuracy of diagnosis and to find different options for treatment. Because of the nature of ovarian cancer, which can be identified by its unclear symptoms and multiple subtypes, there is a greater requirement to explore new methods to better understand and diagnose the disease.
 
   Gene expression data, which captures the activity levels of numerous genes within cells, has shown to be an extremely helpful resource for acquiring insights into the molecular pathways that are causing cancer. When it comes to ovarian cancer, doing an analysis of gene expression patterns presents the possibility of developing robust classification models that are able to differentiate between malignant and non-cancerous samples. However, gene expression datasets often include a very large number of genes, which means that selecting features is an essential stage in the process of simplifying the data and enhancing the performance of classification models.
@@ -15,21 +15,21 @@
 
   We are excited about the chance to make a real difference in the fight against ovarian cancer as we start this research project. Our goal is to make the lives of people who have this disease better by finding it earlier, handling it more effectively, and learning more about how it works biologically. It is a project that brings together science, health, and creative thinking. The main goal is to make the struggle against ovarian cancer better in the future.
 
-# Problem Background
+## Problem Background
   In recent years, ovarian cancer has become known as a serious and challenging health concern, affecting a huge number of people all over the world. Ovarian cancer is a challenge because it affects a large number of people. Due to the fact that it is typically diagnosed at a late stage and offers few treatment choices, there is an urgent requirement for the development of new diagnostic and categorization procedures. Because of the evasive nature of ovarian cancer, which is characterized by its growth and progression being closely connected to genetic variables, there has been an increased emphasis placed on comprehending the molecular roots of this illness.
 
   The propensity of ovarian cancer to avoid early identification presents one of the most major challenges in the treatment of the disease. In contrast to other types of cancer, ovarian cancer's early stages are frequently uncharacteristic in terms of the symptoms they present. As a consequence of this, many cases are not detected until they have progressed to an advanced level, which makes it more difficult to successfully treat the condition. The need for more advanced diagnostic technologies, which have the potential to detect the disease at earlier stages when it is easier to treat, is of the highest priority.
 
-# Problem Statement
+## Problem Statement
   The diagnosis of ovarian cancer tends to happen at a late stage, and there are few treatment options offered. Ovarian cancer presents a substantial burden to public health. Gene expression data, which offers helpful insights into the molecular pathways underlying cancer, shows potential for improving the classification of ovarian cancer and providing a more accurate diagnosis of the disease. However, there is a challenge that is caused by the huge amount of genes found in gene expression databases. The challenge is to identify a subset of genes that are most relevant for discriminating between samples of ovarian cancer and samples of non-cancerous tissue, to construct an appropriate classification model based on these selected genes, and to gain insights into the biological processes linked with ovarian cancer.
 
-# Objectives
+## Objectives
 1. **Identify Relevant Genes:** The primary objective is to identify and select a subset of genes from the gene expression dataset that are strongly associated with ovarian cancer. This entails the systematic use of Recursive Feature Elimination (RFE) methods to rank and select genes with high discriminatory power.
 2. **Build an SVM Classification Model:** Develop a robust Support Vector Machine (SVM) classification model using the selected genes as features. The model should be capable of accurately predicting whether a patient has ovarian cancer based on their gene expression data.
 3. **Model Evaluation:** Evaluate the performance of the SVM classification model through rigorous testing and validation. Use metrics such as accuracy, sensitivity, specificity, and the area under the ROC curve (AUC) to assess its predictive capability.
 4. **Gene Expression Pattern Analysis:** Analyze and interpret the gene expression patterns of the selected genes to gain insights into their potential roles in ovarian cancer. Explore gene-gene interactions and pathways that may be biologically significant.
 
-# Scopes
+## Scopes
 **Domain of the Data:**
 This research project is based on a gene expression dataset where patient samples are represented as rows, and gene expression levels as columns. The primary objective is to identify significant gene patterns associated with ovarian cancer and employ them as features in a classification model.
 
@@ -42,7 +42,7 @@ RFE methods will be applied iteratively to select and rank genes based on their 
 **Limits of the Research:**
 Certain limitations are inherent to this study. The findings are contingent upon the quality, completeness, and representativeness of the selected gene expression dataset. While the research aims to identify gene patterns related to ovarian cancer and build a predictive classification model, it does not encompass clinical validation. Ethical considerations related to patient data usage will not be explicitly addressed, as the focus is on the technical aspects of model development and gene selection.
 
-# Conclusion
+## Conclusion
   In conclusion, this study project proposal is an important and inventive step toward better understanding ovarian cancer and making diagnosis accuracy better. The use of gene expression data along with the strong RFE feature selection method shows possibility for a more accurate and dependable way to define ovarian cancer.
 
   We discussed the problem and how important it is to improve ovarian cancer diagnostics right away. We have also talked about how important gene expression data is and how important RFE is as a method for gene selection. We have made clear that the objectives of our study consist of identifying the set of genes that are most important for accurate classification, creating an accurate model for ovarian cancer classification, and looking for biological insights into the disease.
