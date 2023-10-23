@@ -40,8 +40,6 @@ RFE methods will be applied iteratively to select and rank genes based on their 
 **Limits of the Research:**
 Certain limitations are inherent to this study. The findings are contingent upon the quality, completeness, and representativeness of the selected gene expression dataset. While the research aims to identify gene patterns related to ovarian cancer and build a predictive classification model, it does not encompass clinical validation. Ethical considerations related to patient data usage will not be explicitly addressed, as the focus is on the technical aspects of model development and gene selection.
 
-This adjusted scope underscores the role of the gene expression dataset and the development of a classification model using SVM with the selected genes as features. It provides clarity on the techniques, methodology, and constraints of the study, emphasizing your objective to predict ovarian cancer based on gene expression data.
-
 # Conclusion
   In conclusion, this study project proposal is an important and inventive step toward better understanding ovarian cancer and making diagnosis accuracy better. The use of gene expression data along with the strong RFE feature selection method shows possibility for a more accurate and dependable way to define ovarian cancer.
 
