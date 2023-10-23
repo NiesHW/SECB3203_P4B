@@ -12,7 +12,7 @@
  # Project title 
  
  
- Bioinformatic Design and Optimization of Dentures for Enhanced Comfort and Functionality
+ Bioinformatic Design and Optimization of Dentures for Enhanced Comfort and Functionality by using biometric data
 
  # Problem 
 
@@ -35,5 +35,5 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 - 3D Imaging and Modeling
 - Functional Data
 - Patient Preferences and Feedback
-- Materials Data
+- Biometric data
 
