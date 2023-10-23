@@ -5,13 +5,12 @@ MOHAMAD AZRYQ HAIQAL BIN MOHAMAD ROSLI (B22EC0071)
 
 # Project Progress 
 
-Make an appointment on 17/10 with Sir Hairudin to discuss and present our topics: 
-1. Prostate cancer detection and classification
-2. Osteoathritis classification and diagnosis
-3. Cardiovascular disease classification (CHS)
+title : 
+delay time model in based on health monitoring system
 
-We will finalise based on the advise given by our client on tomorrow meeting.
+method : delay time modelling
 
-Done had a meeting with Sir Hairudin on 17/10 at N28A. We finalized our topic on Delay Time in Cardiovascular Condition.
+ delay time model in cardiovascular prediction using deley timemodeling to predict
+cardiovascular failrue condition
 
-Method of the project: Machine Learning 
+client : Sir Hairudin
