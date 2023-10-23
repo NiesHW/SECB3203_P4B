@@ -70,6 +70,8 @@ Use the trained model to generate personalised dental prosthesis designs, includ
 
 
 ## Article/Data reference 
+https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/inspired/biometrics
+
 https://www.sciencedirect.com/science/article/pii/S0109564123000416 
 
  
