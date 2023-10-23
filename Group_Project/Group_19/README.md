@@ -14,3 +14,5 @@ method : delay time modelling
 cardiovascular failrue condition
 
 client : Sir Hairudin
+
+Made proposal project for our topic 23/10 : Delay time model in based on Health Monitoring System. 
