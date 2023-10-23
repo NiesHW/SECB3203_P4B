@@ -1,5 +1,5 @@
 # Title
-Prediction of skin cancer using Deep Learning: Convolutional neural network
+Prediction of skin cancer using Machine Learning: Artificial neural network
 
 # Members
 - Lu Qi Yan
