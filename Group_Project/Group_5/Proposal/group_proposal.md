@@ -74,6 +74,9 @@ https://www.thalesgroup.com/en/markets/digital-identity-and-security/government/
 
 https://www.sciencedirect.com/science/article/pii/S0109564123000416 
 
+## Proposal
+https://docs.google.com/document/d/1HOGtIbxVweenhOw3PSF754airjZEu1VSi_aJowYUKOI/edit?usp=sharing
+
  
 
  
