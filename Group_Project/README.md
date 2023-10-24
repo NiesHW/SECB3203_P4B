@@ -1,19 +1,15 @@
 # GROUP PROJECT (30%)
 
-### Project Description
+### Project Description 📑 
 This project provides you with hands-on experience in utilizing Python, Linux, or AWS cloud computing. The project is designed to align with current trends in bioinformatics and apply various bioinformatics analyses to the collected dataset.
 
 To accomplish this, you are going to form a two-person team for the project and select a specific bioinformatics trend as the project's focal point. You will be responsible for collecting sample data for analysis. You'll have the flexibility to choose between Python, Linux, or AWS cloud computing for data analysis, with a comprehensive report documenting your findings as a mandatory component.
 
 Throughout the project's timeline, you are required to update your project's progress and share your work on GitHub regularly. Also, we recommend looking for a mentor or client (who can be your academic advisor or any other related professional) to enhance the project's depth and guidance.
 
-**Note**: 
-- Create a folder named your project title at [Group_Project](https://github.com/NiesHW/SECB3203_P4B/tree/0a63ff274bdb8a06712a6738cba90a57f83f3858/Group_Project), then the README.md of the folder must include showing your name and your member's name.
-- Don't rely on your member to finish everything alone.
-
 
 ### 🔗 Connect with Our Bioinformatics Projects 
-| No. | Group Number 👋                                            | File 📑 |
+| No. | Group Number 👋                                            | File |
 |----: |----------------------------------------------------|------|
 | 1.   | Group 1 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
 | 2.   | Group 2 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_2" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
