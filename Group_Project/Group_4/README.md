@@ -14,9 +14,9 @@ Prediction of skin cancer using Machine Learning: Artificial neural network
 **Progress 5**: 
 
 # Project Progress
-***9 Oct*** Group Formation
-***10 Oct*** Do research on dataset
-***16 Oct*** Asking for the client's consent
-***18 Oct*** Meet up with the client and decide on the research topic
-***19 Oct*** Work with proposal
-***23 Oct*** Submission of proposal
+***9 Oct*** Group Formation <br>
+***10 Oct*** Do research on dataset <br>
+***16 Oct*** Asking for the client's consent <br>
+***18 Oct*** Meet up with the client and decide on the research topic <br>
+***19 Oct*** Work with proposal <br>
+***23 Oct*** Submission of proposal <br>
