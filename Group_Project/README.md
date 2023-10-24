@@ -1,6 +1,6 @@
 # GROUP PROJECT (30%)
 
-### Project Description 📑 
+### 📑 Project Description  
 This project provides you with hands-on experience in utilizing Python, Linux, or AWS cloud computing. The project is designed to align with current trends in bioinformatics and apply various bioinformatics analyses to the collected dataset.
 
 To accomplish this, you are going to form a two-person team for the project and select a specific bioinformatics trend as the project's focal point. You will be responsible for collecting sample data for analysis. You'll have the flexibility to choose between Python, Linux, or AWS cloud computing for data analysis, with a comprehensive report documenting your findings as a mandatory component.
