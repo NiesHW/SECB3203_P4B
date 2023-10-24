@@ -11,29 +11,28 @@ Throughout the project's timeline, you are required to update your project's pro
 - Create a folder named your project title at [Group_Project](https://github.com/NiesHW/SECB3203_P4B/tree/0a63ff274bdb8a06712a6738cba90a57f83f3858/Group_Project), then the README.md of the folder must include showing your name and your member's name.
 - Don't rely on your member to finish everything alone.
 
-### Group Project
-
+### Links 
 | No. | Group Number                                             | File |
 |----: |----------------------------------------------------|------|
-| 1.   | Group 1 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 2.   | Group 2 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_2" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 3.   | Group 3 | <a href="" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 4.   | Group 4 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_4" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 5.   | Group 5 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_5" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 6.   | Group 6 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_6" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 7.   | Group 7 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group%207" ><img src="./images/rfp.png" width="24px" height="24px" ></a>|
-| 8.   | Group 8 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_8" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 9.   | Group 9 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_9" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 10.   | Group 10 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_10" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 11.   | Group 11 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_11" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 12.   | Group 12 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_12" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 13.   | Group 13 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_13" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 14.   | Group 14 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_14" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 15.   | Group 15 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_15" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 16.   | Group 16 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group%2016" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 17.   | Group 17 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/GROUP%2017" ><img src="./images/rfp.png" width="24px" height="24px" ></a>|
-| 18.   | Group 18 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/14fcac6c1e9eee830c29691b375e15031df57f71/Group_Project/Group%2018" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
-| 19.   | Group 19 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/14fcac6c1e9eee830c29691b375e15031df57f71/Group_Project/Group_19" ><img src="./images/rfp.png" width="24px" height="24px" ></a> |
+| 1.   | Group 1 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 2.   | Group 2 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_2" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 3.   | Group 3 | NA |
+| 4.   | Group 4 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_4" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 5.   | Group 5 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_5" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 6.   | Group 6 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_6" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 7.   | Group 7 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group%207" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a>|
+| 8.   | Group 8 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_8" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 9.   | Group 9 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_9" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 10.   | Group 10 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_10" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 11.   | Group 11 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_11" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 12.   | Group 12 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_12" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 13.   | Group 13 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_13" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 14.   | Group 14 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_14" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 15.   | Group 15 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_15" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 16.   | Group 16 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group%2016" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 17.   | Group 17 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/GROUP%2017" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a>|
+| 18.   | Group 18 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/14fcac6c1e9eee830c29691b375e15031df57f71/Group_Project/Group%2018" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 19.   | Group 19 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/14fcac6c1e9eee830c29691b375e15031df57f71/Group_Project/Group_19" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
 
 
 
