@@ -7,16 +7,16 @@ Prediction of skin cancer using Machine Learning: Artificial neural network
 
 # Project
 **Proposal**: https://drive.google.com/drive/folders/1cJjXAHcQvDgBvNLbupK5LdxUUruskxlS
-**Progress 1**: 
-**Progress 2**: 
-**Progress 3**: 
-**Progress 4**: 
-**Progress 5**: 
+**Progress 1**: <br>
+**Progress 2**: <br>
+**Progress 3**: <br>
+**Progress 4**: <br>
+**Progress 5**: <br>
 
 # Project Progress
-***9 Oct*** Group Formation <br>
-***10 Oct*** Do research on dataset <br>
-***16 Oct*** Asking for the client's consent <br>
-***18 Oct*** Meet up with the client and decide on the research topic <br>
-***19 Oct*** Work with proposal <br>
-***23 Oct*** Submission of proposal <br>
+***9 Oct*** - Group Formation <br>
+***10 Oct*** - Do research on dataset <br>
+***16 Oct*** - Asking for the client's consent <br>
+***18 Oct*** - Meet up with the client and decide on the research topic <br>
+***19 Oct*** - Work with proposal <br>
+***23 Oct*** - Submission of proposal <br>
