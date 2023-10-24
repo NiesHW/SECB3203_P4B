@@ -8,8 +8,8 @@ To accomplish this, you are going to form a two-person team for the project and 
 Throughout the project's timeline, you are required to update your project's progress and share your work on GitHub regularly. Also, we recommend looking for a mentor or client (who can be your academic advisor or any other related professional) to enhance the project's depth and guidance.
 
 
-### 🔗 Connect with Our Bioinformatics Projects 
-| No. | Group Number 👋                                            | File |
+### 👋 Connect with Our Bioinformatics Projects 
+| No. | Group Number                                             | File |
 |----: |----------------------------------------------------|------|
 | 1.   | Group 1 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
 | 2.   | Group 2 | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_2" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
