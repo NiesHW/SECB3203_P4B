@@ -11,7 +11,7 @@
 ### 👋 Connect with Our Bioinformatics Projects 
 | No. | Group Number                                             | Team                                             | File |
 |----: |----------------------------------------------------|----------------------------------------------------|------|
-| 1.   | Group 1 | NA | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
+| 1.   | Group 1 | Nerea,Afiqah,Dr Hidayah | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_1" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
 | 2.   | Group 2 | NA | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_2" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
 | 3.   | Group 3 | NA |  | 
 | 4.   | Group 4 | RongXian, QiYan, Dr Sharin | <a href="https://github.com/NiesHW/SECB3203_P4B/tree/b3bcf551bf0d5630eb41dd90e073d47e89bd5d63/Group_Project/Group_4" ><img src="https://cdn.icon-icons.com/icons2/2963/PNG/512/macos_big_sur_folder_icon_186046.png" width="24px" height="24px" ></a> |
