@@ -19,3 +19,14 @@ As of October 19, 2023, our project has undergone a significant development. Dr.
 
 
 ![photo_2023-10-23_08-54-23](https://github.com/NiesHW/SECB3203_P4B/assets/102157785/23e700fb-0d60-4617-bb5f-1612f2bd1cc3)
+
+
+##Project Progress [25/10/2023]
+
+On October 25, 2023, Dr. Shahrin approved our dataset, marking a significant milestone in our project. We're now focused on deciding between classification and feature selection for gene expression data. Following this decision, our task is to identify the most popular NSCLC classification algorithm. Once determined, we'll create a workflow flowchart based on this algorithm, aligning our project for streamlined progress and success.
+
+![photo_2023-10-26_06-41-54](https://github.com/NiesHW/SECB3203_P4B/assets/102157785/f6caebe7-e877-4576-b24e-9bb58fc6c427)
+
+
+![photo_2023-10-26_06-42-05](https://github.com/NiesHW/SECB3203_P4B/assets/102157785/efa0814e-1159-4697-ba41-f8a9f16f830f)
+
