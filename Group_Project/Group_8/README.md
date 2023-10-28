@@ -4,6 +4,7 @@
 
 Title :
 - Classification of Dental Pathologies Using Convolutional Neural Network (CNN)
+- Updated : Classification of Periodontal Disease Using Convolutional Neural Network (CNN)
 
 Reference : 
 - https://doi.org/10.1259/dmfr.20180051
