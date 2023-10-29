@@ -5,3 +5,6 @@
 </p><p>During our second meeting with Dr. Hidayah, we sought her expert advice on suitable datasets for our research project. We also used this opportunity to collaborate and finalize the title of our research. Dr. Hidayah's insights and guidance were invaluable in shaping the direction of our study.</p><p>
 - Client: Dr. Noor Hidayah binti Zakaria</p> <p>
 - Trend: ANALYZING HEART ATTACK DETECTION THROUGH VARIOUS CLASSIFICATION ALGORITHMS</p>
+Group_Project/Group_2/Progress/Flowchart PB-Page-3.jpg
+<img src="Group_Project/Group_2/Progress/Flowchart PB-Page-3.jpg" alt="Our first group meeting with a client to discuss the focus of our project" width="400">
+</p>
