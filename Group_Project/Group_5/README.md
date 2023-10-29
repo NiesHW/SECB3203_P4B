@@ -33,6 +33,7 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 - Personalized Prosthesis Design:
             
 # Project progress
+https://docs.google.com/document/d/1dz3wzNqMmfSw0BuMSRJJQSHZnCajmrIUIgb3sHqZ3qw/edit?usp=sharing
  15/10/2023 =Sending an email to Dr Chan asking about be our group project client.
 
  15/10/2023 = Received an email from Dr Chan and arrange a mini meeting to discuss out project.
