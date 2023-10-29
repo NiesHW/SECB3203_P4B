@@ -66,50 +66,17 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 - Flowchart of the proposed approach
 
 ### Project Progress 2
-- [ ] In Progress
-- [ ] Completed
-- [ ] Delayed
-- [x] Not Started
 
-- Importing Dataset
-
-
-- Data Wrangling (Pandas/Numpy)
 
 
 ### Project Progress 3
-- [ ] In Progress
-- [ ] Completed
-- [ ] Delayed
-- [x] Not Started
 
-- Exploratory Data Analysis (Pandas/Numpy)
 
 
 ### Project Progress 4
-- [ ] In Progress
-- [ ] Completed
-- [ ] Delayed
-- [x] Not Started
 
-- Model Development (Pandas/Keras/TensorFlow/Matplotlib)
 
 
 ### Project Progress 5
-- [ ] In Progress
-- [ ] Completed
-- [ ] Delayed
-- [x] Not Started
-
-- Model evaluation (sklearn)
 
 ### Project Progress 5
-- [ ] In Progress
-- [ ] Completed
-- [ ] Delayed
-- [x] Not Started
-
-- Live presentation/Recorded video (5 minutes)
-- Individual and group assessment
-- shared the recorded video and your GitHub link with your client and 
-    put your client’s comments in the report (section 4.0)
