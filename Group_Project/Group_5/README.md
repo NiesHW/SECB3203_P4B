@@ -3,11 +3,7 @@
 - Lim Yong Wei (B22EC0025)
 - Chew Xin Shi (B22EC0017)
 
-# Project progress
- 15/10/2023 = received an email about meet on this coming thursday (19/10/2023) from Dr Chan
-
  
- 16/10/2023 = request for online meetup 
 
  # Project title 
  
@@ -36,5 +32,84 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 - Machine Learning Model:
 - Personalized Prosthesis Design:
             
+# Project progress
+ 15/10/2023 =Sending an email to Dr Chan asking about be our group project client.
+
+ 15/10/2023 = Received an email from Dr Chan and arrange a mini meeting to discuss out project.
+
+ 18/10/2023 = Comfirm meet up at 19/10/2023 4pm at Dr Chan office(N28 402-05).
+
+ 19/10/2023 = We meet up on time and discuss our project tittle whit Dr Chan,he also give some suggestion to us
+ 
+  
+### Project Proposal
+- [ ] In Progress
+- [x] Completed
+- [ ] Delayed
+- [ ] Not Started
+
+- Proposal
+    1.0 Introduction 
+    1.1 Problem Background
+    1.2 Problem Statement
+    1.3 Objective
+    1.4 Scope
+    1.5 Conclusion
+
+### Project Progress 1
+- [ ] In Progress
+- [x] Completed
+- [ ] Delayed
+- [ ] Not Started
+
+- Software and hardware requirements
+- Flowchart of the proposed approach
+
+### Project Progress 2
+- [ ] In Progress
+- [ ] Completed
+- [ ] Delayed
+- [x] Not Started
+
+- Importing Dataset
 
 
+- Data Wrangling (Pandas/Numpy)
+
+
+### Project Progress 3
+- [ ] In Progress
+- [ ] Completed
+- [ ] Delayed
+- [x] Not Started
+
+- Exploratory Data Analysis (Pandas/Numpy)
+
+
+### Project Progress 4
+- [ ] In Progress
+- [ ] Completed
+- [ ] Delayed
+- [x] Not Started
+
+- Model Development (Pandas/Keras/TensorFlow/Matplotlib)
+
+
+### Project Progress 5
+- [ ] In Progress
+- [ ] Completed
+- [ ] Delayed
+- [x] Not Started
+
+- Model evaluation (sklearn)
+
+### Project Progress 5
+- [ ] In Progress
+- [ ] Completed
+- [ ] Delayed
+- [x] Not Started
+
+- Live presentation/Recorded video (5 minutes)
+- Individual and group assessment
+- shared the recorded video and your GitHub link with your client and 
+    put your client’s comments in the report (section 4.0)
