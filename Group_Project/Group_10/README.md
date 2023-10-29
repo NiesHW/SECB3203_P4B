@@ -7,6 +7,7 @@
 We asked Dr Sharin to be our client in Programming for Bioinformatics project. 
 She asked us to approach her by preparing the topic and the explanation of the topic we want to do. 
 Later, on Tuesday (16 Oct) we will meet her after Programming for Bioinfomatics class when she is free.
+![photo_2023-10-29_09-22-20](https://github.com/NiesHW/SECB3203_P4B/assets/147355096/60cb23ac-e4e2-40de-95f2-4cf2bd614099)
 
 **5 October 2023** 
 We went to library to find theses related to Bioinfomatics course. 
@@ -14,7 +15,11 @@ Mostly, we found the theses about cancer classification using SVM topic.
 
 **15 October 2023** 
 We told Dr Zuraini about our project topic related to Leukemia Cancer. Then, Dr Zuraini asked us to approach Dr Sharin first to reconfirmed our client.
-She suggested us related topics about cancer we can use as our project topic.
+She suggested us related topics about cancer we can use as our project topic.![photo_2023-10-29_09-22-24](https://github.com/NiesHW/SECB3203_P4B/assets/147355096/0dbb0aa0-932a-48de-8ffa-d86952ef9fcc)
+
+
+
+** Client: Dr Zuraini & Dr Sharin**![photo_2023-10-29_09-22-16](https://github.com/NiesHW/SECB3203_P4B/assets/147355096/b91daa88-3f30-441e-94ce-13ce0dfd60b5)
 
 #### Topic: Recursive Feature Elimination Methods for Gene Selection On Ovarian Cancer Classification 
 #### Problem Statement
