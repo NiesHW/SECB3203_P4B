@@ -25,9 +25,6 @@ In Project Progress 1, we outline the essential software and hardware requiremen
 
 Our proposed approach is by using machine learning to detect early-stage Alzheimer's disease. The flowchart of our proposed approach is shown below along with our reference flowchart.
 
-[Insert Flowchart Image Here]
-
-
 In our proposed flowchart, we chose to use clinical data of Alzheimer's disease patients as our primary dataset for this project due to its critical significance in advancing our understanding of the disease and improving early diagnosis. Clinical data contains valuable information about patient demographics, cognitive assessments, medical history, and biomarker measurements, allowing us to employ machine learning algorithms to develop predictive models that can aid in early Alzheimer's disease detection and, ultimately, support better patient care and research outcomes.
 
 In the data preprocessing pipeline, we first addressed missing values to ensure the integrity of our clinical data for Alzheimer's disease prediction. Imputation techniques were applied to fill in these gaps, allowing us to maintain a complete dataset. Subsequently, we delved into data analysis, where we examined various features and their relationships. To enhance the comparability of our features, Z-score normalization was employed, standardizing the data distribution. Finally, we conducted ANOVA (Analysis of Variance) to assess the significance of different variables and their potential impact on Alzheimer's disease prediction. These steps have laid the foundation for robust and reliable data analysis as we progress with our project.
@@ -38,8 +35,10 @@ For the classification phase of our project, we implemented several algorithms, 
 
 Lastly, in the evaluation phase of our project, we employed statistical tests by calculating p-values to assess the significance of our results. By comparing the model's predictions with ground truth data, we observed key performance metrics, including accuracy, precision, F1 score, and recall. These metrics provide a comprehensive view of our model's effectiveness in Alzheimer's disease prediction. A low p-value signifies the model's significance, while accuracy, precision, F1, and recall metrics help us gauge its overall performance in terms of correctness, predictive power, and the ability to identify true positive cases and minimize false negatives. This robust evaluation process ensures the reliability and utility of our machine learning model for clinical applications.
 
+<div align="center">
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%201/Alzheimers%20Flowchart.jpg" width="500">
 </p>
+</div>
 
 ## References
 - Sharma, A., & Dey, P. (2021). "A machine learning approach to unmask novel gene signatures and prediction of Alzheimer’s disease within different brain regions." *Genomics*, 113(4), 1778–1789. Retrieved at [https://doi.org/10.1016/j.ygeno.2021.04.028](https://doi.org/10.1016/j.ygeno.2021.04.028)
