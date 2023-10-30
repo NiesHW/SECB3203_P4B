@@ -38,7 +38,7 @@ For the classification phase of our project, we implemented several algorithms, 
 
 Lastly, in the evaluation phase of our project, we employed statistical tests by calculating p-values to assess the significance of our results. By comparing the model's predictions with ground truth data, we observed key performance metrics, including accuracy, precision, F1 score, and recall. These metrics provide a comprehensive view of our model's effectiveness in Alzheimer's disease prediction. A low p-value signifies the model's significance, while accuracy, precision, F1, and recall metrics help us gauge its overall performance in terms of correctness, predictive power, and the ability to identify true positive cases and minimize false negatives. This robust evaluation process ensures the reliability and utility of our machine learning model for clinical applications.
 
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%201/Alzheimers%20Flowchart.jpg" width="400">
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%201/Alzheimers%20Flowchart.jpg" width="500">
 </p>
 
 ## References
