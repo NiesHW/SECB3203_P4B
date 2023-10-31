@@ -2,6 +2,14 @@
 # Members Name
 * Harchana - A21EC0028
 * Malavika - B22EC0069
+  
+Client : DR Noor Hidayah Binti Zakaria
+
+References :
+
+* https://doi.org/10.1049/htl2.12039
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10107388/#:~:text=The%20accuracy%20level%20was%2090,the%20Pima%20Indian%20Diabetes%20Dataset
+  
 # 1.0 Introduction
 Diabetes is a chronic health condition characterized by the body's inability to effectively utilize and regulate glucose, a vital source of energy for daily activities. This disease manifests in two primary forms: Type 1 diabetes, often afflicting children and young individuals, occurs when the body fails to produce the hormone insulin. In contrast, Type 2 diabetes predominantly affects adults, where the body struggles to produce sufficient insulin, resulting in elevated blood sugar levels. Detecting diabetes in its early stages is paramount for reducing the associated health risks and managing treatment costs.
 
@@ -61,18 +69,23 @@ i. Laptop  : For the purpose of handling data preparation, model training, and e
 ii. Storage : 
 Storage space needed to store the diabetic data, any intermediate files, and the trained models. Ensure you have enough disk space for your dataset and associated files.
 
-* Software Requirements
+* Software Requirements:
+  
 i. Data Analysis and Preprocessing:
+
 Python: Python and bio-python  is a popular language for data analysis and machine learning.
 
 ii. Machine Learning Libraries:
+
 Scikit-Learn: This library provides tools for data preprocessing, model building, and evaluation. It supports SVM, Random Forest, and K-NN.
 LS-SVM: Required  to install specific packages or libraries for implementing LS-SVM where it can be found LS-SVM packages in Python.
 
 iii. Operating System: 
+
 Linux and Windows 
 
 iv. Data Visualization
+
 Orange : For creating data visualizations and plots.
 
 
