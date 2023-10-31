@@ -57,4 +57,38 @@ The scope of our research project "MalariaDetect: A Machine Learning Model for M
 The goal of our research project, "MalariaDetect: A Machine Learning Model for Malaria Diagnosis," is to use machine learning to combat malaria, one of the deadliest diseases in the world. Using a combination of deep learning approaches, our goal was to create a model that could diagnose malaria effectively and efficiently. To contribute to the body of medical knowledge that is already in existence, we want to enhance the early detection of this potentially fatal disease as we set out to reinvent the way malaria is identified with this project.
 The accurate detection of malaria parasites was our primary objective as we designed and implemented a machine-learning model. Through extensive research, we discovered that CNNs can be an effective diagnostic tool for malaria, identifying contaminated blood samples with a high degree of accuracy. However, we also found that other deep learning approaches, such as recurrent neural networks (RNNs) and long short-term memory (LSTM) can also be used. Our study contributes to the existing method by showcasing the potential of machine learning, especially deep learning, in the field of malaria diagnosis.
 
+
 In conclusion, "MalariaDetect: A Machine Learning Model for Malaria Diagnosis" marks the beginning of a journey for us to improve malaria diagnosis, which can ultimately lead to timely treatment and better health outcomes. With our commitment to further research and innovation, we are optimistic about the impact of our research, that is how deep learning can be used to diagnose malaria someday can be an achievement in the medical field. Furthermore, maybe in the future, our research on the use of machine learning models will not be limited to the diagnosis of malaria and also can be used to diagnose other diseases such as cancer, leukemia, thalassemia, and more so that it will be beneficial to the medical societies.
+
+## 2.0 Software and Hardware requirement
+
+ Hardware 
+ 
+ ( saifuddin )
+ 
+Operating System
+Windows 10 Home
+Storage
+512GB PCIe® 3.0 NVMe™ M.2 SSD
+Memory
+8GB DDR4 SO-DIMM(2933MHz for i5-10300H/i7-10750H/i7-10870H), Max Capacity:32GB
+Graphics Card
+NVIDIA GeForce RTX 3050 4GB
+
+( Adam Afiq )
+
+Operating System
+Windows 11 home
+Storage
+512GB PCIe® 3.0 NVMe™ M.2 SSD
+Memory
+12GB DDR4 SO-DIMM(2933MHz for i5-10300H/i7-10750H/i7-10870H)
+Graphics Card
+NVIDIA GeForce RTX 1050 10GB
+
+Software
+- lucidchart
+- phyton
+- googlescholar
+- excel
+- kaggle
