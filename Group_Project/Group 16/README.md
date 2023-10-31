@@ -37,13 +37,13 @@ MalariaDetect is a machine learning model developed to address the challenges of
 
 ## 1.3 Objectives
 
-The goal of MalariaDetect is to develop a machine-learning model that can accurately and effectively detect the presence of malaria parasites in blood samples. MalariaDetect has the potential to revolutionize the way malaria is diagnosed and treated and could help improve the lives of millions of people around the world.
+-The goal of MalariaDetect is to develop a machine-learning model that can accurately and effectively detect the presence of malaria parasites in blood samples. MalariaDetect has the potential to revolutionize the way malaria is diagnosed and treated and could help improve the lives of millions of people around the world.
 
-MalariaDetect can be used to improve the accuracy of malaria diagnosis in several ways. First, MalariaDetect can be used to assist microscopists in making diagnoses. Second, MalariaDetect can be used to diagnose malaria in cases where microscopic diagnosis is not feasible, such as in remote areas or areas with high malaria prevalence. Third, MalariaDetect can be used to develop new diagnostic tools, such as point-of-care devices that can be used to diagnose malaria in the field.
+-MalariaDetect can be used to improve the accuracy of malaria diagnosis in several ways. First, MalariaDetect can be used to assist microscopists in making diagnoses. Second, MalariaDetect can be used to diagnose malaria in cases where microscopic diagnosis is not feasible, such as in remote areas or areas with high malaria prevalence. Third, MalariaDetect can be used to develop new diagnostic tools, such as point-of-care devices that can be used to diagnose malaria in the field.
 
-MalariaDetect has the potential to improve the lives of millions of people around the world by making malaria diagnosis more accurate, more effective, and more accessible. This could lead to earlier diagnosis and treatment of malaria, which in turn could reduce morbidity and mortality. Additionally, MalariaDetect may help reduce the overuse of antimalarial drugs, which may contribute to the development of drug resistance.
+-MalariaDetect has the potential to improve the lives of millions of people around the world by making malaria diagnosis more accurate, more effective, and more accessible. This could lead to earlier diagnosis and treatment of malaria, which in turn could reduce morbidity and mortality. Additionally, MalariaDetect may help reduce the overuse of antimalarial drugs, which may contribute to the development of drug resistance.
 
-Overall, MalariaDetect's goal is to help reduce the burden of malaria worldwide and improve the health and well-being of people living in malaria-endemic areas.
+-Overall, MalariaDetect's goal is to help reduce the burden of malaria worldwide and improve the health and well-being of people living in malaria-endemic areas.
 
 ## 1.4 Scopes
 
