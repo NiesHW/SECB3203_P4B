@@ -1,0 +1,21 @@
+# Software and Hardware Requirements
+
+2.1 Software Requirements
+● Visual Studio Code
+○ Python: coding the algorithm, data analysis, and data visualization
+○ Python packages library
+● Jupyter Notebook
+○ To facilitate the organization of code and data analysis, making it easier to demonstrate
+the analysis process in detail.
+○ Arrange the materials such as coding in a step-by-step manner which is possible to
+demonstrate the analysis of the process in detail.
+● Google Cloud Platform
+○ To centralize our project data and code, making it easier to showcase the entire project
+process.
+○ Allows deep learning models to scale efficiently and at lower costs using GPU
+processing power.
+2.2 Hardware Requirement
+● Computer
+○ Intel-based computer
+○ Core i5 processor
+○ 8GB Random-access memory (RAM)
