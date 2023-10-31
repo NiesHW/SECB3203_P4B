@@ -17,5 +17,8 @@ A computer with :
 - IDE : Visual Studio Code
 - Operating System : Windows 11
 
+## Flowchart Of the proposed approach
+
+![Flowchart](Group_Project/Group_13/fc.jpg)
 
 
