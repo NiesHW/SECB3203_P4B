@@ -19,6 +19,6 @@ A computer with :
 
 ## Flowchart Of the proposed approach
 
-![Flowchart](Group_Project/Group_13/fc.jpg)
+<img src="Group_Project/Group_13/fc.jpg" alt="Flowchart of our proposed approach">
 
 
