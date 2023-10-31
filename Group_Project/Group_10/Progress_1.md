@@ -1,7 +1,7 @@
 # Software and Hardware Requirements
 
 ## Hardware ##
-1. **Computer: **A reasonably powerful computer with a multi-core processor and sufficient RAM is essential for handling the data preprocessing, feature selection, model training, and analysis tasks efficiently.
+1. **Computer:** A reasonably powerful computer with a multi-core processor and sufficient RAM is essential for handling the data preprocessing, feature selection, model training, and analysis tasks efficiently.
 2. **Storage:** As gene expression datasets can be large, we need to have ample storage space. Enough storage is needed to store the datasets and the various versions of data during preprocessing.
 3. **Graphics Processing Unit (GPU):** While not strictly necessary, using a computer with a dedicated GPU can significantly speed up the training of machine learning models like SVM, particularly for large datasets. Many libraries and software tools support GPU acceleration.
 
