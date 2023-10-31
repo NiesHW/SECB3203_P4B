@@ -4,7 +4,7 @@ Diabetes Prediction using Machine Learning
 * Harchana - A21EC0028
 * Malavika - B22EC0069
 # Client
-DR Noor Hidayah Binti Zakaria
+DR Hidayah
 # References
 * https://doi.org/10.1049/htl2.12039
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10107388/#:~:text=The%20accuracy%20level%20was%2090,the%20Pima%20Indian%20Diabetes%20Dataset
