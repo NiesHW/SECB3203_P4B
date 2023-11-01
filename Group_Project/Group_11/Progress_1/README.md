@@ -33,7 +33,7 @@ Simultaneously, our research aims to explore and identify potential novel intera
 Last but not least, our proposal presents a strategy to enhance predictive capabilities and discover new therapeutic prospects. It is important to note that further research and testing are required to determine the effectiveness and practical applications of this approach.
 
 # 2.1 Software & Hardware Requirements
-2.1.1 Software
+## 2.1.1 Software
 - DrugCentral. DrugCentral is an online drug information resource created and maintained by Division of Translational Informatics at University of New Mexico in collaboration with the IDG. DrugCentral provides information on active ingredients, chemical entities, pharmaceutical products, drug mode of action, indications, pharmacologic actions. “DrugCentral provides the drug information resource. We can download the known drug-target interaction from literature review, drug labels and external data sources. There are 2529 drugs, 2870 targets and 17390 drug-target interactions in the DrugCentral site as of 18 June 2021” (Byeungwon Kwon, 2021).
 
 - GitHub. While GitHub is a code hosting platform for version control and collaboration. We use GitHub as a method to communicate with our client as well as a reference for the previous project, while they use SVD (Singular Value Decomposition) to predict drug-target interaction, we decided to tweak it and use NMF (Non-negative Matrix Factorization) instead. We also use GitHub as a medium for our project for others alike to see gain something from in the near future. In GitHub as well we can find Luo et al., which introduces a network integration approach for drug-target interaction prediction and develops DTINet.
@@ -43,8 +43,8 @@ Last but not least, our proposal presents a strategy to enhance predictive capab
 - Anaconda. Anaconda Python is a free, open-source platform that allows you to write and execute code in the programming language Python. It is by continuum.io, a company that specializes in Python development. Specifically PythonAnywhere by Anaconda is being used here for now as our Python programming language compiler and the heart of the project.
 
 - Visual Studio Code (VSC). Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. We initially used VSC for our Python programming.
-	
-	2.1.2 Hardware
+
+## 2.1.2 Hardware
 
 - Personal laptop. We both use our own laptops as our current and only hardware for now. This will help us with Python programming, researching and communicating with our client as well as our lecturer for any external assistance and advice. They say two is better than one, therefore with both of us using our own individual laptops will absolutely make our project finish quickly and without any real challenges others may face.
 
