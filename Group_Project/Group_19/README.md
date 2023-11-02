@@ -12,7 +12,7 @@ MOHAMAD AZRYQ HAIQAL BIN MOHAMAD ROSLI (B22EC0071)
 
 Project Proposal : https://drive.google.com/file/d/1eFX4XH-Ri87VkHIRgKP5-U7vwxKXWyG5/view?usp=drive_link
 
-Project Progress 1 : In progress with creating a flowchart and provide software and hardware requirements
+Project Progress 1 : https://docs.google.com/document/d/1T-iJzuQ0FAsMAuhkubLMCATmvSZyeO2NQO8fLYa1kPI/edit?usp=drive_link
 
 Project Progress 2 :
 
