@@ -3,6 +3,11 @@
 1. NEREA LANAI ANAK NEOL (A21EC0100)
 2. AFIQAH IZZATI BINTI AZZEROL EFFENDI (A21EC0004)
 
+## Project Progress 
+Proposal : https://docs.google.com/document/d/1pZ_EHSHp_Hd0NBKeZR2ryCAc45bc-GqY1qluK3IjftI/edit?usp=sharing
+
+Progress 1 : https://docs.google.com/document/d/1KWdSqbnDww6iOgFA5xDCdBxQh3grejIvs4xge0MLAxY/edit?usp=sharing
+
 ## Project Title
 
 # Potential Key Genes Related to the Progression and Prognosis of Gastric Cancer using Weighted Gene Coexpression Network Analysis on AGT (gene that make protein angiotensinogen).
@@ -72,3 +77,46 @@ Geographical Boundaries:The research is not geographically bounded and draws on 
 ## 1.5 Conclusion
 This study delves into the dynamics of gene expression in gastric cancer staging, leveraging data obtained from both clinical samples and the Cancer Genome Atlas (TCGA) database. Through dynamic trend analysis, we can identify differentially expressed genes. Among these genes, we can find genes that exhibited prognostic significance in gastric cancer and displayed varying degrees of correlation with macrophage infiltration. We should find out which gene will have significantly abnormal expression patterns in the sequenced samples. Further investigation revealed its relevance to gastric cancer occurrence, as well as interactions with key genes that we want to find.
 In conclusion, this research should find out genes that are pivotal players in gastric cancer progression. These findings open up promising avenues for the exploration of novel biomarkers and targeted molecular therapies in the treatment of gastric cancer.
+
+# 2.0 Software and Hardware Requirement
+
+## Software 
+1. R Statistical Software
+In order to identify key gene module, R software is use to do Weighted Gene Coexpression Network Analysis (WGCNA)
+2. R Packages
+Packages need to be install and load in order to do WGCNA 
+3. Python
+To use its libraries such as NumPy, Pandas, and SciPy for data analysis purpose
+4. Genome Analysis Toolkit (GATK)
+Pipelines to generate and predict next-generation sequence data 
+5. Basic Local Alignment Search Tool (BLAST)
+To identify the genetic variants by comparing the protein sequences 
+6. Tableau
+To create graphs and plots for data visualization 
+7. Cytoscape 
+To visualize the network results obtained from WGCNA 
+8. MySQL
+To manage and query the datasets 
+9. Visual Studio Code 
+To collaborate together to write coding
+10. Github
+Enable integration between team members
+
+## Hardware
+
+1. Processor -
+11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+To speed up data processing and analysis
+2. RAM - 16 GB
+Sufficient storage in order handle large and complex datasets 
+3. System Type - 
+64-bit operating system, x64-based processor
+Can support simulation, virtualization and process large data at once 
+4. Graphics Processing Unit (GPU)
+For more efficient and faster computations
+
+# 2.1 Flowchart of the Proposed Approach
+![GastricCancer-Page-1 drawio](https://github.com/NiesHW/SECB3203_P4B/assets/102534660/a0aa746d-a526-4225-90c7-2941c7204085)
+
+
+![GastricCancer-Page-2 drawio](https://github.com/NiesHW/SECB3203_P4B/assets/102534660/8dc72341-922f-43e9-abe1-d1f94356245a)
