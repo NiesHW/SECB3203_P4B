@@ -14,7 +14,7 @@ Project Proposal : https://drive.google.com/file/d/1eFX4XH-Ri87VkHIRgKP5-U7vwxKX
 
 Project Progress 1 : https://docs.google.com/document/d/1T-iJzuQ0FAsMAuhkubLMCATmvSZyeO2NQO8fLYa1kPI/edit?usp=drive_link
 
-Project Progress 2 :
+Project Progress 2 : In progress to import dataset into Python
 
 Project Progress 3 :
 
