@@ -33,12 +33,10 @@ The provided Python code is a comprehensive data preprocessing script tailored f
 </div>
 - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
 - The 'eTIV' column is standardized using Z-score normalization.
-
-The mean (\( \mu \)) = \(\frac{\sum_{i=1}^{n} x_i}{n}\).
-The standard deviation (\( \sigma \)) = \(\sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}\).
-The z-score (\( z \)) = \(\frac{x - \mu}{\sigma}\).
-
+  The formula used in this process
 <div align="center">
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg" width="500">
+</p>
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500">
 </p>
 <p>Figure 1.5 : eTIV column after Z-score normalization process</p>
