@@ -2,48 +2,40 @@
 
 Project Progress 2 is a crucial phase in our Alzheimer's disease prediction project, focusing on preparing and optimizing our dataset for efficient analysis. This step involves careful handling of missing values, ensuring proper data formatting, and applying statistical techniques to establish the foundation for precise forecasts. Proficiency in Python data handling and the use of key Data Science tools further strengthen our ability to extract valuable insights from the dataset. As we delve into Data Wrangling, actions like data normalization and indicator variable creation become critical, enhancing the accuracy of our prediction models. Project Progress 2 is more than just data preparation; it's a pivotal step toward unlocking valuable insights that contribute to the understanding and prediction of Alzheimer's disease.
 
-### Data Preparation 
-The dataset chosen is a raw dataset of Alzheimer’s disease patients which contains 10 columns and 374 rows. The dataset is inconsistent and redundant, which can affect the accuracy of the algorithms. Before evaluating the machine learning algorithms, the data should be clean as we need to remove all the redundancy, missing values, and unwanted attributes.
+### Data Preparation
 
-<div align="center">
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg" width="500">
-</p>
-<p>Figure 1.0 : Datasets with missing values</p>
-</div>
+The dataset chosen for this analysis is a raw dataset of Alzheimer’s disease patients, consisting of 10 columns and 374 rows. The dataset exhibits inconsistencies and redundancies that can impact algorithm accuracy. Prior to evaluating machine learning algorithms, it is crucial to clean the data by addressing redundancy, missing values, and unwanted attributes.
 
-The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction. 
-- The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
-- The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
-<div align="center">
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg" width="500">
-</p>
-<p>Figure 1.2 : Filled missing values in the dataset</p>
-</div>
-- A gender indicator column is created, replacing the original 'M/F' column.
-<div align="center">
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_2.jpeg" width="500">
-</p>
-<p>Figure 1.3 : Gender indicator in the dataset</p>
-</div>
-- Age values are binned into groups ('60-70', '70-80', '80-90', '90-100'), and a new column 'Age Group' is added.
-<div align="center">
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_3.jpeg" width="500">
-</p>
-<p>Figure 1.4 : Age Group column added into the dataset</p>
-</div>
-- Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
-- The 'eTIV' column is standardized using Z-score normalization.
-  The formula used in this process
-<div align="center">
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg" width="500">
-</p>
-<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500">
-</p>
-<p>Figure 1.5 : eTIV column after Z-score normalization process</p>
-</div>
-- Finally, the updated DataFrame is displayed, and the modified dataset is exported to a new CSV file named 'data_alzheimer.csv'.
+#### Figure 1.0: Datasets with Missing Values
+![Datasets with missing values](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg)
+
+The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction.
+
+   - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
+
+   - The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
+   - **Figure 1.2:** Filled missing values in the dataset
+     ![Filled missing values](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg)
+
+   - A gender indicator column is created, replacing the original 'M/F' column.
+   - **Figure 1.3:** Gender indicator in the dataset
+     ![Gender indicator](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_2.jpeg)
+
+   - Age values are binned into groups ('60-70', '70-80', '80-90', '90-100'), and a new column 'Age Group' is added.
+   - **Figure 1.4:** Age Group column added into the dataset
+     ![Age Group column](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_3.jpeg)
+
+   - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
+
+   - The 'eTIV' column is standardized using Z-score normalization.
+   - **Figure 1.5:** eTIV column after Z-score normalization process
+     ![Z-score normalization](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg)
+     ![eTIV column after normalization](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg)
+
+   - Finally, the updated DataFrame is displayed, and the modified dataset is exported to a new CSV file named 'data_alzheimer.csv'.
 
 This script encapsulates a range of preprocessing techniques, setting the stage for subsequent analysis and machine learning model training in Alzheimer's disease prediction.
+
 
 ### Data Analysis
 Data analysis is becoming a critical discipline in today's world with an abundance of data in order to derive useful insights from these complicated datasets. It includes the systematic method of examining, cleaning, manipulating, and modeling data in order to uncover information, trends, and patterns that may be concealed. Data analysis is a key component of data-driven decision-making because it may convert unprocessed data into insights that can be used to drive strategic initiatives and promote creativity. 
