@@ -6,32 +6,46 @@ Project Progress 2 is a crucial phase in our Alzheimer's disease prediction proj
 
 The dataset chosen for this analysis is a raw dataset of Alzheimer’s disease patients, consisting of 10 columns and 374 rows. The dataset exhibits inconsistencies and redundancies that can impact algorithm accuracy. Prior to evaluating machine learning algorithms, it is crucial to clean the data by addressing redundancy, missing values, and unwanted attributes.
 
+<div align="center">
 #### Figure 1.0: Datasets with Missing Values
-![Datasets with missing values](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg)
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg" width="500"></p>
+</div>
 
 The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction.
 
    - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
 
    - The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
+     <div align="center">
    - **Figure 1.2:** Filled missing values in the dataset
-     ![Filled missing values](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg)
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg" width="500"></p>
+     </div>
+
 
    - A gender indicator column is created, replacing the original 'M/F' column.
    - **Figure 1.3:** Gender indicator in the dataset
-     ![Gender indicator](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_2.jpeg)
+     <div align="center">
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_2.jpeg" width="500"></p>
+     </div>
 
    - Age values are binned into groups ('60-70', '70-80', '80-90', '90-100'), and a new column 'Age Group' is added.
+     <div align="center">
    - **Figure 1.4:** Age Group column added into the dataset
-     ![Age Group column](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_3.jpeg)
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_3.jpeg" width="500"></p>
+     </div>
 
    - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
 
    - The 'eTIV' column is standardized using Z-score normalization.
+     <div align="center">
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg" width="500">
+     </p>
+     </div>
+     <div align="center">
    - **Figure 1.5:** eTIV column after Z-score normalization process
-     ![Z-score normalization](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg)
-     ![eTIV column after normalization](https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg)
-
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500">
+     </p>
+     </div>
    - Finally, the updated DataFrame is displayed, and the modified dataset is exported to a new CSV file named 'data_alzheimer.csv'.
 
 This script encapsulates a range of preprocessing techniques, setting the stage for subsequent analysis and machine learning model training in Alzheimer's disease prediction.
