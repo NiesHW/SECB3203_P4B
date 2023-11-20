@@ -14,13 +14,35 @@ The dataset chosen is a raw dataset of Alzheimer’s disease patients which cont
 The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction. 
 - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
 - The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
-- A gender indicator column is created, replacing the original 'M/F' column.
+<div align="center">
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg" width="500">
 </p>
 <p>Figure 1.2 : Filled missing values in the dataset</p>
+</div>
+- A gender indicator column is created, replacing the original 'M/F' column.
+<div align="center">
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_2.jpeg" width="500">
+</p>
+<p>Figure 1.3 : Gender indicator in the dataset</p>
+</div>
 - Age values are binned into groups ('60-70', '70-80', '80-90', '90-100'), and a new column 'Age Group' is added.
+<div align="center">
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_3.jpeg" width="500">
+</p>
+<p>Figure 1.4 : Age Group column added into the dataset</p>
+</div>
 - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
 - The 'eTIV' column is standardized using Z-score normalization.
+
+The mean (\( \mu \)) = \(\frac{\sum_{i=1}^{n} x_i}{n}\).
+The standard deviation (\( \sigma \)) = \(\sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}\).
+The z-score (\( z \)) = \(\frac{x - \mu}{\sigma}\).
+
+<div align="center">
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500">
+</p>
+<p>Figure 1.5 : eTIV column after Z-score normalization process</p>
+</div>
 - Finally, the updated DataFrame is displayed, and the modified dataset is exported to a new CSV file named 'data_alzheimer.csv'.
 
 This script encapsulates a range of preprocessing techniques, setting the stage for subsequent analysis and machine learning model training in Alzheimer's disease prediction.
