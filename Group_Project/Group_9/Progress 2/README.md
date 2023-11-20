@@ -7,8 +7,8 @@ Project Progress 2 is a crucial phase in our Alzheimer's disease prediction proj
 The dataset chosen for this analysis is a raw dataset of Alzheimer’s disease patients, consisting of 10 columns and 374 rows. The dataset exhibits inconsistencies and redundancies that can impact algorithm accuracy. Prior to evaluating machine learning algorithms, it is crucial to clean the data by addressing redundancy, missing values, and unwanted attributes.
 
 <div align="center">
-<p>**Figure 1.0: Datasets with Missing Values**</p>
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg" width="500"></p>
+<p>**Figure 1.0: Datasets with Missing Values**</p>
 </div>
 
 The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction.
