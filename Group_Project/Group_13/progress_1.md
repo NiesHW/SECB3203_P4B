@@ -19,6 +19,6 @@ A computer with :
 
 ## Flowchart Of the proposed approach
 
-<img src="https://github.com/NiesHW/SECB3203_P4B/tree/main/Group_Project/Group_13/fc.jpg" alt="Flowchart of our Project">
+<img src="https://github.com/NiesHW/SECB3203_P4B/tree/main/Group_Project/Group_13/fc.jpg" alt="Flowchart of our Project" width =200>
 
 
