@@ -5,9 +5,11 @@ Project Progress 2 is a crucial phase in our Alzheimer's disease prediction proj
 ### Data Preparation 
 The dataset chosen is a raw dataset of Alzheimer’s disease patients which contains 10 columns and 374 rows. The dataset is inconsistent and redundant, which can affect the accuracy of the algorithms. Before evaluating the machine learning algorithms, the data should be clean as we need to remove all the redundancy, missing values, and unwanted attributes.
 
+<div align="center">
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg" width="500">
 </p>
 <p>Figure 1.0 : Datasets with missing values</p>
+</div>
 
 The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction. 
 - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
