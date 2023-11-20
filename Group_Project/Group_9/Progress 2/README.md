@@ -7,11 +7,15 @@ The dataset chosen is a raw dataset of Alzheimer’s disease patients which cont
 
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data.jpeg" width="500">
 </p>
+<p>Figure 1.0 : Datasets with missing values</p>
 
 The provided Python code is a comprehensive data preprocessing script tailored for Alzheimer's disease prediction. 
 - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
 - The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
 - A gender indicator column is created, replacing the original 'M/F' column.
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg" width="500">
+</p>
+<p>Figure 1.2 : Filled missing values in the dataset</p>
 - Age values are binned into groups ('60-70', '70-80', '80-90', '90-100'), and a new column 'Age Group' is added.
 - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
 - The 'eTIV' column is standardized using Z-score normalization.
