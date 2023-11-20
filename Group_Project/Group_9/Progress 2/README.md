@@ -37,14 +37,14 @@ The provided Python code is a comprehensive data preprocessing script tailored f
    - Rows where the 'Group' column is labeled 'Converted' are filtered out, focusing on Demented and Nondemented groups. Selected numeric columns ('nWBV', 'ASF', 'SES', 'CDR') are rounded to three decimal places for clarity.
 
    - The 'eTIV' column is standardized using Z-score normalization.
+     <div align="center">
+     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500"></p>
+     <p>Figure 1.5: eTIV column after Z-score normalization process</p>
+     </div>
    - The formula used in this process:
      <div align="center">
      <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/formulae.jpeg" width="300">
      </p>
-     </div>
-     <div align="center">
-     <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_4.jpeg" width="500"></p>
-     <p>Figure 1.5: eTIV column after Z-score normalization process</p>
      </div>
    - Finally, the updated DataFrame is displayed, and the modified dataset is exported to a new CSV file named 'data_alzheimer.csv'.
 
