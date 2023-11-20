@@ -32,15 +32,17 @@ From this process, we manage to obtain the statistical measure such as mean, med
 | ASF      | 0.87| 1.43 | 1.3    |
 Figure 1.6 : Data analysis of original dataset
 </center>
-<center>
-| Variable | Max  | Mean  | Median |
-|----------|------|-------|--------|
-| EDUC     | 23   | 14.50 | 14     |
-| SES      | 5    | 2.54  | 2.5    |
-| MMSE     | 30   | 27.20 | 29     |
-| CDR      | 2    | 0.29  | 0      |
-| eTIV     | 2.853491907 | 1.19E-11 | -0.09075716 |
-| nWBV     | 0.837| 0.730 | 0.731  |
-| ASF      | 1.587| 1.19  | 1.19   |
-Figure 1.7 : Data analysis of clean dataset
-</center>
+<div style="text-align:center">
+
+| Variable | Max            | Mean           | Median         |
+|:---------:|:--------------:|:--------------:|:--------------:|
+| EDUC      | 23             | 14.50          | 14             |
+| SES       | 5              | 2.54           | 2.5            |
+| MMSE      | 30             | 27.20          | 29             |
+| CDR       | 2              | 0.29           | 0              |
+| eTIV      | 2.853491907    | 1.19E-11       | -0.09075716    |
+| nWBV      | 0.837          | 0.730          | 0.731          |
+| ASF       | 1.587          | 1.19           | 1.19           |
+
+</div>
+
