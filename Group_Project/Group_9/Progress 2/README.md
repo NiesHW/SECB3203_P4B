@@ -16,7 +16,7 @@ The provided Python code is a comprehensive data preprocessing script tailored f
    - The script begins by importing essential libraries such as pandas for data manipulation, numpy for numerical operations, and scikit-learn's StandardScaler for data standardization.
 
    - The dataset is loaded from a specified file path, and missing values in numeric columns are filled with the mean, rounded to one decimal place.
-     <div align="center"
+     <div align="center">
      <img src="https://github.com/NiesHW/SECB3203_P4B/blob/main/Group_Project/Group_9/Progress%202/raw_data_1.jpeg" width="500"></p>
      <p>Figure 1.2: Filled missing values in the dataset</p>
      </div>
