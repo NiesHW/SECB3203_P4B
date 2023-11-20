@@ -20,7 +20,7 @@ This script encapsulates a range of preprocessing techniques, setting the stage 
 Data analysis is becoming a critical discipline in today's world with an abundance of data in order to derive useful insights from these complicated datasets. It includes the systematic method of examining, cleaning, manipulating, and modeling data in order to uncover information, trends, and patterns that may be concealed. Data analysis is a key component of data-driven decision-making because it may convert unprocessed data into insights that can be used to drive strategic initiatives and promote creativity. 
 
 From this process, we manage to obtain the statistical measure such as mean, median, mod and max from each variable in the dataset before and after the data preparation process.
-
+<center>
 | Variable | Max | Mean | Median |
 |----------|-----|------|--------|
 | EDUC     | 7   | 22   | 14.2   |
@@ -30,7 +30,9 @@ From this process, we manage to obtain the statistical measure such as mean, med
 | eTIV     | 1120| 1990 | 1450   |
 | nWBV     | 0.55| 0.81 | 0.7    |
 | ASF      | 0.87| 1.43 | 1.3    |
-
+Figure 1.6 : Data analysis of original dataset
+</center>
+<center>
 | Variable | Max  | Mean  | Median |
 |----------|------|-------|--------|
 | EDUC     | 23   | 14.50 | 14     |
@@ -40,3 +42,5 @@ From this process, we manage to obtain the statistical measure such as mean, med
 | eTIV     | 2.853491907 | 1.19E-11 | -0.09075716 |
 | nWBV     | 0.837| 0.730 | 0.731  |
 | ASF      | 1.587| 1.19  | 1.19   |
+Figure 1.7 : Data analysis of clean dataset
+</center>
