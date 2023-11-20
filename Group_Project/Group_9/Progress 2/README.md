@@ -30,7 +30,8 @@ From this process, we manage to obtain the statistical measure such as mean, med
 | eTIV     | 1120| 1990 | 1450   |
 | nWBV     | 0.55| 0.81 | 0.7    |
 | ASF      | 0.87| 1.43 | 1.3    |
-Figure 1.6 : Data analysis of original dataset
+
+  Figure 1.6 : Data analysis of original dataset
 
 | Variable | Max  | Mean  | Median |
 |----------|------|-------|--------|
@@ -41,4 +42,5 @@ Figure 1.6 : Data analysis of original dataset
 | eTIV     | 2.853491907 | 1.19E-11 | -0.09075716 |
 | nWBV     | 0.837| 0.730 | 0.731  |
 | ASF      | 1.587| 1.19  | 1.19   |
-Figure 1.7 : Data analysis of clean dataset
+
+  Figure 1.7 : Data analysis of clean dataset
