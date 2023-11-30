@@ -34,8 +34,8 @@ The primary objective of this project is to utilize bioinformatics tools and tec
             
 # Project progress
 
- Progress 1:https://drive.google.com/drive/folders/1XD6RyrKio3SyurQRaAYOk2phe5wsKpOA?usp=drive_link
- Progress 2:
+ - Progress 1:https://drive.google.com/drive/folders/1k4UJsDU2iZttyq4GNg0rRXoGScRMopGx?usp=drive_link
+ - Progress 2:https://drive.google.com/drive/folders/1SWhR3Pd3kWLQ8rcipjyFLMCne7RGpYEn?usp=drive_link
  
  15/10/2023 =Sending an email to Dr Chan asking about be our group project client.
 
