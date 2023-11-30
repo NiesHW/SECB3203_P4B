@@ -20,11 +20,9 @@ When two or more medications interact in ways that can harm patients or limit th
 The issue at hand is the need to increase the accuracy and efficiency of drug-drug interactions (DDIs) prediction in order to improve patient safety in healthcare. This entails analysing and comparing deep learning algorithms for DDI prediction in order to determine the best effective way for practical application in healthcare settings. The primary concern is the possible harm to patients and restrictions in treatment outcomes caused by DDIs, which necessitates the advancement of DDI prediction algorithms.
 
 ## 1.3 OBJECTIVE
-- To improve drug-drug interaction (DDIs).
-- To examine and compare between deep learning algorithms for predicting drug-drug interactions (DDIs).
-- To determine the best effective method for practical deployment in healthcare.
-- To improve the accuracy and efficiency of predicting drug-drug interactions (DDIs).
-- To improve patient safety by improving DDIs prediction accuracy.
+- To identify the best deep learning algorithms for predicting drug-drug interactions (DDIs).
+- To evaluate the performance of selected methods in predicting drug-drug interactions (DDIs) by assessing their accuracy in comparison.
+
 
 ## 1.4 SCOPES
 This research is focused on drug-drug interaction prediction using different types of algorithms in deep learning. The algorithms of deep learning that we will be comparing in this research are Convolutional Neural Network (CNN) and Neural Network (NN). The Programming Language that will be used is Python. The dataset about DDIs prediction using CNN and NN will be obtained from Drugbank Github, and any internet research that is related to our topic.
