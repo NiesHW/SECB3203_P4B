@@ -28,7 +28,7 @@ The command df.isnull().sum() is used to identify and count missing or null valu
 Data normalization is a process to make model training less sensitive to the scale of features. [5] From the dataset, we chose the column with datatype of float64 and create a an object name StandardScaler. Here, we can see that the data inside the csv file have been change to a more numerical number. 
 
 ## 4.3 Indicator variables
-
+<img src="https://github.com/NiesHW/SECB3203_P4B/blob/3da583c3c6dd8db716f3e8ef7fd72bc3b430dd8e/Group_Project/Group_14/WhatsApp%20Image%202023-12-03%20at%2012.24.52%20AM.jpeg" alt="Flowchart of System" width="500">
 Indicator variables (or dummy variables) are variables that take on only the value of 0 and 1, and are used to indicate whether a given observation belongs to a discrete category in a way that can be used in statistical models. [6]  In this example, we are using the diagnosis_result column to create the dummy variables. Diagnosis_result only have 2 data which is M and B. If the data row contains M data, then the column in diagnosis_result_M will be 1 and vice versa. 
 
 # REFERENCES
