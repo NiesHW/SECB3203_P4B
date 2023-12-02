@@ -130,7 +130,7 @@ bins=bins: Specifies the bin edges.
 labels=labels: Specifies the labels to assign to each bin.
 right=False: Indicates that the intervals are left-closed, meaning the right bin edge is exclusive. In this case, the intervals are like [29, 39), [39, 49), ..., [89, 99).
 
-
+![Bin2](https://drive.google.com/uc?id=1CwwV5QYJsoOYyMN9KVpH5Or4-i7msg8T)
 This screenshot displays the outcomes of the binning process, revealing the presence of an additional column named 'age_group'.
 
 Indicator variable
