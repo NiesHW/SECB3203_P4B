@@ -119,6 +119,7 @@ right=False: Indicates that the intervals are left-closed, meaning the right bin
 
 
 This screenshot displays the outcomes of the binning process, revealing the presence of an additional column named 'age_group'.
+
 Indicator variable
 
 We did not perform the indicator variable steps during our data preprocessing because our dataset did not have data with categorical values. We find out that the indicator variables are typically done for categorical data types such as nominal and ordinal that then can be classified into 1 or 0.
