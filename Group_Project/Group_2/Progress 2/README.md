@@ -104,6 +104,7 @@ Max represents the maximum value in each column. It is the largest observed valu
 
 
 After Normalization
+
 ![normal3](https://drive.google.com/uc?id=1tYnyfJkkCqKzj3_euwzWOEBjxEakOEVy)
 
 
