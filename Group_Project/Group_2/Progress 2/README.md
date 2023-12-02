@@ -4,14 +4,21 @@ Importing Dataset:
 
 In the realm of data science, the initial step often involves acquiring and importing datasets for analysis. The dataset at the center of our exploration is "heart.csv," sourced from Kaggle's "Heart Attack Analysis & Prediction Dataset." The importation of this dataset into Python lays the foundation for subsequent analysis and model development.
 
+![import](https://drive.google.com/uc?id=1wdja2b_OxvOm6wgS8bpsqnX-EEEulsFp)
 
 Initially, we utilized the Pandas library for data cleaning and preprocessing. We proceed to load the "heart.csv" dataset by specifying its file path and assigning it to a DataFrame, which we label as df. Finally, we print df.head(20) to showcase the first 20 rows of the DataFrame derived from the "heart.csv" dataset.
 
+![import2(https://drive.google.com/uc?id=1iJaXvuIVX9DDqIGx5M4VL9uW0foHSnLH)
+
 According to the figure above, a representation is provided, illustrating 20 rows of the DataFrame extracted from the "heart.csv" file. This Data Frame encompasses 14 columns of data.
+
+![import1](https://drive.google.com/uc?id=1OhYv7wJWf2CP2Wb5Vni9dn8Mz4-HNqmD)
 
 print(df.head()): This command prints the first few rows of the DataFrame, typically the top 5 rows by default. It is useful for a quick glance at the dataset.
 print(df.info()): This command provides a concise summary of the DataFrame df. It includes information about the data types of each column, the number of non-null values, and the memory usage. It's helpful for understanding the overall structure of the Data Frame
 .print(df.describe()): This command generates descriptive statistics of the DataFrame df. It includes measure like count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum. It provides insights into the central tendency and spread of the numerical columns in the dataset.
+
+![import3](https://drive.google.com/uc?id=1k5sjm9x76duPttDK0AmMHN6UQYxRcU5g)
 
 Here, we can understand the data size where it contains 8 rows and 14 column
 
