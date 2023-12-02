@@ -28,7 +28,7 @@ print(df.isnull())
 
 The statement " false" indicates that, upon checking each element in the dataset, none of them are identified as null or missing values. In the context of the dataset dimensions [303 rows x 14 columns], it means that across all 303 rows and 14 columns, there are no instances where data is absent or undefined. This is a positive outcome because it implies that our dataset is complete, and we have values for each attribute in every row, making it ready for further analysis without the need to address missing data. It's a reassuring sign of data integrity and completeness in this particular dataset.
 
-
+![missing2](https://drive.google.com/uc?id=15TiKlHUx1xylyGDqrIass0OsIUwMaMTB)
 
 By using the syntax print(df.isnull().sum), we performed a more detailed check on each column individually. The result, where each column shows a count of 0, reinforces our earlier finding that there are no null values present in the dataset. This column-wise examination is crucial because it allows us to pinpoint if there are any specific attributes or features that might have missing values.
 
