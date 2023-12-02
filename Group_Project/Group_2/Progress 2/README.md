@@ -98,18 +98,6 @@ Min represents the minimum value in each column. It is the smallest observed val
 75% (percentile) represents the 75th percentile, also known as the third quartile, is the value below which  75% of the data falls. It represents the upper range of the dataset.
 Max represents the maximum value in each column. It is the largest observed value and provides insights into the upper bound of the data distribution. For example, the maximum age is 77.
 
-
-
-
-
-
-
-
-
-
-
-
-
 After Normalization
 
 ![normal2](https://drive.google.com/uc?id=19mr4gJ-6HR-OQ5s_r9FIbgqjX_iM3spk)
