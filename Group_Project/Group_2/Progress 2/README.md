@@ -1,6 +1,6 @@
 The dataset employed in this project, denoted as "heart.csv," is sourced from the Kaggle dataset titled "Heart Attack Analysis & Prediction Dataset." This comprehensive dataset comprises a total of 303 instances, each characterized by 14 distinct attributes.
 
-Importing Dataset:
+<b>Importing Dataset:</b>
 
 In the realm of data science, the initial step often involves acquiring and importing datasets for analysis. The dataset at the center of our exploration is "heart.csv," sourced from Kaggle's "Heart Attack Analysis & Prediction Dataset." The importation of this dataset into Python lays the foundation for subsequent analysis and model development.
 
