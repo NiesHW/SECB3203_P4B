@@ -23,9 +23,9 @@ print(df.info()): This command provides a concise summary of the DataFrame df. I
 Here, we can understand the data size where it contains 8 rows and 14 column
 
 
-Data wrangling, using tools: Pandas and Numpy:
+<b>Data wrangling, using tools: Pandas and Numpy:</b>
 
-Identifying and handling missing values
+<b>Identifying and handling missing values</b>
 
 Handling missing values is a crucial step in data analysis and machine learning because it directly impacts the accuracy and reliability of our results. When data contains gaps or missing information, it can introduce inaccuracies and biases into our analyses, leading to flawed conclusions.To check if our dataset contains null values or not, the syntax is:
 
@@ -63,7 +63,7 @@ To enhance the integrity of our dataset, we employed a useful tool called drop_d
 
 
 
-Data formatting
+<b>Data formatting</b>
 
 Data formatting ensures that information is presented consistently and correctly. It involves tasks like converting data types, adjusting decimals, or representing dates uniformly.
 
@@ -84,17 +84,16 @@ Logistic Regression and Gaussian Naive Bayes are flexible algorithms that can ha
  
 
 
-Data Normalization
+<b>Data Normalization</b>
 
 
 Before Normalization
 
 
 ![normal](https://drive.google.com/uc?id=1bWFi6qzlx0geIMe55Z9nkWM43fLjJggx)
+<p></p>
 
 ![normal1](https://drive.google.com/uc?id=1_p-av6KrQkfz6afYKjxp-E8PRIB22BnW)
-
-
 
 Count represents the number of non-null (non-missing) values in each column. It indicates the size of the dataset or the number of observations available for analysis in each specific column. 
 
@@ -115,7 +114,7 @@ Max represents the maximum value in each column. It is the largest observed valu
 After Normalization
 
 ![normal2](https://drive.google.com/uc?id=19mr4gJ-6HR-OQ5s_r9FIbgqjX_iM3spk)
-
+<p></p>
 
 ![normal3](https://drive.google.com/uc?id=1tYnyfJkkCqKzj3_euwzWOEBjxEakOEVy)
 
@@ -127,13 +126,11 @@ Xnormalized=X−min(X) / max(X)−min(X)
 ​
 Where X is the original value, min(X) is the minimum value in the column, and max(X) is the maximum value in the column. This transformation ensures that all values fall within the specified range as per in the result above.
 
-Binning
+<p>Binning</p>
 
 Data binning (or bucketing) groups data in bins (or buckets), in the sense that it replaces values contained into a small interval with a single representative value for that interval. Sometimes binning improves accuracy in predictive models.
 
 ![binning1](https://drive.google.com/uc?id=1T1veVSH_CPj7uC9DrBo4kk9GFSc_DPnx)
-
-
 
 
 This code performs binning on the 'age' column by categorizing ages into distinct groups. The resulting age groups are defined and labeled in the 'labels' section of the code.
@@ -155,7 +152,7 @@ right=False: Indicates that the intervals are left-closed, meaning the right bin
 ![Bin2](https://drive.google.com/uc?id=1CwwV5QYJsoOYyMN9KVpH5Or4-i7msg8T)
 This screenshot displays the outcomes of the binning process, revealing the presence of an additional column named 'age_group'.
 
-Indicator variable
+<p>Indicator variable</p>
 
 We did not perform the indicator variable steps during our data preprocessing because our dataset did not have data with categorical values. We find out that the indicator variables are typically done for categorical data types such as nominal and ordinal that then can be classified into 1 or 0.
 
