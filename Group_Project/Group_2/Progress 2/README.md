@@ -15,7 +15,9 @@ According to the figure above, a representation is provided, illustrating 20 row
 ![import1](https://drive.google.com/uc?id=1OhYv7wJWf2CP2Wb5Vni9dn8Mz4-HNqmD)
 
 print(df.head()): This command prints the first few rows of the DataFrame, typically the top 5 rows by default. It is useful for a quick glance at the dataset.
+
 print(df.info()): This command provides a concise summary of the DataFrame df. It includes information about the data types of each column, the number of non-null values, and the memory usage. It's helpful for understanding the overall structure of the Data Frame
+
 .print(df.describe()): This command generates descriptive statistics of the DataFrame df. It includes measure like count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum. It provides insights into the central tendency and spread of the numerical columns in the dataset.
 
 ![import3](https://drive.google.com/uc?id=1k5sjm9x76duPttDK0AmMHN6UQYxRcU5g)
@@ -115,6 +117,7 @@ After Normalization
 
 ![normal2](https://drive.google.com/uc?id=19mr4gJ-6HR-OQ5s_r9FIbgqjX_iM3spk)
 <p></p>
+<p></p>
 
 ![normal3](https://drive.google.com/uc?id=1tYnyfJkkCqKzj3_euwzWOEBjxEakOEVy)
 
@@ -126,7 +129,7 @@ Xnormalized=X−min(X) / max(X)−min(X)
 ​
 Where X is the original value, min(X) is the minimum value in the column, and max(X) is the maximum value in the column. This transformation ensures that all values fall within the specified range as per in the result above.
 
-<p>Binning</p>
+<b>Binning</b>
 
 Data binning (or bucketing) groups data in bins (or buckets), in the sense that it replaces values contained into a small interval with a single representative value for that interval. Sometimes binning improves accuracy in predictive models.
 
@@ -152,7 +155,7 @@ right=False: Indicates that the intervals are left-closed, meaning the right bin
 ![Bin2](https://drive.google.com/uc?id=1CwwV5QYJsoOYyMN9KVpH5Or4-i7msg8T)
 This screenshot displays the outcomes of the binning process, revealing the presence of an additional column named 'age_group'.
 
-<p>Indicator variable</p>
+<b>Indicator variable</b>
 
 We did not perform the indicator variable steps during our data preprocessing because our dataset did not have data with categorical values. We find out that the indicator variables are typically done for categorical data types such as nominal and ordinal that then can be classified into 1 or 0.
 
