@@ -116,7 +116,8 @@ Binning
 
 Data binning (or bucketing) groups data in bins (or buckets), in the sense that it replaces values contained into a small interval with a single representative value for that interval. Sometimes binning improves accuracy in predictive models.
 
-![binning1](https://drive.google.com/file/d/1T1veVSH_CPj7uC9DrBo4kk9GFSc_DPnx/view?usp=drive_link)
+![binning1](https://drive.google.com/uc?id=1T1veVSH_CPj7uC9DrBo4kk9GFSc_DPnx)
+
 
 
 
