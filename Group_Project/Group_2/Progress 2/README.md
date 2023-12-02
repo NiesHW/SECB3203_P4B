@@ -105,6 +105,9 @@ Max represents the maximum value in each column. It is the largest observed valu
 
 After Normalization
 
+![normal2](https://drive.google.com/uc?id=19mr4gJ-6HR-OQ5s_r9FIbgqjX_iM3spk)
+
+
 ![normal3](https://drive.google.com/uc?id=1tYnyfJkkCqKzj3_euwzWOEBjxEakOEVy)
 
 
@@ -124,12 +127,19 @@ Data binning (or bucketing) groups data in bins (or buckets), in the sense that 
 
 
 This code performs binning on the 'age' column by categorizing ages into distinct groups. The resulting age groups are defined and labeled in the 'labels' section of the code.
+
 bins: Defines the boundaries for age groups. Each pair of adjacent values in the list represents the lower and upper bounds for an age group. For example, the first age group is 30-39 (inclusive), the second is 40-49, and so on.
+
 labels: Corresponding labels for each age group.
+
 df['age']: Refers to the 'age' column in the DataFrame df.
+
 pd.cut(): This function is used to segment and sort data values into bins. It takes the 'age' column and assigns each value to the appropriate bin based on the specified bins and labels.
+
 bins=bins: Specifies the bin edges.
+
 labels=labels: Specifies the labels to assign to each bin.
+
 right=False: Indicates that the intervals are left-closed, meaning the right bin edge is exclusive. In this case, the intervals are like [29, 39), [39, 49), ..., [89, 99).
 
 ![Bin2](https://drive.google.com/uc?id=1CwwV5QYJsoOYyMN9KVpH5Or4-i7msg8T)
