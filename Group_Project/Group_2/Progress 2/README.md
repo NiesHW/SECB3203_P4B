@@ -15,7 +15,9 @@ Here, we can understand the data size where it contains 8 rows and 14 column
 
 
 Data wrangling, using tools: Pandas and Numpy:
+
 Identifying and handling missing values
+
 Handling missing values is a crucial step in data analysis and machine learning because it directly impacts the accuracy and reliability of our results. When data contains gaps or missing information, it can introduce inaccuracies and biases into our analyses, leading to flawed conclusions.To check if our dataset contains null values or not, the syntax is:
 
 print(df.isnull())
@@ -50,6 +52,7 @@ To enhance the integrity of our dataset, we employed a useful tool called drop_d
 
 
 Data formatting
+
 Data formatting ensures that information is presented consistently and correctly. It involves tasks like converting data types, adjusting decimals, or representing dates uniformly.
 
 
@@ -71,6 +74,7 @@ Logistic Regression and Gaussian Naive Bayes are flexible algorithms that can ha
 
 
 Data Normalization
+
 
 Before Normalization
 
@@ -104,8 +108,10 @@ Data normalization is a preprocessing technique used in data analysis and machin
 Min-Max scaling, also known as feature scaling, transforms the values of a numeric column to a specific range, usually [0, 1]. The formula for Min-Max scaling is as follows:
 Xnormalized=X−min(X) / max(X)−min(X)
 ​
-Where X is the original value, min(X) is the minimum value in the column, and max(X) is the maximum value in the column. This transformation ensures that all values fall within the specified range as per in the result above. 
+Where X is the original value, min(X) is the minimum value in the column, and max(X) is the maximum value in the column. This transformation ensures that all values fall within the specified range as per in the result above.
+
 Binning
+
 Data binning (or bucketing) groups data in bins (or buckets), in the sense that it replaces values contained into a small interval with a single representative value for that interval. Sometimes binning improves accuracy in predictive models.
 
 This code performs binning on the 'age' column by categorizing ages into distinct groups. The resulting age groups are defined and labeled in the 'labels' section of the code.
