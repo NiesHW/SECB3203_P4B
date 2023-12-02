@@ -8,7 +8,7 @@ In the realm of data science, the initial step often involves acquiring and impo
 
 Initially, we utilized the Pandas library for data cleaning and preprocessing. We proceed to load the "heart.csv" dataset by specifying its file path and assigning it to a DataFrame, which we label as df. Finally, we print df.head(20) to showcase the first 20 rows of the DataFrame derived from the "heart.csv" dataset.
 
-![import2(https://drive.google.com/uc?id=1iJaXvuIVX9DDqIGx5M4VL9uW0foHSnLH)
+![import2](https://drive.google.com/uc?id=1iJaXvuIVX9DDqIGx5M4VL9uW0foHSnLH)
 
 According to the figure above, a representation is provided, illustrating 20 rows of the DataFrame extracted from the "heart.csv" file. This Data Frame encompasses 14 columns of data.
 
