@@ -73,8 +73,11 @@ Data formatting ensures that information is presented consistently and correctly
 
 print(df.dtypes) is for displaying each data types in each column
 •	int64 represents integer data type.
+
 •	object represents string (or mixed) data type.
+
 •	float64 represents floating-point data type.
+
 
 Our decision is to retain the current data types without making any changes. This choice is based on several factors:
 
