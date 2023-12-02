@@ -31,17 +31,19 @@ The statement " false" indicates that, upon checking each element in the dataset
 
 By using the syntax print(df.isnull().sum), we performed a more detailed check on each column individually. The result, where each column shows a count of 0, reinforces our earlier finding that there are no null values present in the dataset. This column-wise examination is crucial because it allows us to pinpoint if there are any specific attributes or features that might have missing values.
 
-
-
-
+![duplicate](https://drive.google.com/uc?id=1aIq1QmnElmZnZzikD7kq29jivuAnjQCt)
 
 After checking null values, we checked for duplicate values (duplicate_rows = df[df.duplicate()) in our dataset because duplicate entries can lead to skewed results, affecting the reliability of statistical analyses and machine learning models. When there are duplicate rows, it might give undue weight to certain observations, leading to biased conclusions. Identifying and handling duplicate values is a crucial step in data cleaning and preprocessing.
 
+![duplicate1](https://drive.google.com/uc?id=1jpUJesCUAWCVppSBmQm0_SqGpWh9nPzL)
 
 Figure above shows, there are duplicate values in row 164:
 
+![duplicate2](https://drive.google.com/uc?id=12cjAp90mRBNSXJSnoD3DPeKcgX5ddyRQ)
 
 To spot duplicate rows in our dataset,we printed the entire dataset with print(df). Then, to focus on rows 160 to 170 (df_loc[160:170]), we used slicing, like narrowing down our view to a specific group of items. Just as you might notice we found that rows 163 and 164 had exactly the same information.
+
+![duplicate3](https://drive.google.com/uc?id=1fEEmIk60oHrCH9tb6XhKSZQjMDpaXNeX)
 
 
 To enhance the integrity of our dataset, we employed a useful tool called drop_duplicates(). It's like cleaning up duplicates in our collection to keep it neat. In our case, after executing df_no_duplicates = df.drop_duplicates(), the brown (our dataset) now has 302 rows instead of the original 303. It is because those identical rows we identified earlier were successfully removed. This process ensures that our data is more reliable and ready for insightful analysis.
