@@ -12,12 +12,12 @@
 - https://www.mdpi.com/1424-8220/22/23/9250
 
 Progress Update (22/10/2023)
--Finalizing project proposal before presenting to client Dr. Noor Hidayah
+- Finalizing project proposal before presenting to client Dr. Noor Hidayah
 
 Submitted Progress 1 (23/11/2023)
--Hardware and software requirements
--flowchart
+- Hardware and software requirements
+- Flowchart
 
 Submitted Progress 2 (02/12/2023)
--Importing dataset
--Data wrangling and Binning
+- Importing dataset
+- Data wrangling and Binning
