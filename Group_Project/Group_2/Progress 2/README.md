@@ -116,6 +116,10 @@ Binning
 
 Data binning (or bucketing) groups data in bins (or buckets), in the sense that it replaces values contained into a small interval with a single representative value for that interval. Sometimes binning improves accuracy in predictive models.
 
+![binning1]([URL_of_the_image](https://drive.google.com/file/d/1T1veVSH_CPj7uC9DrBo4kk9GFSc_DPnx/view?usp=drive_link
+))
+https://drive.google.com/file/d/1T1veVSH_CPj7uC9DrBo4kk9GFSc_DPnx/view?usp=drive_link
+
 This code performs binning on the 'age' column by categorizing ages into distinct groups. The resulting age groups are defined and labeled in the 'labels' section of the code.
 bins: Defines the boundaries for age groups. Each pair of adjacent values in the list represents the lower and upper bounds for an age group. For example, the first age group is 30-39 (inclusive), the second is 40-49, and so on.
 labels: Corresponding labels for each age group.
