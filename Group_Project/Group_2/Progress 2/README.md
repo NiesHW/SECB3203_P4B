@@ -104,6 +104,7 @@ Max represents the maximum value in each column. It is the largest observed valu
 
 
 After Normalization
+![normal3](https://drive.google.com/uc?id=1tYnyfJkkCqKzj3_euwzWOEBjxEakOEVy)
 
 
 Data normalization is a preprocessing technique used in data analysis and machine learning to scale and transform features within a dataset to a common scale. The goal is to ensure that no single feature dominates the learning algorithm due to differences in the scale of the data. Normalization is particularly important for algorithms that rely on distance measures, such as k-nearest neighbors or gradient descent-based optimization algorithms. The data above is normalized by using Min-Max Scaling. 
