@@ -57,8 +57,7 @@ Data formatting
 
 Data formatting ensures that information is presented consistently and correctly. It involves tasks like converting data types, adjusting decimals, or representing dates uniformly.
 
-
-
+![format](https://drive.google.com/uc?id=1kQn0sq5Qyib_bcUDssZsAP_A_ccd5wvR)
 
 print(df.dtypes) is for displaying each data types in each column
 •	int64 represents integer data type.
@@ -87,15 +86,20 @@ Before Normalization
 
 
 
-
-
 Count represents the number of non-null (non-missing) values in each column. It indicates the size of the dataset or the number of observations available for analysis in each specific column. 
+
 Mean represents the average (mean) value of each column. It is calculated by summing up all the values in a column and then dividing by the total number of observations. The mean provides a measure of central tendency, giving an idea of the typical value in the dataset.
+
 Std represents the standard deviation, which measures the amount of variation or dispersion in each column. It quantifies how much individual data points differ from the mean. A higher standard deviation indicates greater variability, while a lower standard deviation suggests that the values are closer to the mean.
+
 Min represents the minimum value in each column. It is the smallest observed value and provides insights into the lower bound of the data distribution. For example, the minimum age is 29.
+
 25% (percentile) represents the 25th percentile, also known as the first quartile, is the value below which 25% of the data falls. It is a measure of the data's spread, helping to identify the lower range of the dataset.
+
 50% (percentile) represents the 50th percentile, also known as the median, is the middle point of the data. It separates the lower 50% from the upper 50% of the dataset. The median is less sensitive to extreme values than the mean.
+
 75% (percentile) represents the 75th percentile, also known as the third quartile, is the value below which  75% of the data falls. It represents the upper range of the dataset.
+
 Max represents the maximum value in each column. It is the largest observed value and provides insights into the upper bound of the data distribution. For example, the maximum age is 77.
 
 After Normalization
