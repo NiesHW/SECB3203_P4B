@@ -80,6 +80,7 @@ Data Normalization
 
 Before Normalization
 
+
 ![normal](https://drive.google.com/uc?id=1bWFi6qzlx0geIMe55Z9nkWM43fLjJggx)
 
 ![normal1](https://drive.google.com/uc?id=1_p-av6KrQkfz6afYKjxp-E8PRIB22BnW)
