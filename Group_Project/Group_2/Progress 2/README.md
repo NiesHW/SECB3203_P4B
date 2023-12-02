@@ -16,9 +16,9 @@ According to the figure above, a representation is provided, illustrating 20 row
 
 print(df.head()): This command prints the first few rows of the DataFrame, typically the top 5 rows by default. It is useful for a quick glance at the dataset.
 
-print(df.info()): This command provides a concise summary of the DataFrame df. It includes information about the data types of each column, the number of non-null values, and the memory usage. It's helpful for understanding the overall structure of the Data Frame
+print(df.info()): This command provides a concise summary of the DataFrame df. It includes information about the data types of each column, the number of non-null values, and the memory usage. It's helpful for understanding the overall structure of the Data Frame.
 
-.print(df.describe()): This command generates descriptive statistics of the DataFrame df. It includes measure like count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum. It provides insights into the central tendency and spread of the numerical columns in the dataset.
+print(df.describe()): This command generates descriptive statistics of the DataFrame df. It includes measure like count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum. It provides insights into the central tendency and spread of the numerical columns in the dataset.
 
 ![import3](https://drive.google.com/uc?id=1k5sjm9x76duPttDK0AmMHN6UQYxRcU5g)
 
