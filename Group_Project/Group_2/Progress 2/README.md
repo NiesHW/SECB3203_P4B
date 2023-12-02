@@ -80,6 +80,12 @@ Data Normalization
 
 Before Normalization
 
+![normal](https://drive.google.com/uc?id=1bWFi6qzlx0geIMe55Z9nkWM43fLjJggx)
+
+![normal1](https://drive.google.com/uc?id=1_p-av6KrQkfz6afYKjxp-E8PRIB22BnW)
+
+
+
 
 
 Count represents the number of non-null (non-missing) values in each column. It indicates the size of the dataset or the number of observations available for analysis in each specific column. 
@@ -113,6 +119,7 @@ After Normalization
 
 Data normalization is a preprocessing technique used in data analysis and machine learning to scale and transform features within a dataset to a common scale. The goal is to ensure that no single feature dominates the learning algorithm due to differences in the scale of the data. Normalization is particularly important for algorithms that rely on distance measures, such as k-nearest neighbors or gradient descent-based optimization algorithms. The data above is normalized by using Min-Max Scaling. 
 Min-Max scaling, also known as feature scaling, transforms the values of a numeric column to a specific range, usually [0, 1]. The formula for Min-Max scaling is as follows:
+
 Xnormalized=X−min(X) / max(X)−min(X)
 ​
 Where X is the original value, min(X) is the minimum value in the column, and max(X) is the maximum value in the column. This transformation ensures that all values fall within the specified range as per in the result above.
