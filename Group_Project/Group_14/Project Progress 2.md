@@ -11,10 +11,11 @@ The command from google.colab “import files” along with “files.upload()”
 ## 3.4 Python packages for Data Science
 <img src="https://github.com/NiesHW/SECB3203_P4B/blob/cc515a621a5a25f25655b5c10ed6f827bbabb9aa/Group_Project/Group_14/WhatsApp%20Image%202023-12-03%20at%2012.01.39%20AM.jpeg" alt="Flowchart of System" width="500">
 These commands are foundational in data science workflows:
--Pandas is used for data handling and manipulation.
--Scikit-Learn provides machine learning algorithms and tools, where StandardScaler helps preprocess data for modeling.
--NumPy is a core library for numerical computing.
--The warning suppression can enhance the readability of the code output by ignoring non-critical warnings during execution.
+
+1. Pandas is used for data handling and manipulation.
+2. Scikit-Learn provides machine learning algorithms and tools, where StandardScaler helps preprocess data for modeling.
+3. NumPy is a core library for numerical computing.
+4. The warning suppression can enhance the readability of the code output by ignoring non-critical warnings during execution.
 
 # 4.0 Data Wrangling (Pandas/Numpy)
 ## 4.1 Identifying and handling missing values
