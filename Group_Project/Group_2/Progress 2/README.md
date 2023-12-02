@@ -24,6 +24,7 @@ Handling missing values is a crucial step in data analysis and machine learning 
 
 print(df.isnull())
 
+![missing1](https://drive.google.com/uc?id=1gzX92hsJWf_HHPVP_FX69c4JXpG838G9)
 
 The statement " false" indicates that, upon checking each element in the dataset, none of them are identified as null or missing values. In the context of the dataset dimensions [303 rows x 14 columns], it means that across all 303 rows and 14 columns, there are no instances where data is absent or undefined. This is a positive outcome because it implies that our dataset is complete, and we have values for each attribute in every row, making it ready for further analysis without the need to address missing data. It's a reassuring sign of data integrity and completeness in this particular dataset.
 
