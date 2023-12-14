@@ -20,3 +20,8 @@ Prediction of Lung Cancer using Recursive Feature Elimination
 ***18 Oct*** - Meet up with the client and decide on the research topic <br>
 ***19 Oct*** - Work with proposal <br>
 ***23 Oct*** - Submission of proposal <br>
+***1 Nov*** - Meet up with client for the opinion of progress 2 @N28<br>
+***
+***3 Dec*** - Meet up virtually with client for the change of topic <br>
+***4 Dec*** - Completion of progress 2 <br>
+***14 Dec*** - Completion of progress 3 <br>
