@@ -47,7 +47,7 @@ else:
     print("Fail to reject the null hypothesis. There is not enough evidence to suggest significant differences in CDR.")
 
 # Repeat the process for other variables 
-
+```
 ### Result
 
 The significant differences observed in MMSE, nWBV, and CDR underscore the importance of these variables in predicting Alzheimer's disease. These findings suggest that MMSE and CDR, in particular, are valuable indicators for discerning cognitive health variations among individuals. The lack of significant differences in eTIV and ASF may indicate that these variables may not be as influential in the context of this specific study.
