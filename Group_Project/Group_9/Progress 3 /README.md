@@ -6,16 +6,47 @@ In this phase of our project, we are actively engaged in conducting an Analysis 
 
 ## 4.1 Selected Variables
 
-Our selection of variables is a critical aspect of this phase, driven by the need for relevance to our Alzheimer's disease prediction study. The chosen variables include:
-
-- **Group (Demented/Non-Demented):**
-  The "Group" variable categorizes individuals into those classified as "Demented" and "Non-Demented." This serves as our primary outcome variable, distinguishing between individuals with and without cognitive impairment. Understanding the differences in various features between these two groups is fundamental for predictive modeling.
-
-- **Mini-Mental State Examination (MMSE):**
-  The MMSE is a widely used cognitive screening tool. By incorporating MMSE scores, we gain insights into the participants' cognitive abilities. Lower MMSE scores may indicate cognitive decline, and studying its relationship with other variables can enhance our understanding of early signs of Alzheimer's disease.
+We have carefully chosen specific variables that are deemed relevant to our Alzheimer's disease prediction study. These variables include Group(Demented/Non-Demented), Mini-Mental State Examination (MMSE), Normalize Whole Brain Volume (nWBV), Estimated Total Intracranial Volume (eTIV), Atlas Scaling Factor (ASF) and Clinical Dementia Rating (CDR). The selected variable serves a distinct purpose in contributing to our understanding of cognitive health and its potential relationship with Alzheimer's disease.
 
 ## 4.2 Rationale for ANOVA
 
-ANOVA is particularly effective for assessing differences in means among multiple groups. In our case, it helps us understand how variables like age and MMSE scores vary between Demented and Non-Demented groups. By applying ANOVA to these variables, we aim to identify if there are statistically significant differences in means across the defined groups. Significant differences can point to variables that might play a crucial role in distinguishing cognitive health states.
+ANOVA is a useful tool for our thorough investigation of Alzheimer's disease prediction since it is especially effective at evaluating mean differences across several groups. In this instance, ANOVA helps to provide a more complex understanding of the differences between individuals classified as Demented and Non-Demented in several important variables, such as MMSE scores, Estimated Total Intracranial Volume (eTIV), Clinical Dementia Rating (CDR), Atlas Scaling Factor (ASF), and Normalise Whole Brain Volume (nWBV).
 
-The insights gained from ANOVA will inform the refinement of our Alzheimer's disease prediction model. Variables showing significant differences may be prioritized or further investigated for their predictive power. Understanding how these variables vary across different groups is instrumental for tailoring interventions. It provides a foundation for developing targeted strategies based on identified risk factors.
+Our goal is to determine whether the means of the defined groups differ statistically significantly by using ANOVA on these various factors. The ANOVA results indicate significant differences that may be important in differentiating between different states of cognitive health and offer important insights into potential predictors of Alzheimer's disease.
+
+## 4.3 Applying ANOVA
+
+We are utilizing the scipy.stats library in Python to perform the ANOVA tests. The one-way ANOVA will allow us to examine the differences in means among the groups for each variable independently. 
+
+```python
+import pandas as pd
+from scipy.stats import f_oneway
+
+# Read data_alzheimer.csv
+df = pd.read_csv(r"C:\Alzheimer's Prediction\data_alzheimer.csv")
+
+# Variables of interest
+variables_of_interest = ['MMSE', 'nWBV', 'eTIV', 'ASF', 'CDR']
+groups = df['Group'].unique()
+
+# Create dictionaries to store scores for each variable and group
+variable_by_group = {variable: {group: df[df['Group'] == group][variable] for group in groups} for variable in variables_of_interest}
+
+# Perform one-way ANOVA for CDR
+CDR_statistic, CDR_p_value = f_oneway(*variable_by_group['CDR'].values())
+
+# Print the results for CDR
+print("ANOVA Statistic for CDR:", CDR_statistic)
+print("P-value for CDR:", CDR_p_value)
+
+# Check significance for CDR
+alpha = 0.05
+if CDR_p_value < alpha:
+    print("Reject the null hypothesis. There are significant differences in CDR between group means.")
+else:
+    print("Fail to reject the null hypothesis. There is not enough evidence to suggest significant differences in CDR.")
+
+# Repeat the process for other variables 
+
+
+
