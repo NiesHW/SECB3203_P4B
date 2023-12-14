@@ -48,5 +48,10 @@ else:
 
 # Repeat the process for other variables 
 
+### Result
+
+The significant differences observed in MMSE, nWBV, and CDR underscore the importance of these variables in predicting Alzheimer's disease. These findings suggest that MMSE and CDR, in particular, are valuable indicators for discerning cognitive health variations among individuals. The lack of significant differences in eTIV and ASF may indicate that these variables may not be as influential in the context of this specific study.
+
+These conclusions provide a foundation for refining and enhancing the Alzheimer's disease prediction model. Variables showing significance can be prioritized for further investigation and incorporated into the model, contributing to a more accurate and nuanced prediction of cognitive health outcomes.
 
 
