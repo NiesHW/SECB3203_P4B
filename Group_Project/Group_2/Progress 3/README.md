@@ -4,7 +4,8 @@ Descriptive statistics typically involve calculating various measures to describ
 variability, and distribution. By transposing the DataFrame using transpose(), 
 you'll be able to see all columns with their respective statistics.
 
-# Display basic statistics of the dataset
+Display basic statistics of the dataset:
+
 summary_statistics = df.describe().transpose()
 print(summary_statistics)
 
@@ -95,69 +96,69 @@ Result:
 ![import1](https://drive.google.com/file/d/1PqUI-JcznGnhAcck1dmiUho3H-9ZXVKI/view?usp=drive_link)
 
 'age' and 'output':
--> Correlation: -0.2215 (moderate negative correlation)
+-> Correlation: -0.2215 (moderate negative correlation) <br>
 -> P-value: 0.0001 (highly significant)
 
 'sex' and 'output':
--> Correlation: -0.2836 (moderate negative correlation)
+-> Correlation: -0.2836 (moderate negative correlation)<br>
 -> P-value: 5.4024e-07 (highly significant)
 
 'cp' and 'output':
--> Correlation: 0.4321 (strong positive correlation)
+-> Correlation: 0.4321 (strong positive correlation)<br>
 -> P-value: 3.6274e-15 (highly significant)
 
 'trtbs' and 'output':
--> Correlation: -0.1463 (weak negative correlation)
+-> Correlation: -0.1463 (weak negative correlation)<br>
 -> P-value: 0.0109 (significant)
 
 'chol' and 'output':
--> Correlation: -0.0814 (weak negative correlation)
+-> Correlation: -0.0814 (weak negative correlation)<br>
 -> P-value: 0.1580 (not significant)
 
 'fbs' and 'output':
--> Correlation: -0.0268 (very weak negative correlation)
+-> Correlation: -0.0268 (very weak negative correlation)<br>
 -> P-value: 0.6424 (not significant)
 
 'restecg' and 'output':
--> Correlation: 0.1349 (weak positive correlation)
+-> Correlation: 0.1349 (weak positive correlation)<br>
 -> P-value: 0.0190 (significant)
 
 'thalachh' and 'output':
--> Correlation: 0.4200 (strong positive correlation)
+-> Correlation: 0.4200 (strong positive correlation)<br>
 -> P-value: 2.4761e-14 (highly significant)
 
 'exng' and 'output':
--> Correlation: -0.4356 (strong negative correlation)
+-> Correlation: -0.4356 (strong negative correlation)<br>
 -> P-value: 2.0465e-15 (highly significant)
 
  'oldpeak' and 'output':
--> Correlation: -0.4291 (strong negative correlation)
+-> Correlation: -0.4291 (strong negative correlation)<br>
 -> P-value: 5.8146e-15 (highly significant)
 
 'slp' and 'output':
--> Correlation: 0.3439 (moderate positive correlation)
+-> Correlation: 0.3439 (moderate positive correlation)<br>
 -> P-value: 8.2214e-10 (highly significant)
 
 'caa' and 'output':
--> Correlation: -0.4090 (strong negative correlation)
+-> Correlation: -0.4090 (strong negative correlation)<br>
 -> P-value: 1.3173e-13 (highly significant)
 
 'thall' and 'output':
--> Correlation: -0.3431 (moderate negative correlation)
+-> Correlation: -0.3431 (moderate negative correlation)<br>
 -> P-value: 9.0890e-10 (highly significant)
 
 <b>Conclusion</b>
 
 We now have a better idea of what our data looks like and which variables are important to take into account when predicting heart attack detection. We have narrowed it down to the following variables:
 
-●     age
-●     sex
-●     cp
-●     thalachh
-●     exng
-●     oldpeak
-●     slp
-●     caa
+●     age <br>
+●     sex <br>
+●     cp <br>
+●     thalachh <br>
+●     exng <br>
+●     oldpeak <br>
+●     slp <br>
+●     caa <br>
 ●     thall 
 
 As we now move into building machine learning models to automate our analysis, feeding the model with variables that meaningfully affect our target variable will improve our model's prediction performance.
