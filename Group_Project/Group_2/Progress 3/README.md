@@ -9,7 +9,8 @@ Display basic statistics of the dataset:
 summary_statistics = df.describe().transpose() <br>
 print(summary_statistics)
 
-![import1](https://drive.google.com/file/d/1s0eXihy7XYkpyhycCs0ABRMgPr9jJwSP/view?usp=sharing)
+![import1](https://drive.google.com/uc?id=1tc_khGWWKQRThdQIJk-iAAROUeVtk0cW)
+
 
 
 <b>Basic Grouping</b>
@@ -19,7 +20,7 @@ The basics of grouping in data analysis involve dividing a dataset into groups b
 grouped_data = df.groupby(output).mean() <br>
 print(grouped_data)
 
-![import1](https://drive.google.com/file/d/1_GZOPt2Xt_xP4Q39ed60dMlSv-bGz9_R/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1oCSt0Eiro6XLCfjhRhredxaRj4ePiLKA) 
 
 So for further explanation, we can see the average age for a chance of getting a heart attack is 52.49 while the average age for not getting a heart attack is 56.60.
 
@@ -34,7 +35,7 @@ correlation_matrix = df.corr()  <br>
 sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)  <br>
 plt.show()
 
-![import1](https://drive.google.com/file/d/19SCcqrUiqa--_AYHJtGb3iqPodI2EnaZ/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1f3WTEyPs2TK763LxlE0PDjYGsQcoPmfL)
 
 <b>Numeric Feature Analysis</b>
 
@@ -42,10 +43,10 @@ plt.show()
 
 Pairplot allows us to plot pairwise relationships between variables within a dataset. This creates a nice visualization and helps us understand the data by summarizing a large amount of data in a single figure.
 
-![import1](https://drive.google.com/file/d/1jGu-E_FwLAix8v6h5CyToCYUcYoPEQuO/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=12uzwFY-BMeJnZlEJrs7gdMpCTnHxyQ65)
 
-![import1](https://drive.google.com/file/d/1-hiXBTJJvSV09d3qoVGgVQGzo12vKYah/view?usp=drive_link) <br>
-![import1](https://drive.google.com/file/d/1QlC58xNsINn9taau0yj5TCwKYCZjtZcA/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1HQGNj7un8GNm8iJluze5Q8ss4JTcFzV2) <br>
+![import1](https://drive.google.com/uc?id=1d9T9ANjJVmWYbtJong8JQ7200UbyGwnw)
 
 The dataset shows the relationships between pairs of six numeric variables: age, trtbps (resting blood pressure), chol (cholestoral), thalachh (maximum heart rate achieved), oldpeak (ST segment depression), and output (the target variable, which is 0 for less chance of heart attack and 1 for more chance of heart attack).
 
@@ -73,7 +74,7 @@ numeric_columns = df.select_dtypes(include=['float64', 'int64']) <br>
 correlation_matrix = numeric_colums.corr() <br>
 print(correlation_matrix)
 
-![import1](https://drive.google.com/file/d/1JIisPHVklTAbST3g0UnVCbgW1y27Xzpg/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1dD_mImmqFIpvdl6kmp11ikBztXqybhL6)
 
 <b>P-value:</b>
 
@@ -88,12 +89,12 @@ By convention, when
 
 Here we compare the p-value of the output(classification of getting a heart attack) with other features
 
-![import1](https://drive.google.com/file/d/1jdoKa1BrqkcuqNZ48L3O7fGgfWiQBqdj/view?usp=drive_link) <br>
-![import1](https://drive.google.com/file/d/1K1llWx7yX040HdpnxC2ocSUWQ3Fggm_G/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1X7lztwThNt5JYMUs6-5zI0ayCsREH7Wz) <br>
+![import1](https://drive.google.com/uc?id=1Dyx2HK3leNNqF7hdECW8PXS1uRq87pfz)
 
 Result:
 
-![import1](https://drive.google.com/file/d/1PqUI-JcznGnhAcck1dmiUho3H-9ZXVKI/view?usp=drive_link)
+![import1](https://drive.google.com/uc?id=1liBQuiQI6dTC-dppbr5BrZsm08DNUnni)
 
 'age' and 'output': <br>
 -> Correlation: -0.2215 (moderate negative correlation) <br>
