@@ -6,7 +6,7 @@ you'll be able to see all columns with their respective statistics.
 
 Display basic statistics of the dataset:
 
-summary_statistics = df.describe().transpose()
+summary_statistics = df.describe().transpose() <br>
 print(summary_statistics)
 
 ![import1](https://drive.google.com/file/d/1s0eXihy7XYkpyhycCs0ABRMgPr9jJwSP/view?usp=sharing)
@@ -16,7 +16,7 @@ print(summary_statistics)
 
 The basics of grouping in data analysis involve dividing a dataset into groups based on one or more categorical variables and performing operations independently on each group. So, since the objective is to compare the performance of the machine learning models (Gaussian Naïve Bayes and Logistic Regression) in terms of accuracy, precision, recall, and F1-score for heart attack detection we are grouping by the output(0= less chance of heart attack while 1= more chance of heart attack). This could help analyze the model's performance in distinguishing what factors led to getting a heart attack.
 
-grouped_data = df.groupby(output).mean()
+grouped_data = df.groupby(output).mean() <br>
 print(grouped_data)
 
 ![import1](https://drive.google.com/file/d/1_GZOPt2Xt_xP4Q39ed60dMlSv-bGz9_R/view?usp=drive_link)
@@ -27,11 +27,11 @@ As our data is numerical and our objective is to compare Linear Regression and G
 
 <b>Correlation Matrix with Numbers Heatmap</b>
 
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-correlation_matrix = df.corr()
-sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
+import pandas as pd  <br>
+import seaborn as sns  <br>
+import matplotlib.pyplot as plt  <br>
+correlation_matrix = df.corr()  <br>
+sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)  <br>
 plt.show()
 
 ![import1](https://drive.google.com/file/d/19SCcqrUiqa--_AYHJtGb3iqPodI2EnaZ/view?usp=drive_link)
@@ -53,10 +53,10 @@ Each row and column of the plot corresponds to one of the numeric variables. The
 
 The observations from the pairplot are as follows:
 
--> Age vs. trtbps: There is a weak positive correlation, suggesting that as age increases, resting blood pressure tends to slightly increase as well.
--> Age vs. thalachh: There is a weak negative correlation, indicating that as age increases, maximum heart rate tends to slightly decrease.
--> trtbps vs. thalachh: There is a weak negative correlation, suggesting that individuals with higher resting blood pressure tend to have lower maximum heart rates.
--> thalachh vs. oldpeak: There is a weak positive correlation, indicating that individuals with higher maximum heart rates tend to have slightly higher ST segment depression.
+-> Age vs. trtbps: There is a weak positive correlation, suggesting that as age increases, resting blood pressure tends to slightly increase as well. <br>
+-> Age vs. thalachh: There is a weak negative correlation, indicating that as age increases, maximum heart rate tends to slightly decrease. <br>
+-> trtbps vs. thalachh: There is a weak negative correlation, suggesting that individuals with higher resting blood pressure tend to have lower maximum heart rates. <br>
+-> thalachh vs. oldpeak: There is a weak positive correlation, indicating that individuals with higher maximum heart rates tend to have slightly higher ST segment depression.  <br>
 -> chol vs. oldpeak: There is a weak positive correlation, suggesting that individuals with higher cholesterol tend to have slightly higher ST segment depression.
 
 <b>Pearson Correlation</b>
@@ -69,8 +69,8 @@ The Pearson Correlation measures the linear dependence between two variables X a
 
 Pearson Correlation is the default method of the function "corr"
 
-numeric_columns = df.select_dtypes(include=['float64', 'int64'])
-correlation_matrix = numeric_colums.corr()
+numeric_columns = df.select_dtypes(include=['float64', 'int64']) <br>
+correlation_matrix = numeric_colums.corr() <br>
 print(correlation_matrix)
 
 ![import1](https://drive.google.com/file/d/1JIisPHVklTAbST3g0UnVCbgW1y27Xzpg/view?usp=drive_link)
@@ -81,9 +81,9 @@ The P-value is the probability value that the correlation between these two vari
 
 By convention, when 
 
--> the p-value is <0.001: we say there is strong evidence that the correlation is significant.
--> the p-value is < 0.05: there is moderate evidence that the correlation is significant.
--> the 0.05 < p-value is < 0.1: there is weak evidence that the correlation is significant.
+-> the p-value is <0.001: we say there is strong evidence that the correlation is significant. <br>
+-> the p-value is < 0.05: there is moderate evidence that the correlation is significant.  <br>
+-> the 0.05 < p-value is < 0.1: there is weak evidence that the correlation is significant. <br>
 -> the p-value is > 0.1: there is no evidence that the correlation is significant.
 
 Here we compare the p-value of the output(classification of getting a heart attack) with other features
@@ -95,55 +95,55 @@ Result:
 
 ![import1](https://drive.google.com/file/d/1PqUI-JcznGnhAcck1dmiUho3H-9ZXVKI/view?usp=drive_link)
 
-'age' and 'output':
+'age' and 'output': <br>
 -> Correlation: -0.2215 (moderate negative correlation) <br>
 -> P-value: 0.0001 (highly significant)
 
-'sex' and 'output':
+'sex' and 'output': <br>
 -> Correlation: -0.2836 (moderate negative correlation)<br>
 -> P-value: 5.4024e-07 (highly significant)
 
-'cp' and 'output':
+'cp' and 'output': <br>
 -> Correlation: 0.4321 (strong positive correlation)<br>
 -> P-value: 3.6274e-15 (highly significant)
 
-'trtbs' and 'output':
+'trtbs' and 'output': <br>
 -> Correlation: -0.1463 (weak negative correlation)<br>
 -> P-value: 0.0109 (significant)
 
-'chol' and 'output':
+'chol' and 'output':  <br>
 -> Correlation: -0.0814 (weak negative correlation)<br>
 -> P-value: 0.1580 (not significant)
 
-'fbs' and 'output':
+'fbs' and 'output':  <br>
 -> Correlation: -0.0268 (very weak negative correlation)<br>
 -> P-value: 0.6424 (not significant)
 
-'restecg' and 'output':
+'restecg' and 'output':  <br>
 -> Correlation: 0.1349 (weak positive correlation)<br>
 -> P-value: 0.0190 (significant)
 
-'thalachh' and 'output':
+'thalachh' and 'output':  <br>
 -> Correlation: 0.4200 (strong positive correlation)<br>
 -> P-value: 2.4761e-14 (highly significant)
 
-'exng' and 'output':
+'exng' and 'output':  <br>
 -> Correlation: -0.4356 (strong negative correlation)<br>
 -> P-value: 2.0465e-15 (highly significant)
 
- 'oldpeak' and 'output':
+ 'oldpeak' and 'output':  <br>
 -> Correlation: -0.4291 (strong negative correlation)<br>
 -> P-value: 5.8146e-15 (highly significant)
 
-'slp' and 'output':
+'slp' and 'output':  <br>
 -> Correlation: 0.3439 (moderate positive correlation)<br>
 -> P-value: 8.2214e-10 (highly significant)
 
-'caa' and 'output':
+'caa' and 'output':  <br>
 -> Correlation: -0.4090 (strong negative correlation)<br>
 -> P-value: 1.3173e-13 (highly significant)
 
-'thall' and 'output':
+'thall' and 'output':  <br>
 -> Correlation: -0.3431 (moderate negative correlation)<br>
 -> P-value: 9.0890e-10 (highly significant)
 
