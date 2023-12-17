@@ -44,7 +44,7 @@ Pairplot allows us to plot pairwise relationships between variables within a dat
 
 ![import1](https://drive.google.com/file/d/1jGu-E_FwLAix8v6h5CyToCYUcYoPEQuO/view?usp=drive_link)
 
-![import1](https://drive.google.com/file/d/1-hiXBTJJvSV09d3qoVGgVQGzo12vKYah/view?usp=drive_link)
+![import1](https://drive.google.com/file/d/1-hiXBTJJvSV09d3qoVGgVQGzo12vKYah/view?usp=drive_link) <br>
 ![import1](https://drive.google.com/file/d/1QlC58xNsINn9taau0yj5TCwKYCZjtZcA/view?usp=drive_link)
 
 The dataset shows the relationships between pairs of six numeric variables: age, trtbps (resting blood pressure), chol (cholestoral), thalachh (maximum heart rate achieved), oldpeak (ST segment depression), and output (the target variable, which is 0 for less chance of heart attack and 1 for more chance of heart attack).
@@ -63,8 +63,8 @@ The observations from the pairplot are as follows:
 
 The Pearson Correlation measures the linear dependence between two variables X and Y. The resulting coefficient is a value between -1 and 1 inclusive, where:
 
-  -> 1: Total positive linear correlation.
-  -> 0: No linear correlation, the two variables most likely do not affect each other.
+  -> 1: Total positive linear correlation. <br>
+  -> 0: No linear correlation, the two variables most likely do not affect each other. <br>
   -> -1: Total negative linear correlation.
 
 Pearson Correlation is the default method of the function "corr"
@@ -88,7 +88,7 @@ By convention, when
 
 Here we compare the p-value of the output(classification of getting a heart attack) with other features
 
-![import1](https://drive.google.com/file/d/1jdoKa1BrqkcuqNZ48L3O7fGgfWiQBqdj/view?usp=drive_link)
+![import1](https://drive.google.com/file/d/1jdoKa1BrqkcuqNZ48L3O7fGgfWiQBqdj/view?usp=drive_link) <br>
 ![import1](https://drive.google.com/file/d/1K1llWx7yX040HdpnxC2ocSUWQ3Fggm_G/view?usp=drive_link)
 
 Result:
