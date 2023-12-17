@@ -8,4 +8,4 @@ you'll be able to see all columns with their respective statistics.
 summary_statistics = df.describe().transpose()
 print(summary_statistics)
 
-![import](C:\Users\Acer\AppData\Local\Temp\Rar$DIa0.769\image4.png)
+![import]([C:\Users\Acer\AppData\Local\Temp\Rar$DIa0.769\image4.png](https://drive.google.com/file/d/1KCZaNr1xvYAolsTUttBsFQpO5F3ppzDV/view?usp=drive_link)https://drive.google.com/file/d/1KCZaNr1xvYAolsTUttBsFQpO5F3ppzDV/view?usp=drive_link)
