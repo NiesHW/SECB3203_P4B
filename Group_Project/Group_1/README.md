@@ -12,6 +12,8 @@ Progress 2: https://docs.google.com/document/d/1Pyr8bOAO4L_Jbo-S3msqBiV2cGh4QhG7
 
 Progress 3: https://docs.google.com/document/d/1w-0QZz5xWJwegbHiBw0fVzflgbd-R_h_9Z1im8G5EuI/edit?usp=sharing
 
+Progress 4 : https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
+
 ## Project Title
 
 # Potential Key Genes Related to the Progression and Prognosis of Gastric Cancer using Weighted Gene Coexpression Network Analysis on AGT (gene that make protein angiotensinogen).
