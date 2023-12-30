@@ -11,6 +11,8 @@
 
 We need to select the top features for model development.Here we imported the python libraries and update dataset which only remain columns that have p-value < 0.001(features relevant). Next,we separate the independent variable, from the dependent variable which is output column.
 
+![ImageB](https://drive.google.com/uc?id=1O4stvtLgDUsVKjZ3aa4VOBhZQ_ERFB89)
+
 Then, split the data into train (70%) and test (30%). After that, scale the independent variable using Standard Scaler.This involves transforming the values of each feature so that they have a mean of 0 and a standard deviation of 1.
 
 Then, we train and test data Logistic regression model using variables.Next, we use SelectKBest, which is feature selection method based on univariate statistics. SelectKBest selects the top k features based on a specified scoring function.The goal of using SelectKBest is to improve the performance of the logistic regression model by selecting the most informative features.
