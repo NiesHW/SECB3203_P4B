@@ -1,9 +1,9 @@
-Progress 4: Model development
+<b>Progress 4: Model development</b>
 
-Flowchart:
+<b>Flowchart:</b>
 
 
-Logistic Regression
+<b>Logistic Regression</b>
 
 
 We need to select the top features for model development.Here we imported the python libraries and update dataset which only remain columns that have p-value < 0.001(features relevant). Next,we separate the independent variable, from the dependent variable which is output column.
@@ -29,7 +29,7 @@ The model achieved an accuracy of 85%.
 When the accuracy on the test set is higher than the accuracy on the training set, it may indicate that the model is potentially underfitting to the training data. One possible explanation is that the model might not be complex enough to fully capture the intricacies of the training data, leading to underfitting. Underfitting occurs when the model is too simplistic, failing to grasp the nuances present in the training set. As a result, the model struggles to accurately represent the underlying patterns, and its performance on both the training and test sets may be suboptimal.
 
 
-Gaussian Naive Bayes
+<b>Gaussian Naive Bayes</b>
 
 
 We need to select the top features for model development.Here we imported the python libraries and update dataset which only remain columns that have p-value < 0.001(features relevant). Next,we separate the independent variable, from the dependent variable which is output column.
