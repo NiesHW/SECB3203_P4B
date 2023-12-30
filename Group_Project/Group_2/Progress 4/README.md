@@ -55,20 +55,26 @@ We need to select the top features for model development.Here we imported the py
 
 Then, split the data into train (70%) and test (30%). After that, scale the independent variable using Standard Scaler.This involves transforming the values of each feature so that they have a mean of 0 and a standard deviation of 1.
 
+![ImageK](https://drive.google.com/uc?id=1Fo21ew-qc3RpqrrTMN_PQEswCvaJHHZn)
 
 Then, we train and test data Gaussian Naive Bayes model using variables.Next, we use SelectKBest, which is feature selection method based on univariate statistics. SelectKBest selects the top k features based on a specified scoring function.The goal of using SelectKBest is to improve the performance of the logistic regression model by selecting the most informative features.
 
+![ImageL](https://drive.google.com/uc?id=1RinJa-MtDp5j-azxGe_DWmzweVnIC6fe)
 
 So based irrelevant features in update dataset, This is selected features (feature selection) by the machine learning.These selected features are considered the most informative based on the chi-squared statistical test. The model focuses on these features during training and testing, as they are deemed to have a stronger association with the target variable.
 
 Train data:
 
+![ImageM](https://drive.google.com/uc?id=1IKw6vRxyel5zNnJnx0c95WwLaT0PIWbJ)
 
-
+![ImageN](https://drive.google.com/uc?id=1U34pg4pJZThR4aIHRPJ1ZOy-50X6rUrV)
 
 Classification report and training set for Gaussian Naive Bayes. From the classification report, the variables reached an accuracy of 80%. Only 80% percentange for this model to detect the heart attack. 
 
 Test data:
 
+![ImageO](https://drive.google.com/uc?id=1c7OGQnd0j9Gp-KunlrPuZ-ljRZuccH2A)
+
+![ImageP](https://drive.google.com/uc?id=1ow2ImZ4ETwdrSYh0z273JuGJWfQCKh7G)
 
 Classification report and testing set for Gaussian Naive Bayes.Both training and test accuracies are balanced, indicating a good fit.The model shows slightly better performance on Class 1 (presence of a heart disease) in terms of precision and recall.The F1-score considers both precision and recall and is a good balance metric.The model appears to generalize well to the test set, as the performance is consistent between training and test sets.
