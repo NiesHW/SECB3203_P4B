@@ -3,7 +3,7 @@
 - Megat Zarul Akmal
 
   # Method Used
-  -Machine Learning KNN (K- Nearest-Neighbors)
+  -Deep Learning CNN (EfficientNet)
 
 # Reference
 
