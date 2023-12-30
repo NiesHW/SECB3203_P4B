@@ -28,8 +28,8 @@ Training data:
 ![ImageE](https://drive.google.com/uc?id=1GWZf3P2eqRVzlQ-vRQEMGgHCNu_jJNdF)
 
 Classification report of train set and accuracy score on the train set.
-![Image Alt Text](https://drive.google.com/uc?id=1xrxqz4pR1do9fywHUTolCqbMwI7ymdzT)
 
+![ImageF](https://drive.google.com/uc?id=1C4j4C7BveS5a1mAUpLlx3YTaY2C4dhJ5)
 
 From the classification report, the variables reached an accuracy of 82%.This represents the ratio of correctly predicted instances to the total instances in the training set. It tells us that the model did a good job in discovering the heart attack on train data using Logistic Regression
 
