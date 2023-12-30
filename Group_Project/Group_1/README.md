@@ -1,4 +1,4 @@
-<img width="767" alt="image" src="https://github.com/NiesHW/SECB3203_P4B/assets/93577590/9c2c7ed0-1495-48c5-92e8-5ae41cb75f12">## Group Members
+## Group Members
 
 1. NEREA LANAI ANAK NEOL (A21EC0100)
 2. AFIQAH IZZATI BINTI AZZEROL EFFENDI (A21EC0004)
