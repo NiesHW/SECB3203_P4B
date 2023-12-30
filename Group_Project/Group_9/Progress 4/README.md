@@ -11,3 +11,5 @@ In our model development process, we've chosen regression analysis to understand
 ![Image Alt Text](https://drive.google.com/uc?id=19wl0ffwxtesCFTwzWQZS54s8CWqaWjLA)
 
 The code begins by defining the independent variable ('Group') as X and the dependent variable ('MMSE') as y. To assess the model's performance, the data is split into training and testing sets using the train_test_split function, with 80% designated for training and 20% for testing. The inclusion of random_state ensures reproducibility in the split, allowing for consistent results in subsequent executions of the code.
+
+![Image Alt Text](https://drive.google.com/uc?id=1__RjtKOLv_rK1ySzI8Ip53TixTqDhHfU)
