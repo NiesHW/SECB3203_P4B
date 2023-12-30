@@ -1,4 +1,4 @@
-## Group Members
+<img width="767" alt="image" src="https://github.com/NiesHW/SECB3203_P4B/assets/93577590/9c2c7ed0-1495-48c5-92e8-5ae41cb75f12">## Group Members
 
 1. NEREA LANAI ANAK NEOL (A21EC0100)
 2. AFIQAH IZZATI BINTI AZZEROL EFFENDI (A21EC0004)
@@ -12,7 +12,9 @@ Progress 2: https://docs.google.com/document/d/1Pyr8bOAO4L_Jbo-S3msqBiV2cGh4QhG7
 
 Progress 3: https://docs.google.com/document/d/1w-0QZz5xWJwegbHiBw0fVzflgbd-R_h_9Z1im8G5EuI/edit?usp=sharing
 
-Progress 4 : https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
+Progress 4: https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
+
+Progress 5: https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
 
 ## Project Title
 
