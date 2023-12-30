@@ -15,12 +15,20 @@ We need to select the top features for model development.Here we imported the py
 
 Then, split the data into train (70%) and test (30%). After that, scale the independent variable using Standard Scaler.This involves transforming the values of each feature so that they have a mean of 0 and a standard deviation of 1.
 
+![ImageC](https://drive.google.com/uc?id=15Nqjszwy55Xfe38bJHZGByCSISsfLDYO)
+
 Then, we train and test data Logistic regression model using variables.Next, we use SelectKBest, which is feature selection method based on univariate statistics. SelectKBest selects the top k features based on a specified scoring function.The goal of using SelectKBest is to improve the performance of the logistic regression model by selecting the most informative features.
+
+![ImageD](https://drive.google.com/uc?id=1y_oO-MjBSFr7Hz1bZbSvGtul31yYsGzE)
 
 So based irrelevant features in update dataset, This is selected features (feature selection) by the machine learning.These selected features are considered the most informative based on the chi-squared statistical test. The model focuses on these features during training and testing, as they are deemed to have a stronger association with the target variable.
 
 Training data:
+
+![ImageE](https://drive.google.com/uc?id=1GWZf3P2eqRVzlQ-vRQEMGgHCNu_jJNdF)
+
 Classification report of train set and accuracy score on the train set.
+![Image Alt Text](https://drive.google.com/uc?id=1xrxqz4pR1do9fywHUTolCqbMwI7ymdzT)
 
 
 From the classification report, the variables reached an accuracy of 82%.This represents the ratio of correctly predicted instances to the total instances in the training set. It tells us that the model did a good job in discovering the heart attack on train data using Logistic Regression
