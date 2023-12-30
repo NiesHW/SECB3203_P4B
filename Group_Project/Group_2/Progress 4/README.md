@@ -35,8 +35,11 @@ From the classification report, the variables reached an accuracy of 82%.This re
 
 Test data:
 
+![ImageG](https://drive.google.com/uc?id=1VI9MF3V4K7iMq9I7yI9avYu7zehRWno3)
+
 Classification report on test set.
 
+![ImageH](https://drive.google.com/uc?id=1lB1BK6s_5zU1iNWEiifS1zJuVxmOQKNU)
 
 The model achieved an accuracy of 85%.
 When the accuracy on the test set is higher than the accuracy on the training set, it may indicate that the model is potentially underfitting to the training data. One possible explanation is that the model might not be complex enough to fully capture the intricacies of the training data, leading to underfitting. Underfitting occurs when the model is too simplistic, failing to grasp the nuances present in the training set. As a result, the model struggles to accurately represent the underlying patterns, and its performance on both the training and test sets may be suboptimal.
@@ -44,8 +47,11 @@ When the accuracy on the test set is higher than the accuracy on the training se
 
 <b>Gaussian Naive Bayes</b>
 
+![ImageI](https://drive.google.com/uc?id=1FN7I2oUyqpQGe_jRs6fKy4Vl1yWbaeBa)
 
 We need to select the top features for model development.Here we imported the python libraries and update dataset which only remain columns that have p-value < 0.001(features relevant). Next,we separate the independent variable, from the dependent variable which is output column.
+
+![ImageJ](https://drive.google.com/uc?id=1RJrdutbsNWUcivhbsJDJ0FdiSZDcxhdA)
 
 Then, split the data into train (70%) and test (30%). After that, scale the independent variable using Standard Scaler.This involves transforming the values of each feature so that they have a mean of 0 and a standard deviation of 1.
 
