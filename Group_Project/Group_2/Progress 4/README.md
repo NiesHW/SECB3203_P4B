@@ -2,6 +2,7 @@
 
 <b>Flowchart:</b>
 
+![import](https://drive.google.com/file/d/1CO4Wpzf333LI_DQ_-hLNwBwpaSAEQO0E/view?usp=drive_link)
 
 <b>Logistic Regression</b>
 
