@@ -2,11 +2,12 @@
 
 <b>Flowchart:</b>
 
-![Image Alt Text](https://drive.google.com/uc?id=1CO4Wpzf333LI_DQ_-hLNwBwpaSAEQO0E)
+![Image](https://drive.google.com/uc?id=1CO4Wpzf333LI_DQ_-hLNwBwpaSAEQO0E)
 
 
 <b>Logistic Regression</b>
 
+![ImageA](https://drive.google.com/uc?id=15YJ5xi6xVvseDoQXOUL9RIExNaTWQIhU)
 
 We need to select the top features for model development.Here we imported the python libraries and update dataset which only remain columns that have p-value < 0.001(features relevant). Next,we separate the independent variable, from the dependent variable which is output column.
 
