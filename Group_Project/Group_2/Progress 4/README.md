@@ -2,7 +2,8 @@
 
 <b>Flowchart:</b>
 
-![Alt Text](https://drive.google.com/file/d/1CO4Wpzf333LI_DQ_-hLNwBwpaSAEQO0E/view?usp=sharing)
+![Image Alt Text](https://drive.google.com/uc?id=1CO4Wpzf333LI_DQ_-hLNwBwpaSAEQO0E)
+
 
 <b>Logistic Regression</b>
 
