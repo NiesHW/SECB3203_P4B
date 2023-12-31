@@ -20,7 +20,7 @@ Submitted Progress 1 (23/11/2023)
 
 Submitted Progress 2 (02/12/2023)
 - Importing dataset
-- Data wrangling and Binning
+- Data wrangling and Normalization
 
 Submitted Progress 4 (31/12/2023)
 - Model Development
