@@ -1,0 +1,236 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import warnings
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler, StandardScaler
+from sklearn.model_selection import train_test_split, StratifiedKFold
+from sklearn.svm import SVC 
+from sklearn.feature_selection import RFECV 
+from sklearn.metrics import confusion_matrix, classification_report 
+from sklearn.metrics import accuracy_score, mean_squared_error, mean_absolute_error
+from math import sqrt
+
+# Load the dataset
+dataset = pd.read_csv("C:\\Users\\USER\\OneDrive\\Attachments\\Documents\\DEGREE\\Y3,S1\\Programming for BioInformatics\\Project.prog.Bio.csv")
+pd.set_option('display.max_columns', 50)
+print(dataset)
+
+# Visualize data
+df = pd.DataFrame(dataset)
+sns.heatmap(df.isnull(), cbar=False, cmap='viridis')
+plt.show()
+
+# Handling missing values
+df_cleaned = df.dropna()
+print(df_cleaned)
+
+# MinMax scaling
+scaler = MinMaxScaler()
+df_cleaned_copy = df_cleaned.copy()
+df_cleaned.loc[:, 'blood pressure'] = scaler.fit_transform(df_cleaned[['blood pressure']])
+print("original 'blood pressure' column:")
+print(df_cleaned_copy['blood pressure'])
+print("formatted 'blood pressure' column:")
+print(df_cleaned['blood pressure'])
+
+# Binning data
+data = np.array(df_cleaned['blood pressure'])
+bin_edges = [0, 0.4, 0.8, 1.2, 1.6, 2.0]
+bin_indices = np.digitize(data, bins=bin_edges)
+bin_labels = ['< 0.4 normal', '0.4-0.8 elevated', '0.8-1.2 high normal', '1.2-1.6 high blood pressure', '> 1.6 hypertensive crisis']
+binned_column = np.array(bin_labels)[np.clip(bin_indices, 0, len(bin_labels)-1)]
+result_df = pd.DataFrame({'blood pressure': data, 'Binned_column': binned_column})
+print(result_df)
+
+# Data analysis heart rate
+heart_rate = 'max heart rate'
+data = {'Values': df_cleaned[heart_rate]}
+heart_rate_df = pd.DataFrame(data)
+minimum_value = heart_rate_df['Values'].min()
+mode_value = heart_rate_df['Values'].mode().values[0]
+maximum_value = heart_rate_df['Values'].max()
+print(f"Minimum value of heart rate: {minimum_value}")
+print(f"Mode value of heart rate: {mode_value}")
+print(f"Maximum value of heart rate: {maximum_value}")
+
+# Data analysis blood pressure
+blood_pressure = 'blood pressure'
+data = {'Values': df_cleaned[blood_pressure]}
+blood_pressure_df = pd.DataFrame(data)
+minimum_value = blood_pressure_df['Values'].min()
+mode_value = blood_pressure_df['Values'].mode().values[0]
+maximum_value = blood_pressure_df['Values'].max()
+print(f"Minimum value of blood pressure: {minimum_value}")
+print(f"Mode value of blood pressure: {mode_value}")
+print(f"Maximum value of blood pressure: {maximum_value}")
+
+# Data analysis serum cholesterol
+serum_cholesterol = 'serum cholesterol'
+data = {'Values': df_cleaned[serum_cholesterol]}
+serum_cholesterol_df = pd.DataFrame(data)
+minimum_value = serum_cholesterol_df['Values'].min()
+mode_value = serum_cholesterol_df['Values'].mode().values[0]
+maximum_value = serum_cholesterol_df['Values'].max()
+print(f"Minimum value of serum cholesterol: {minimum_value}")
+print(f"Mode value of serum cholesterol: {mode_value}")
+print(f"Maximum value of serum cholesterol: {maximum_value}")
+
+# Data analysis for 'st depression'
+st_depression = 'st depression'
+data_st_depression = {'Values': df_cleaned[st_depression]}
+st_depression_df = pd.DataFrame(data_st_depression)
+minimum_value_st_depression = st_depression_df['Values'].min()
+mode_value_st_depression = st_depression_df['Values'].mode().values[0]
+maximum_value_st_depression = st_depression_df['Values'].max()
+print(f"Minimum value of st depression: {minimum_value_st_depression}")
+print(f"Mode value of st depression: {mode_value_st_depression}")
+print(f"Maximum value of st depression: {maximum_value_st_depression}")
+
+# Calculate minimum, mode, and maximum
+minimum_value = df_cleaned[st_depression].min()
+mode_value = df_cleaned[st_depression].mode().values[0]
+maximum_value = df_cleaned[st_depression].max()
+print(f"Minimum value of st depression: {minimum_value}")
+print(f"Mode value of st depression: {mode_value}")
+print(f"Maximum value of st depression: {maximum_value}")
+
+# Min, mode, max in table format
+variables = ['max heart rate', 'blood pressure', 'serum cholesterol', 'st depression']
+results_df = pd.DataFrame(columns=['Variable', 'Min', 'Mode', 'Max'])
+for variable in variables:
+    data = {'Values': df_cleaned[variable]}
+    df_temp = pd.DataFrame(data)
+    minimum_value = df_temp['Values'].min()
+    mode_value = df_temp['Values'].mode().values[0]
+    maximum_value = df_temp['Values'].max()
+    if results_df.empty:
+        results_df = pd.DataFrame({'Variable': [variable],
+                                   'Min': [minimum_value],
+                                   'Mode': [mode_value],
+                                   'Max': [maximum_value]})
+    else:
+        results_df = pd.concat([results_df, pd.DataFrame({'Variable': [variable],
+                                                           'Min': [minimum_value],
+                                                           'Mode': [mode_value],
+                                                           'Max': [maximum_value]})], ignore_index=True)
+
+print(results_df)
+
+# matrix
+matrix_values = results_df[['Min', 'Mode', 'Max']].to_numpy()
+print("Matrix:")
+print(matrix_values)
+
+# Train and test SVM model
+x_train, x_test, y_train, y_test = train_test_split(df_cleaned.drop('max heart rate', axis=1), df_cleaned['max heart rate'], 
+                                                    test_size=0.3, random_state=10)
+
+# Replace '?' with NaN
+x_train.replace('?', np.nan, inplace=True)
+x_test.replace('?', np.nan, inplace=True)
+
+# Convert columns to numeric
+x_train = x_train.apply(pd.to_numeric, errors='coerce')
+x_test = x_test.apply(pd.to_numeric, errors='coerce')
+
+# Impute missing values with the mean
+x_train.fillna(x_train.mean(), inplace=True)
+x_test.fillna(x_test.mean(), inplace=True)
+
+# Standardize the data
+std1 = StandardScaler()
+x_train = std1.fit_transform(x_train)
+x_test = std1.transform(x_test)
+
+# Convert x_train array back to a DataFrame
+x_train_df = pd.DataFrame(x_train, columns=df_cleaned.drop('max heart rate', axis=1).columns)
+
+# Instantiate SVM classifier
+svc = SVC(kernel="linear", C=1)
+
+# Fit the SVM model
+svc.fit(x_train, y_train)
+
+# Ignore warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
+# Create Objects for SVM and RFECV
+# Instantiate RFECV
+rfecv = RFECV(estimator=svc, step=1, cv=StratifiedKFold(n_splits=5), scoring='accuracy')
+
+# Fit RFECV on training data
+rfecv.fit(x_train, y_train)
+
+# Confusion Matrix and Classification Report for Train Set
+y_train_pred = svc.predict(x_train)
+conf_matrix_train = confusion_matrix(y_train, y_train_pred)
+class_report_train = classification_report(y_train, y_train_pred)
+print("Confusion Matrix (Train Set):")
+print(conf_matrix_train)
+print("\nClassification Report (Train Set):")
+print(class_report_train)
+
+# Confusion Matrix and Classification Report for Test Set
+y_test_pred = svc.predict(x_test)
+conf_matrix_test = confusion_matrix(y_test, y_test_pred)
+class_report_test = classification_report(y_test, y_test_pred)
+print("\nConfusion Matrix (Test Set):")
+print(conf_matrix_test)
+print("\nClassification Report (Test Set):")
+print(class_report_test)
+
+# Optimal Number of Features, Feature Ranking, and Features in Rank 1
+# Optimal number of features
+optimal_num_features = rfecv.n_features_
+print(f"\nOptimal Number of Features: {optimal_num_features}")
+
+# Feature ranking
+feature_ranking = rfecv.ranking_
+print("\nFeature Ranking:")
+print(feature_ranking)
+
+# Features in rank 1
+rank_1_features = x_train_df.columns[rfecv.support_]
+print("\nFeatures in Rank 1:")
+print(rank_1_features)
+
+# Show the ranking of features and print
+print("\nFeature Ranking and Names:")
+for feature, rank in zip(x_train_df.columns, feature_ranking):
+    print(f"{feature}: {rank}")
+
+
+# Calculate the accuracy score of the train dataset
+y_train_pred = svc.predict(x_train)
+accuracy_train = accuracy_score(y_train, y_train_pred)
+print(f"Accuracy Score (Train Set): {accuracy_train}")
+
+# Calculate the accuracy score of the test dataset
+y_test_pred = svc.predict(x_test)
+accuracy_test = accuracy_score(y_test, y_test_pred)
+print(f"Accuracy Score (Test Set): {accuracy_test}")
+
+# Calculate the mean square error of the train dataset
+mse_train = mean_squared_error(y_train, y_train_pred)
+print(f"Mean Squared Error (Train Set): {mse_train}")
+
+# Calculate the mean square error of the test dataset
+mse_test = mean_squared_error(y_test, y_test_pred)
+print(f"Mean Squared Error (Test Set): {mse_test}")
+
+# Calculate the root mean square error of the train dataset
+rmse_train = sqrt(mse_train)
+print(f"Root Mean Squared Error (Train Set): {rmse_train}")
+
+# Calculate the root mean square error of the test dataset
+rmse_test = sqrt(mse_test)
+print(f"Root Mean Squared Error (Test Set): {rmse_test}")
+
+# Calculate the mean absolute error (MAE) of the train dataset
+mae_train = mean_absolute_error(y_train, y_train_pred)
+print(f"Mean Absolute Error (Train Set): {mae_train}")
+
+# Calculate the mean absolute error (MAE) of the test dataset
+mae_test = mean_absolute_error(y_test, y_test_pred)
+print(f"Mean Absolute Error (Test Set): {mae_test}")
