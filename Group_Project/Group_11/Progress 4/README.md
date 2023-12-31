@@ -1,4 +1,4 @@
-#1.0 Introduction
+# 1.0 Introduction
 
 The discovery of novel drug-target interactions (DTIs) is an important stage in drug discovery and development, allowing for the development of successful treatment regimens and the advancement of personalized medicine. An existing understanding of drug-target interactions might be a good starting point for discovering new DTI candidates. By studying similarities in drug or target properties such as chemical structure, side effects, and illness linkages, it is possible to predict that medications and targets with equivalent qualities may have similar mechanisms of action.
 
@@ -6,11 +6,11 @@ Despite this, the vast drug-target area is a substantial problem. The drug-targe
 
 This study aims to enhance the accuracy and reliability of drug-target interaction (DTI) predictions by extending existing approaches with a two-stage dimensional reduction strategy. We will utilize Python code snippets to implement the main logic of the DTI prediction, leveraging Non-negative Matrix Factorization (NMF) and Matrix Factorization, approaches often used in recommendation systems. By integrating Non-negative Matrix Factorization (NMF), we aim to improve the efficacy of drug-target interaction predictions by reducing the dimensionality of the data. Additionally, we will employ Matrix Factorization to further refine the data representation. In this updated framework, we are incorporating a shift from Jaccard distance to Cosine Similarity in the generation of the similarity matrix, enhancing the accuracy of the initial data comparison step. This comprehensive approach contributes to the identification of novel drug candidates and the advancement of drug discovery processes.
 
-#1.1 Problem Background
+# 1.1 Problem Background
 
 The primary challenge in drug discovery is the identification of new interactions between drugs and proteins, which is crucial for creating new medicines. However, current dimension reduction techniques may not be fully effective in reducing the dimensionality of drug data while preserving relevant information. This can lead to suboptimal predictions in drug-target interactions. With a vast number of potential drug-protein combinations and only a small fraction discovered, there's a need for improved data analysis methods. Matrix factorization and non-negative matrix factorization (NMF) are promising computational techniques that can help organize and analyze large drug datasets more effectively. By employing these methods, researchers can uncover relationships between drugs and proteins, leading to the prediction of previously undiscovered interactions and the development of new drugs.
 
-#1.2 Problem Statement
+# 1.2 Problem Statement
 
 The primary objective of this research is to enhance the precision and reliability of Drug-Target Interaction (DTI) predictions through the integration of a two-stage dimensional reduction approach into existing methodologies, as suggested by Byeungchun Kwon in 2022. In pursuit of this goal, we will leverage Python code snippets to construct the core logic for DTI prediction, incorporating both Non-negative Matrix Factorization (NMF) and Matrix Factorization, techniques commonly employed in recommendation systems.
 
@@ -18,13 +18,13 @@ Non-Negative Matrix Factorization (NMF or NNMF) is recognized as a linear dimens
 
 This research endeavor is poised to contribute to the identification of new drug candidates and the advancement of drug development techniques. The effectiveness of our predictions will be evaluated through metrics such as ROC AUC, which plays a pivotal role in the identification of novel drug candidates and the continual progression of drug discovery procedures.
 
-#1.3 Objectives
+# 1.3 Objectives
 
 1. To effectively reduce the dimensions of the similarity matrix transitioning from the conventional Singular Value Decomposition (SVD) and Jaccard Distance  approach to the utilization of Non-negative Matrix Factorization (NMF) and Cosine Similarity. 
 
 2. To evaluate and compare the accuracy and efficacy of the proposed two-stage dimensional reduction approach against the established methodologies.
 
-#1.4 Scopes
+# 1.4 Scopes
 
 The scope of this research encompasses the following key areas:
 
@@ -36,7 +36,7 @@ The scope of this research encompasses the following key areas:
 
 4. Utilization of Google Collab as the Development Platform: The research project will be executed using the Google Collab platform. This integrated development environment (IDE) will serve as the coding environment for the implementation of the Python project. The choice of Google Collab reflects the research's commitment to employing modern and versatile development tools to ensure robust and efficient project development and execution.
 
-#1.5 Conclusion
+# 1.5 Conclusion
 	
 	To sum up everything, this proposal highlights the two-stage approach aimed at enhancing the prediction of how drugs and proteins interact. Our primary goals are to increase the accuracy prediction and at the same time uncover new interactions between drugs and proteins. By changing the third step of DTINet from using Singular Value Decomposition (SVD) into Non-negative Matrix Factorization (NMF) to reduce similarity matrix dimensions, we hope to enhance its accuracy to more than 0.5 using the roc_auc_score function.
 
@@ -44,9 +44,9 @@ In parallel, our research aims to explore and identify potential novel interacti
 
 Last but not least, our proposal presents a strategy to enhance predictive capabilities and discover new therapeutic prospects. It is important to note that further research and testing are required to determine the effectiveness and practical applications of this approach.
 
-#2.1 Software & Hardware Requirements
+# 2.1 Software & Hardware Requirements
 
-	2.1.1 Software
+## 2.1.1 Software
 DrugCentral. DrugCentral is an online drug information resource created and maintained by Division of Translational Informatics at University of New Mexico in collaboration with the IDG. DrugCentral provides information on active ingredients, chemical entities, pharmaceutical products, drug mode of action, indications, pharmacologic actions. “DrugCentral provides the drug information resource. We can download the known drug-target interaction from literature review, drug labels and external data sources. There are 2529 drugs, 2870 targets and 17390 drug-target interactions in the DrugCentral site as of 18 June 2021” (Byeungwon Kwon, 2021).
 
 GitHub. While GitHub is a code hosting platform for version control and collaboration. We use GitHub as a method to communicate with our client as well as a reference for the previous project, while they use SVD (Singular Value Decomposition) to predict drug-target interaction, we decided to tweak it and use NMF (Non-negative Matrix Factorization) instead. We also use GitHub as a medium for our project for others alike to see gain something from in the near future. In GitHub as well we can find Luo et al., which introduces a network integration approach for drug-target interaction prediction and develops DTINet.
