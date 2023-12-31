@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 import pathlib
 from keras.preprocessing.image import ImageDataGenerator
@@ -7,11 +6,10 @@ from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, GlobalAveragePo
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-import seaborn as sns
+from tensorflow.keras.preprocessing.image import img_to_array, load_img
+from sklearn.model_selection import train_test_split
 import random
-import os
-import urllib.request
-import zipfile
+from google.colab import files  # Import the files module for Google Colab
 
 # Upload the Kaggle API key
 uploaded = files.upload()
@@ -39,9 +37,9 @@ selected_uninfected = random.sample(uninfected_files, 100)
 selected_files = selected_parasitized + selected_uninfected
 
 # Image data preprocessing
-batch_size = 32
-img_height = 150
-img_width = 150
+batch_size = 16  # Adjusted batch size
+img_height = 64  # Adjusted image size
+img_width = 64   # Adjusted image size
 
 # Data augmentation and normalization
 train_datagen = ImageDataGenerator(
@@ -73,7 +71,7 @@ validation_data = train_datagen.flow_from_directory(
 
 # Model architecture
 input_tensor = Input(shape=(img_width, img_height, 3))
-x = Conv2D(64, (3, 3), activation='relu', padding='same')(input_tensor)
+x = Conv2D(32, (3, 3), activation='relu', padding='same')(input_tensor)  # Reduced number of filters
 x = MaxPooling2D((2, 2))(x)
 x = BatchNormalization()(x)
 x = Dropout(0.3)(x)
@@ -82,12 +80,9 @@ x = Conv2D(64, (3, 3), activation='relu', padding='same')(x)
 x = MaxPooling2D((2, 2))(x)
 
 x = GlobalAveragePooling2D()(x)
-x = Dense(512, activation='relu')(x)
+x = Dense(128, activation='relu')(x)  # Reduced number of neurons
 x = BatchNormalization()(x)
 x = Dropout(0.3)(x)
-
-x = Dense(256, activation='relu')(x)
-x = BatchNormalization()(x)
 
 output_tensor = Dense(1, activation='sigmoid')(x)
 
@@ -159,3 +154,4 @@ index = np.random.randint(len(parasitized_path))
 evaluate_random_image(parasitized_path[index], ax1)
 evaluate_random_image(uninfected_path[index], ax2)
 plt.tight_layout()
+
