@@ -57,13 +57,13 @@ Google Colab. Google Colab is a free, cloud-based platform that enables you to w
 
 Visual Studio Code (VSC). Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications. We initially used VSC for our Python programming.
 	
-	2.1.2 Hardware
+## 2.1.2 Hardware
 
 Personal laptop. We both use our own laptops as our current and only hardware for now. This will help us with Python programming, researching and communicating with our client as well as our lecturer for any external assistance and advice. They say two is better than one, therefore with both of us using our own individual laptops will absolutely make our project finish quickly and without any real challenges others may face.
 
-#3.0 Dataset
+# 3.0 Dataset
 
-3.1 Importing Dataset
+## 3.1 Importing Dataset
 
 The necessary datasets were retrieved from DrugCentral and stored within the Google Drive environment. Subsequently, the datasets were imported into Google Colaboratory to facilitate data access for the project and the import process employed the following command:
 
@@ -71,7 +71,7 @@ Figure 3.1.1
 
 From Figure 3.1.1, we can conclude that we are successfully accessing the datasets that we need for our projects.
 
-3.2 Generate a similarity matrix using Cosine Similarity
+## 3.2 Generate a similarity matrix using Cosine Similarity
 
 	After successfully importing the datasets, we then start to generate a similarity matrix using Cosine Similarity. First of all, Cosine similarity stands as a fundamental concept in mathematics and computer science, serving as a quantitative measure of the similarity between two vectors in a multidimensional space. It assesses the degree to which two vectors align in their directions, producing a value ranging from -1 to 1 (Crone & Kanungo, 2023).
 
@@ -99,7 +99,7 @@ Figure 3.2.2
 
 The above figure shows the output of the similarity matrix from the cosine process.
 
-3.3 Reduce similarity matrix dimensions using NMF
+## 3.3 Reduce similarity matrix dimensions using NMF
 
 After computing all the drug similarity matrices, the code concatenates these separate matrices into a single drug matrix. Each drug matrix has dimensions 708×2832, where the rows represent individual drugs, and the columns correspond to drug interaction, disease, side effect, and drug similarity features. Prior to the concatenation step, a normalization process is applied to ensure consistent scaling of the values across the matrices.
 
@@ -119,14 +119,14 @@ In this segment of the coding, the code is structured as a function (calc_nmf) t
 FIGURE 3.3.5
 As seen from FIGURE 3.2.3 and 3.2.4, the output differs. Using NMF, the output is mostly 0s and positive numbers. This may lead to Non-negative factorization, potentially providing more interpretable results. Because we want to focus on additive, non-negative components, NMF might be a better choice. The absence of negative values can make the results more intuitive to interpret. The choice between NMF and SVD was guided by how well the factorized matrices align with the known drug-target interactions. We already evaluate the performance of both methods using appropriate metrics, such as using the roc_auc_score function in Sci-kit learn to compute the area under the ROC curve (ROC AUC). As a result, because negative values are not meaningful or don't align with the nature of our data, NMF is a preferable choice.
 
-#4.0 Model Development
+# 4.0 Model Development
 For model development, we did matrix completion to search for a new drug - target interaction. Matrix completion is a mathematical methodology applied in diverse domains, including bioinformatics and drug discovery, to address the challenge of predicting or imputing missing values within a data matrix. In the specific context of uncovering novel drug-target interactions, matrix completion serves as a computational tool to forecast potential interactions where empirical data is incomplete or unavailable.
 
 The representation of drug-target interactions adopts a binary matrix format, wherein rows correspond to distinct drugs, columns to individual targets, and matrix entries denote the presence or absence of observed interactions. The inherent sparsity of this matrix arises from the limited availability of experimental data due to resource constraints and the intricacies of laboratory validation processes.
 
 In the realm of drug discovery, the application of matrix completion for predicting novel drug-target interactions offers a strategic approach to prioritize candidates for experimental validation. By facilitating the identification of potential interactions in a computationally efficient manner, matrix completion accelerates the drug discovery pipeline, mitigating the need for exhaustive and resource-intensive experimental screening processes.
 
-#4.2 Code for Model Development
+## 4.2 Code for Model Development
 	
 The provided code implements matrix factorization using stochastic gradient descent with the goal of approximating a given matrix R as the product of two lower-rank matrices P and Q. This method is often used in collaborative filtering and recommendation systems. The code utilizes the Numba library for just-in-time (JIT) compilation to improve performance.
 
