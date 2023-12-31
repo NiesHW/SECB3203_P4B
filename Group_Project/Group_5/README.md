@@ -8,7 +8,8 @@
  # Project title 
  
  
- Biometric-Based Personalized Dental Prosthesis Design Using 3D Imaging and Machine Learning
+Empowering Early Diagnosis: Oral Cancer Detection Web App for Dental Health Using Custom XceptionNet Model
+
  # Problem 
 
 
