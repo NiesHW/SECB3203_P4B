@@ -13,25 +13,23 @@ Empowering Early Diagnosis: Oral Cancer Detection Web App for Dental Health Usin
  # Problem 
 
 
- The current state of denture design and fabrication often falls short in providing denture wearers with the comfort and functionality they require. This problem encompasses several key challenges:
- -  Comfort Issues: Many denture wearers experience discomfort, sore spots, and difficulty in chewing and speaking due to ill-fitting dentures. Traditional methods for denture design may not adequately address individual variations in oral anatomy, leading to discomfort and decreased quality of life.
-
- -  Functionality Concerns: Existing dentures may not offer the same level of functionality as natural teeth. This includes limitations in chewing efficiency, speech articulation, and the inability to fully replicate the natural aesthetics of the dentition.
+The current oral cancer diagnosis methods, notably histopathological examination, suffer from delays, subjectivity, and high resource usage. This leads to late detection, impacting treatment effectiveness and straining healthcare systems. To address this, our project aims to develop an automated oral cancer detection system using deep learning and a custom XceptionNet model. By expediting precise cancer identification in histopathological images, we aim to create a user-friendly web application for rapid and accurate early detection. This initiative bridges traditional methods with advanced technology, enhancing patient care and survival rates in oral cancer cases.
 
 
 # Objctive 
 
-
-The primary objective of this project is to utilize bioinformatics tools and techniques to design and optimize dentures with the goal of enhancing the comfort and functionality for individuals requiring denture prosthetics.
-
+- Develop Oral Cancer Detection Web Application
+- Training and optimizing a custom XceptionNet model
+- Enhance accessibility and usability
+- Validate and ensure reliability
+- Contributes to improved patient outcomes
 
 # Data use 
-- Biometric Data
-- Genetic Data: 
-- Data Collection:
-- Data Integration:
-- Machine Learning Model:
-- Personalized Prosthesis Design:
+
+- Histopathological Image Dataset Acquisition
+- Data Preprocessing 
+- Dataset Augmentation (if applicable)
+- Dataset Annotation and Labelling
             
 # Project progress
 
@@ -58,13 +56,13 @@ The primary objective of this project is to utilize bioinformatics tools and tec
 
 
 ### Project Progress 3
-
+- [x] Completed
 
 
 ### Project Progress 4
-
+- [x] Completed
 
 
 ### Project Progress 5
 
-### Project Progress 5
+### Project Progress 6
