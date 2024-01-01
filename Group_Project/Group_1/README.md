@@ -14,7 +14,7 @@ Progress 3: https://docs.google.com/document/d/1w-0QZz5xWJwegbHiBw0fVzflgbd-R_h_
 
 Progress 4: https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
 
-Progress 5: https://docs.google.com/document/d/1Dm5ZUnsa7FipkseqkZLUO4CCUQZq3VUayRbKCB3tl9I/edit?usp=sharing
+Progress 5: https://docs.google.com/document/d/1UmPCRYGR0t7lsQheXx4AjybbIwjaXEuKNJ2-o-wl6KA/edit?usp=sharing
 
 ## Project Title
 
