@@ -157,13 +157,19 @@ mtp.show()
 ![import1](https://drive.google.com/uc?id=1tc0fVrJxsIYO3AAH1ZmDQTK9g0BePLHS)
 
 
-    Based on the test set of Logistic Regression and Gaussian Naive Bayes, both achieve the accuracy scores of 82%. The overall accuracy of both models shows the same value, thus both are capable of classifying heart attack cases. The error rate for both models shows the same, 18% indicating room for improvement but not a significant performance gap. However, there are several factors to consider. The confusion matrix shows that the Logistic Regression had more false positives (8) compared to Gaussian Naive Bayes (11), potentially leading to unnecessary interventions. Conversely, Gaussian Naive Bayes had more false negatives (11) which could miss critical cases. Gaussian Naive Bayes shows slightly better recall for the "heart attack" class (0.88) compared to Logistic Regression (0.84), meaning it identifies a higher proportion of true heart attacks. On the other hand, Logistic Regression exhibits slightly higher precision for both
-classes (0.81 and 0.84) compared to Gaussian Naive Bayes (0.77 and 0.88), indicating a lower rate of false positives. Since the accuracy of both training and testing sets is the same for Logistic Regression, it shows that the model is optimal whereas the accuracy of the testing set shows more than the training set in Gaussian Naive Bayes. 
+Based on the test set of Logistic Regression and Gaussian Naive Bayes, both achieve the accuracy scores of 82%. The overall accuracy of 
+both models shows the same value, thus both are capable of classifying heart attack cases. The error rate for both models shows the 
+same, 18% indicating room for improvement but not a significant performance gap. However, there are several factors to consider.
+The confusion matrix shows that the Logistic Regression had more false positives (8) compared to Gaussian Naive Bayes (11), potentially 
+leading to unnecessary interventions. Conversely, Gaussian Naive Bayes had more false negatives (11) which could miss critical cases.
+Gaussian Naive Bayes shows slightly better recall for the "heart attack" class (0.88) compared to Logistic Regression (0.84), meaning it 
+identifies a higher proportion of true heart attacks. On the other hand, Logistic Regression exhibits slightly higher precision for both 
+classes (0.81 and 0.84) compared to Gaussian Naive Bayes (0.77 and 0.88), indicating a lower rate of false positives. Since the accuracy 
+of both training and testing sets is the same for Logistic Regression, it shows that the model is optimal whereas the accuracy of the 
+testing set shows more than the training set in Gaussian Naive Bayes. 
 
-    In conclusion, Logistic Regression is considered the best algorithm for analyzing heart attack detection because it will avoid unnecessary interventions due to false positives in terms of errors. Logistic Regression is robust to irrelevant features and handles non-linear relationships to some extent. Gaussian Naive Bayes assumes feature independence and normality of data, which might not always hold true for medical data. Logistic Regression provides coefficients that offer insights into the features' relative importance in predicting heart attacks. Gaussian Naive Bayes is less interpretable and might be a "black box" model.  
-
-
-
-
-
-
+In conclusion, Logistic Regression is considered the best algorithm for analyzing heart attack detection because it will avoid 
+unnecessary interventions due to false positives in terms of errors. Logistic Regression is robust to irrelevant features and handles
+non-linear relationships to some extent. Gaussian Naive Bayes assumes feature independence and normality of data, which might not
+always hold true for medical data. Logistic Regression provides coefficients that offer insights into the features' relative importance
+in predicting heart attacks. Gaussian Naive Bayes is less interpretable and might be a "black box" model.  
