@@ -35,6 +35,9 @@ The current oral cancer diagnosis methods, notably histopathological examination
 
  - Progress 1:https://drive.google.com/drive/folders/1k4UJsDU2iZttyq4GNg0rRXoGScRMopGx?usp=drive_link
  - Progress 2:https://drive.google.com/drive/folders/1SWhR3Pd3kWLQ8rcipjyFLMCne7RGpYEn?usp=drive_link
+ - Progress 3:https://drive.google.com/file/d/17oVCd8v6s2VbUAiHrtiwEQ-niQZ2fwXf/view?usp=drive_link
+ - Progress 4:https://drive.google.com/file/d/19mjX_6g_gZyUUSu3p1kVQ1Z7rypRrZWz/view?usp=drive_link
+ - Progress 5:
  
  15/10/2023 =Sending an email to Dr Chan asking about be our group project client.
 
@@ -43,7 +46,10 @@ The current oral cancer diagnosis methods, notably histopathological examination
  18/10/2023 = Comfirm meet up at 19/10/2023 4pm at Dr Chan office(N28 402-05).
 
  19/10/2023 = We meet up on time and discuss our project tittle whit Dr Chan,he also give some suggestion to us
- 
+
+### Meeting with clients
+- 19/10/2023
+- 2/1/2024
   
 ### Project Proposal
 - [x] Completed
@@ -64,5 +70,6 @@ The current oral cancer diagnosis methods, notably histopathological examination
 
 
 ### Project Progress 5
+- [x] Completed
 
 ### Project Progress 6
