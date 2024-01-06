@@ -1,6 +1,6 @@
-<b>Model: Logistic Regression<b>
+<b>Model: Logistic Regression</b>
 
-<b>Training Set:<b>
+<b>Training Set:</b>
 
 #Calculate accuracy score on the training set
 accuracy_train = accuracy_score(y_train, y_train_pred)
@@ -28,7 +28,7 @@ axes[0].set_ylabel('Actual')
 ![import1](https://drive.google.com/uc?id=13h5HYPpEylyLeeg1NWcGHJZGJqHRgG8V)
 
 
-<b>Test Set:<b>
+<b>Test Set:</b>
 
 #Calculate accuracy score on the test set
 accuracy_test = accuracy_score(y_test, y_test_pred)
@@ -55,9 +55,9 @@ axes[1].set_ylabel('Actual')
 ![import1](https://drive.google.com/uc?id=12vy6Edlc0NlThjKS-r0z7FKqHlxdGlVf)
 
 
-<b>Model: Gaussian Naive Bayes<b>
+<b>Model: Gaussian Naive Bayes</b>
 
-<b>Training Set<b>
+<b>Training Set</b>
 
 #Calculate accuracy score on the test set
 accuracy_test = accuracy_score(y_test, y_test_pred)
@@ -107,7 +107,7 @@ mtp.show()
 ![import1](https://drive.google.com/uc?id=1PCDxnSAhN2KkdbMJYuB6hyHW9CcYEs0c)
 
 
-<b>Testing:<b>
+<b>Testing:</b>
 
 #Calculate accuracy score on the training set
 accuracy_train = accuracy_score(y_train, y_train_pred)
