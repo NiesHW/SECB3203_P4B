@@ -35,10 +35,10 @@ The current oral cancer diagnosis methods, notably histopathological examination
 # Project progress
 
  - Progress 1:https://drive.google.com/drive/folders/1k4UJsDU2iZttyq4GNg0rRXoGScRMopGx?usp=drive_link
- - Progress 2:https://drive.google.com/drive/folders/1SWhR3Pd3kWLQ8rcipjyFLMCne7RGpYEn?usp=drive_link
+ - Progress 2:https://drive.google.com/file/d/14cWkVvXBK1mbVHiMwMOmigKYdZyM_FyK/view?usp=drive_link
  - Progress 3:https://drive.google.com/file/d/17oVCd8v6s2VbUAiHrtiwEQ-niQZ2fwXf/view?usp=drive_link
  - Progress 4:https://drive.google.com/file/d/19mjX_6g_gZyUUSu3p1kVQ1Z7rypRrZWz/view?usp=drive_link
- - Progress 5:
+ - Progress 5:https://drive.google.com/file/d/1Ig4YYTq4_QDz1TUIAGpJAyI36-lOA5y_/view?usp=drive_link
  
  15/10/2023 =Sending an email to Dr Chan asking about be our group project client.
 
