@@ -30,6 +30,7 @@ The current oral cancer diagnosis methods, notably histopathological examination
 - Data Preprocessing 
 - Dataset Augmentation (if applicable)
 - Dataset Annotation and Labelling
+- Dataset: https://drive.google.com/drive/folders/1VhC1VcQxbJ7AH0smatCLM9FZQBD6GNmr?usp=drive_link
             
 # Project progress
 
