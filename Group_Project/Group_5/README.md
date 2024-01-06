@@ -73,4 +73,4 @@ The current oral cancer diagnosis methods, notably histopathological examination
 ### Project Progress 5
 - [x] Completed
 
-### Project Progress 6
+### Project
