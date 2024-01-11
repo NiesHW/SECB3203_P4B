@@ -26,5 +26,5 @@ Prediction of Lung Cancer using Recursive Feature Elimination
 ***14 Dec*** - Completion of progress 3 <br>
 ***30 Dec*** - Completion of progress 4 & 5<br>
 ***3 Jan*** - Meet up with the client for the opinion on progress 4 & 5 <br>
-- Client expresses satisfaction about the project <br>
+***3 Jan***- Client expresses satisfaction about the project <br>
 ***11 Jan*** - Client done sending feedback through telegram<br>
