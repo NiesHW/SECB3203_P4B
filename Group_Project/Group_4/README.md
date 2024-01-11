@@ -11,7 +11,7 @@ Prediction of Lung Cancer using Recursive Feature Elimination
 **Progress 2**: https://drive.google.com/file/d/1jP5M3NKYVAH0zL-cWOz4op4UJbFy0Uw6<br>
 **Progress 3**: https://drive.google.com/file/d/19ugm7vgqpc9MQEGufmlF_mEmodVwjjVH/view?usp=drivesdk<br>
 **Progress 4 & 5**: https://drive.google.com/file/d/18pEUC8VgL2HQs-_Ypcl6iCkFz495HM4Y/view?usp=drivesdk<br>
-***Source Code***:Group_Project/Group_4/Lung Cancer<br>
+***Source Code***:[Group_Project/Group_4/Lung Cancer](https://github.com/NiesHW/SECB3203_P4B/tree/main/Group_Project/Group_4/Lung%20Cancer)<br>
 
 # Project Progress
 ***9 Oct*** - Group Formation <br>
