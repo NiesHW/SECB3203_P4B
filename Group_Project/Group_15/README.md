@@ -25,3 +25,11 @@ Submitted Progress 2 (02/12/2023)
 Submitted Progress 4 (31/12/2023)
 - Model Development
 - Model Training
+
+Submitted Progress 5 (7/1/2024)
+- Model Evaluation
+- Validation and Testing
+- Get Prediction
+  
+Final Presentation With Client (16/1/2024)
+-Live present/demo infornt of client
