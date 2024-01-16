@@ -4,6 +4,8 @@
 
   # Method Used
   -Deep Learning CNN (EfficientNet)
+  # Dataset
+  - Image data
 
 # Reference
 
@@ -32,4 +34,4 @@ Submitted Progress 5 (7/1/2024)
 - Get Prediction
   
 Final Presentation With Client (16/1/2024)
--Live present/demo infornt of client
+- Live present/demo infornt of client
