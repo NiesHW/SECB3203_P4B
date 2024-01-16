@@ -10,6 +10,8 @@ from sklearn.feature_selection import RFECV
 from sklearn.metrics import confusion_matrix, classification_report 
 from sklearn.metrics import accuracy_score, mean_squared_error, mean_absolute_error
 from math import sqrt
+import joblib
+import os
 
 # Load the dataset
 dataset = pd.read_csv("C:\\Users\\USER\\OneDrive\\Attachments\\Documents\\DEGREE\\Y3,S1\\Programming for BioInformatics\\Project.prog.Bio.csv")
@@ -234,3 +236,24 @@ print(f"Mean Absolute Error (Train Set): {mae_train}")
 # Calculate the mean absolute error (MAE) of the test dataset
 mae_test = mean_absolute_error(y_test, y_test_pred)
 print(f"Mean Absolute Error (Test Set): {mae_test}")
+
+# Calculate the accuracy score of the train dataset
+y_train_pred = svc.predict(x_train)
+accuracy_train = accuracy_score(y_train, y_train_pred)
+print(f"Accuracy Score (Train Set): {accuracy_train}")
+
+# Calculate the accuracy score of the test dataset
+y_test_pred = svc.predict(x_test)
+accuracy_test = accuracy_score(y_test, y_test_pred)
+print(f"Accuracy Score (Test Set): {accuracy_test}")
+
+# Calculate the overall accuracy
+overall_accuracy = (accuracy_train + accuracy_test) / 2
+print(f"Overall Accuracy: {overall_accuracy}")
+
+
+
+
+
+
+
