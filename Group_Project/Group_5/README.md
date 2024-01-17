@@ -48,9 +48,17 @@ The current oral cancer diagnosis methods, notably histopathological examination
 
  19/10/2023 = We meet up on time and discuss our project tittle whit Dr Chan,he also give some suggestion to us
 
+ 2/1/2024 = Second meeting with Dr Chan to update our progress
+
+ 15/1/2024 = Third meeting with Dr Chan to solve some problem of model training
+
+ 17/1/2024 = Last meeting for present our project 
+
 ### Meeting with clients
-- 19/10/2023
-- 2/1/2024
+- 19 October 2023
+- 2 January 2024
+- 15 January 2024
+- 17 January 2024
   
 ### Project Proposal
 - [x] Completed
@@ -73,4 +81,5 @@ The current oral cancer diagnosis methods, notably histopathological examination
 ### Project Progress 5
 - [x] Completed
 
-### Project
+### Presentation 
+- [x] Completed
