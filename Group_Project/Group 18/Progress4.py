@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-path = 'D:\\Python\\diabetes.csv'
+path = 'C:\\Python Programs\\diabetes.csv'
 df = pd.read_csv(path)
 
 # Selecting features and target

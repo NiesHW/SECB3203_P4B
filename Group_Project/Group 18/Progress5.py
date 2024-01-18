@@ -7,7 +7,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
 # Load dataset
-path = 'D:\\Python\\diabetes.csv'
+path = 'C:\\Python Programs\\diabetes.csv'
 df = pd.read_csv(path)
 
 # Selecting features and target
@@ -78,12 +78,21 @@ plt.legend()
 plt.show()
 
 # Grid Search for SVM
+
+# Grid Search for SVM
 param_grid_svm = {'C': [0.1, 1, 10, 100], 'gamma': [1, 0.1, 0.01, 0.001], 'kernel': ['rbf', 'linear']}
 grid_search_svm = GridSearchCV(SVC(), param_grid_svm, cv=5)
 grid_search_svm.fit(X, y)
 
 print("Best Parameters (SVM):", grid_search_svm.best_params_)
 
+'''
+param_grid_svm = {'C': [0.1, 1, 10, 100], 'gamma': [1, 0.1, 0.01, 0.001], 'kernel': ['rbf', 'linear']}
+grid_search_svm = GridSearchCV(SVC(), param_grid_svm, cv=5)
+grid_search_svm.fit(X, y)
+
+print("Best Parameters (SVM):", grid_search_svm.best_params_)
+'''
 # KNN Classifier
 knn_model = KNeighborsClassifier()
 
