@@ -372,3 +372,31 @@ distinguish between positive and negative instances.
 ![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/72ccc2f9-c47d-4735-ac9b-f9262d9103f4)
 
 Thus, the output is as such.
+
+# 6.0 References
+Central, D. (2023). About. Drug Central. Retrieved October 19, 2023, from
+https://drugcentral.org/about
+Crone, N., & Kanungo, N. (2023, August 14). Methods of Similarity. KDB.AI. Retrieved
+November 26, 2023, from
+https://kdb.ai/learning-hub/fundamentals/methods-of-similarity/
+Kwon, B. (2021, June 23). Drug-Target interaction prediction through Python | by Byeungchun
+Kwon | Geek Culture. Medium. Retrieved October 15, 2023, from
+https://medium.com/geekculture/drug-target-interaction-prediction-through-python-4af9e
+76fc90
+Luo, Y., Zhao, X., Zhou, J., Yang, J., Zhang, Y., & Kuang, W. (2017, September 18). A network
+integration approach for drug-target interaction prediction and computational drug
+repositioning from heterogeneous information.
+https://www.nature.com/articles/s41467-017-00680-8
+Martin, B. (n.d.). Cosine Similarity – LearnDataSci. LearnDataSci. Retrieved November 26,
+2023, from https://www.learndatasci.com/glossary/cosine-similarity/
+Pramoditha, R. (2023, August 24). Non-Negative Matrix Factorization (NMF) for
+Dimensionality Reduction in Image Data. Towards Data Science. Retrieved October 21,
+2023, from
+https://towardsdatascience.com/non-negative-matrix-factorization-nmf-for-dimensionalit
+y-reduction-in-image-data-8450f4cae8fa
+sklearn.decomposition.NMF — scikit-learn 1.3.1 documentation. (n.d.). Scikit-learn. Retrieved
+October 16, 2023, from
+https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html
+Sohangir, S., & Wang, D. (2017, July 25). Improved sqrt-cosine similarity measurement -
+Journal of Big Data. Journal of Big Data. Retrieved November 26, 2023, from
+https://journalofbigdata.springeropen.com/articles/10.1186/s40537-017-0083-6
