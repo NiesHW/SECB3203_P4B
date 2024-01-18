@@ -149,3 +149,6 @@ communicating with our client as well as our lecturer for any external assistanc
 and advice. They say two is better than one, therefore with both of us using our
 own individual laptops will absolutely make our project finish quickly and
 without any real challenges others may face.
+
+## 2.3 Flowchart
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/915cb9a7-80f6-46c5-bccb-ebbd0c9f1104)
