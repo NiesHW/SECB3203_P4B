@@ -1,4 +1,4 @@
-![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/09709b95-21d0-4326-88c0-8874583f3ed1)![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/95438306-4820-41db-a5bb-20972beb2356)# 1.0 Introduction
+Introduction
 
 The discovery of novel drug-target interactions (DTIs) is an important stage in drug discovery and development, allowing for the development of successful treatment regimens and the advancement of personalized medicine. An existing understanding of drug-target interactions might be a good starting point for discovering new DTI candidates. By studying similarities in drug or target properties such as chemical structure, side effects, and illness linkages, it is possible to predict that medications and targets with equivalent qualities may have similar mechanisms of action.
 
