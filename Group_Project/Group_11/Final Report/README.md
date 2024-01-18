@@ -206,6 +206,9 @@ Last but not least, our proposal presents a strategy to enhance predictive capab
 Link for Github
 https://github.com/NiesHW/SECB3203_P4B/tree/main/Group_Project/Group_11
 
+Link for Google Colab
+https://colab.research.google.com/drive/1AC22cu-zrKOyCkb5AltPxiP9LF94r84S
+
 Meeting with Client:
 1st Meeting
 
