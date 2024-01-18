@@ -151,4 +151,70 @@ own individual laptops will absolutely make our project finish quickly and
 without any real challenges others may face.
 
 ## 2.3 Flowchart
-![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/915cb9a7-80f6-46c5-bccb-ebbd0c9f1104)
+
+# 3.0 Dataset
+## 3.1 Importing Dataset
+The necessary datasets were retrieved from DrugCentral and stored within the
+Google Drive environment. Subsequently, the datasets were imported into Google
+Colaboratory to facilitate data access for the project and the import process employed the
+following command:
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/0d5e8c0d-5274-4d55-85b3-5a6ff5e7a5c0)
+Figure 3.1.1
+From Figure 3.1.1, we can conclude that we are successfully accessing the datasets that we need
+for our projects.
+
+## 3.2 Generate a similarity matrix using Cosine Similarity
+After successfully generate the datasets, we then start to generate a similarity
+matrix using Cosine Similarity. First of all, Cosine similarity stands as a fundamental
+concept in mathematics and computer science, serving as a quantitative measure of the
+similarity between two vectors in a multidimensional space. It assesses the degree to
+which two vectors align in their directions, producing a value ranging from -1 to 1 (Crone
+& Kanungo, 2023).
+A cosine similarity value of -1 indicates perfect dissimilarity, implying that the two
+vectors are pointing in opposite directions (Martin, n.d.). A value of 0 signifies
+orthogonality, meaning the vectors are perpendicular to each other, and no similarity
+exists. Conversely, a value of 1 represents perfect similarity, indicating that the vectors
+align perfectly.
+Drug-target interaction (DTI) projects often involve analyzing large datasets of molecular
+representations. These representations encapsulate the structural and functional
+information of molecules. Cosine similarity proves to be an invaluable tool in DTI studies
+due to its ability to effectively handle high-dimensional data and accurately assess
+molecular similarities (Sohangir & Wang, 2017).
+For an overview of on simple understanding on how Cosine Similarity works, here are
+the formula between 2 vectors:
+cos(θ) = (A ⋅ B) / (||A|| ||B||)
+where:
+1. A ⋅ B represents the dot product of vectors A and B
+
+2. ||A|| and ||B|| denote the magnitudes of vectors A and B, respectively
+Those formula represented with this this command for our dataset:
+Figure 3.2.1
+Firstly, we initialize a dictionary to store the similarity matrices. The similarity_df
+dictionary is initialized to store the drug-target and drug-drug similarity matrices. This
+dictionary will be populated in the following loop. The for loop iterates through the
+key-value pairs in the raw_df dictionary. Each key represents a type of similarity matrix
+and the corresponding value represents the data for that matrix. Lastly, we round
+similarity values to two decimal places The apply method is used to apply the round
+function to each element of the drug_disease similarity matrix. This rounds the values to
+two decimal places.
+
+Figure 3.2.2
+The above figure shows the output of the similarity matrix from the cosine process.
+
+## 3.3 Reduce similarity matrix dimensions using NMF
+After computing all the drug similarity matrices, the code concatenates these
+separate matrices into a single drug matrix. Each drug matrix has dimensions 708×2832,
+where the rows represent individual drugs, and the columns correspond to drug
+interaction, disease, side effect, and drug similarity features. Prior to the concatenation
+step, a normalization process is applied to ensure consistent scaling of the values across
+the matrices.
+FIGURE 3.3.1
+Not much to say about these codings as they were pretty much similar to the
+original case study. First things first, the code starts by loading similarity matrices for
+drugs and proteins from external text files (Similarity_Matrix_Drugs.txt and
+Similarity_Matrix_Proteins.txt, respectively) into Pandas DataFrames. Followed by the
+Diffusion Component Analysis (DCA), the calc_dca function is defined to perform
+Diffusion Component Analysis on the input matrix (df_mat). DCA is an iterative
+algorithm that computes a diffusion matrix, and the code seems to be iterating through
+different drug similarity matrices and concatenating them into a single matrix (drug_dca
+and protein_dca).
