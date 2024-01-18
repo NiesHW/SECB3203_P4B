@@ -1,5 +1,5 @@
 # Title
-## Improving Drug-Target Interaction Prediction Performance using two-stage dimensional reduction approach.
+## Improving a Drug-Target Interaction Prediction Performance using Cosine Similarity and Non-Matrix Factorization approach.
 
 # Members
 ## - Muhamamd Izat Bin Md Kamil A21EC0082
