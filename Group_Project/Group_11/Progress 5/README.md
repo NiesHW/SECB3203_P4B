@@ -151,6 +151,7 @@ own individual laptops will absolutely make our project finish quickly and
 without any real challenges others may face.
 
 ## 2.3 Flowchart
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/6f47fb73-52f4-4025-8de6-cb33b01536fd)
 
 # 3.0 Dataset
 ## 3.1 Importing Dataset
@@ -158,7 +159,7 @@ The necessary datasets were retrieved from DrugCentral and stored within the
 Google Drive environment. Subsequently, the datasets were imported into Google
 Colaboratory to facilitate data access for the project and the import process employed the
 following command:
-![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/0d5e8c0d-5274-4d55-85b3-5a6ff5e7a5c0)
+
 Figure 3.1.1
 From Figure 3.1.1, we can conclude that we are successfully accessing the datasets that we need
 for our projects.
