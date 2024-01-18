@@ -160,6 +160,8 @@ Google Drive environment. Subsequently, the datasets were imported into Google
 Colaboratory to facilitate data access for the project and the import process employed the
 following command:
 
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/d1f9d902-b505-4048-87ed-a1b4c71b1e17)
+
 Figure 3.1.1
 From Figure 3.1.1, we can conclude that we are successfully accessing the datasets that we need
 for our projects.
@@ -189,6 +191,9 @@ where:
 
 2. ||A|| and ||B|| denote the magnitudes of vectors A and B, respectively
 Those formula represented with this this command for our dataset:
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/311eac83-9929-4c0d-9ef9-a7e8bf5643be)
+
 Figure 3.2.1
 Firstly, we initialize a dictionary to store the similarity matrices. The similarity_df
 dictionary is initialized to store the drug-target and drug-drug similarity matrices. This
@@ -198,6 +203,8 @@ and the corresponding value represents the data for that matrix. Lastly, we roun
 similarity values to two decimal places The apply method is used to apply the round
 function to each element of the drug_disease similarity matrix. This rounds the values to
 two decimal places.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/6d4d2cbe-9615-4bba-a40b-2fec4469fed5)
 
 Figure 3.2.2
 The above figure shows the output of the similarity matrix from the cosine process.
@@ -209,6 +216,9 @@ where the rows represent individual drugs, and the columns correspond to drug
 interaction, disease, side effect, and drug similarity features. Prior to the concatenation
 step, a normalization process is applied to ensure consistent scaling of the values across
 the matrices.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/9517eacd-ee83-4b27-9296-9b9cd70dccde)
+
 FIGURE 3.3.1
 Not much to say about these codings as they were pretty much similar to the
 original case study. First things first, the code starts by loading similarity matrices for
@@ -219,3 +229,146 @@ Diffusion Component Analysis on the input matrix (df_mat). DCA is an iterative
 algorithm that computes a diffusion matrix, and the code seems to be iterating through
 different drug similarity matrices and concatenating them into a single matrix (drug_dca
 and protein_dca).
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/8afeca23-02f6-4bf7-9504-c44443d214e0)
+
+FIGURE 3.3.2
+Next is the Concatenation and Normalization. The resulting matrices (drug_dca
+and protein_dca) are concatenated along the columns. Additionally, a round function is
+applied to the resulting DataFrame to round the values to two decimal places.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/bfbffab4-c81b-476e-ad37-bddde3195488)
+
+FIGURE 3.3.3
+This is the part where the changes occur from SVD to NMF. Before the changes,
+the original code uses the TruncatedSVD implementation from scikit-learn to perform
+dimensionality reduction on a given matrix (dca_mtx). While on our end, based on
+FIGURE 3.2.3, we utilize the NMF, this applies a log transformation and matrix
+multiplication as preprocessing steps. The resulting reduced representation is stored in the
+variable result.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/e1e3189f-ada8-4f74-a242-42c6009ec2d8)
+
+FIGURE 3.3.4
+In this segment of the coding, the code is structured as a function (calc_nmf) that
+takes a matrix and the number of desired features as input parameters, as opposed to
+(calc_svd).
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/60abcd95-3a9c-4330-9fb6-d538b23427f1)
+
+FIGURE 3.3.5
+As seen from FIGURE 3.2.3 and 3.2.4, the output differs. Using NMF, the output
+is mostly 0s and positive numbers. This may lead to Non-negative factorization,
+potentially providing more interpretable results. Because we want to focus on additive,
+non-negative components, NMF might be a better choice. The absence of negative values
+can make the results more intuitive to interpret. The choice between NMF and SVD was
+guided by how well the factorized matrices align with the known drug-target interactions.
+We already evaluate the performance of both methods using appropriate metrics, such as
+using the roc_auc_score function in Sci-kit learn to compute the area under the ROC
+curve (ROC AUC). As a result, because negative values are not meaningful or don't align
+with the nature of our data, NMF is a preferable choice.
+
+# 4.0 Model Development
+For model development, we did matrix completion to search for a new drug - target
+interaction. Matrix completion is a mathematical methodology applied in diverse domains,
+including bioinformatics and drug discovery, to address the challenge of predicting or imputing
+missing values within a data matrix. In the specific context of uncovering novel drug-target
+interactions, matrix completion serves as a computational tool to forecast potential interactions
+where empirical data is incomplete or unavailable.
+The representation of drug-target interactions adopts a binary matrix format, wherein rows
+correspond to distinct drugs, columns to individual targets, and matrix entries denote the
+presence or absence of observed interactions. The inherent sparsity of this matrix arises from the
+limited availability of experimental data due to resource constraints and the intricacies of
+laboratory validation processes.
+In the realm of drug discovery, the application of matrix completion for predicting novel
+drug-target interactions offers a strategic approach to prioritize candidates for experimental
+validation. By facilitating the identification of potential interactions in a computationally
+efficient manner, matrix completion accelerates the drug discovery pipeline, mitigating the need
+for exhaustive and resource-intensive experimental screening processes.
+
+## 4.1 Model Flowchart
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/c7453c33-a44d-4fda-9997-d62221f486dc)
+
+## 4.2 Code for Model Development
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/2a90c0b8-d36e-4aaf-9677-ab2ad1cf041b)
+
+The provided code implements matrix factorization using stochastic gradient
+descent with the goal of approximating a given matrix R as the product of two lower-rank
+matrices P and Q. This method is often used in collaborative filtering and
+recommendation systems. The code utilizes the Numba library for just-in-time (JIT)
+compilation to improve performance.
+
+The `matrix_factorization` function takes as input the matrix R and initializes matrices P
+and Q, which are then iteratively updated to minimize the difference between the
+predicted matrix product of P and Q and the actual values in R. The process involves
+calculating the error for each observed value, adjusting the elements of P and Q based on
+the error, and iteratively refining the matrices through multiple steps.
+The function takes parameters such as the number of steps for the optimization, the
+learning rate (alpha), and regularization parameters (beta). The loop structure involves
+iterating through the rows and columns of R, updating the elements of P and Q
+accordingly. The optimization continues until a specified convergence criterion is met (in
+this case, when the error falls below a threshold of 0.001).
+Finally, the function returns the optimized matrices P and Q, which together provide an
+approximation of the original matrix R. The code demonstrates an efficient way to
+perform matrix factorization for collaborative filtering, with the Numba library
+contributing to computational speed by compiling the Python code to machine code.
+
+# 5.0 Model Evaluation
+In Step 5, the evaluation of the predicted drug-target interactions is performed by
+comparing the calculated drug-target matrix resulting from the matrix factorization process with
+the known drug-target matrix. The choice of the ROC AUC (Receiver Operating Characteristic
+Area Under the Curve) as the evaluation metric indicates the model's ability to discriminate
+between positive and negative instances in a binary classification context. Specifically, the ROC
+AUC score quantifies the overall performance of the model in distinguishing true positive
+interactions from false positive ones.
+The ROC AUC score obtained in our experiment is notably high, measuring
+0.9976720738570403. This exceptional score suggests that the model, which employs Cosine
+Similarity in Step 2 and NMF (Non-Negative Matrix Factorization) in Step 3, performs
+exceptionally well in discriminating between true and predicted drug-target interactions. A ROC
+AUC score of 1.0 represents perfect classification, indicating that the model has achieved nearly
+optimal separation between positive and negative instances. The superior performance compared
+to the previous study, which utilized Jaccard distance in Step 2 and SVD in Step 3, suggests that the modifications made in these steps have led to improved accuracy and precision in predicting drug-target interactions.
+This remarkable ROC AUC score indicates that the model's predictions align closely with the
+true drug-target interactions, and the chosen combination of similarity measure (Cosine
+Similarity) and matrix factorization technique (NMF) has proven effective in capturing the
+underlying patterns in the data. The higher ROC AUC score implies enhanced sensitivity and
+specificity, further supporting the reliability and efficacy of the modified approach in predicting
+drug-target interactions.
+
+## 5.1 Model Flowchart
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/3708a363-e994-43b5-822d-07f48490aa4f)
+
+## 5.2 Code for Model Evaluation
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/7b5ff751-670b-41e0-be4a-c99fc55f678f)
+
+The first line indicates Import the roc_auc_score function from scikit-learn, which
+is used to calculate the ROC AUC score.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/d22c5156-9557-430e-872d-a1dc2c047590)
+
+The variable n_drug_protein seems to contain the predicted drug-target interaction
+matrix. This matrix is converted to a DataFrame, stacked, and indexed using the drug and
+target indices. The resulting DataFrame is sorted by the index.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/817c8ecc-5e25-4bb6-bf92-aa619c4fcf23)
+
+The variable R seems to contain the true drug-target interaction matrix. Similar to
+the predicted interaction matrix, it is converted to a DataFrame, stacked, and indexed.
+The index is then used to extract the relevant rows from the true interaction matrix. The
+resulting DataFrame is also sorted by the index.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/8f3f2837-d1d1-4610-a6b9-1fe18712a1d3)
+
+Finally, the ROC AUC score is calculated by comparing the true drug-target
+interaction (r) with the predicted drug-target interaction (rhat). The ROC AUC score is a
+performance metric commonly used for binary classification problems, and it measures
+the area under the ROC curve. It provides an overall measure of the model's ability to
+distinguish between positive and negative instances.
+
+![image](https://github.com/NiesHW/SECB3203_P4B/assets/102138196/72ccc2f9-c47d-4735-ac9b-f9262d9103f4)
+
+Thus, the output is as such.
