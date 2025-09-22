@@ -1,5 +1,8 @@
 # Topic
 Prediction of Lung Cancer using Recursive Feature Elimination
+- Preprocessed and cleaned survey data by handling duplicates, missing values, and normalizing features to prepare for machine learning analysis.
+- Conducted exploratory data analysis (EDA) to uncover correlations between lifestyle factors, symptoms, and lung cancer risk.
+- Developed and evaluated a Random Forest model, achieving ~83% accuracy, 77% precision, and 83% recall, demonstrating strong predictive capability for early lung cancer detection.
 
 # Members
 - Lu Qi Yan
